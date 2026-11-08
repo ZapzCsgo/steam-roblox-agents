@@ -1,7 +1,7 @@
 PY ?= .venv/bin/python
 PIP ?= .venv/bin/pip
 
-.PHONY: install lint typecheck test eval demo graph check docker-build docker-demo clean
+.PHONY: install lint typecheck test eval eval-recorded demo graph check docker-build docker-demo clean
 
 install:  ## create the virtualenv and install the package with dev tools
 	python3 -m venv .venv
@@ -21,13 +21,16 @@ test:
 eval:  ## offline evaluation on the 21 historical cases, writes eval/results/
 	$(PY) -m sra.cli eval --runs 5 --noise 0.2
 
+eval-recorded:  ## replay recorded real-model answers (GPT, Claude), writes eval/results/recorded/
+	$(PY) -m sra.cli eval --recorded
+
 demo:  ## offline demo: recorded Steam/Roblox responses + scripted model
 	$(PY) -m sra.cli demo
 
 graph:
 	$(PY) -m sra.cli graph
 
-check: lint typecheck test eval
+check: lint typecheck test eval eval-recorded
 
 docker-build:
 	docker build -t steam-roblox-agents .

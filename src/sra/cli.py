@@ -83,6 +83,10 @@ def main(argv: list[str] | None = None) -> int:
     p_eval.add_argument("--runs", type=int, default=5)
     p_eval.add_argument("--noise", type=float, default=0.2)
     p_eval.add_argument("--out", type=Path, default=None)
+    p_eval.add_argument(
+        "--recorded", action="store_true", help="replay the recorded real-model answers in eval/recordings/"
+    )
+    p_eval.add_argument("--recordings", type=Path, default=None, help="recordings directory (with --recorded)")
     sub.add_parser("graph", help="print the Mermaid diagram of the graph")
     sub.add_parser("skills", help="list the skill library")
     args = parser.parse_args(argv)
@@ -98,6 +102,11 @@ def main(argv: list[str] | None = None) -> int:
             return _run(settings, args.appids)
         if args.cmd == "record":
             return _record(settings, args.appids)
+        if args.cmd == "eval" and args.recorded:
+            from sra.recorded_eval import run_recorded_evaluation
+
+            run_recorded_evaluation(settings.root, rec_dir=args.recordings, out_dir=args.out)
+            return 0
         if args.cmd == "eval":
             from sra.evaluation import run_evaluation
 

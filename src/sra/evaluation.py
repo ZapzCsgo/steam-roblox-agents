@@ -1,16 +1,17 @@
-"""Offline evaluation on the 21 historical cases.
+"""Offline evaluation on the 21 historical cases, with the scripted model.
 
-What is measured (all offline, scripted model, recorded Steam store data):
+What is measured (offline, recorded Steam store data):
 - verdict accuracy (strict and lenient) and confusion matrix vs. the expected verdicts;
 - score gap vs. the reference backtest score;
 - determinism: N noise-free runs must produce identical outputs;
 - stability under simulated sampling noise (each Analyst score moves +-1 with probability p);
 - Critic statistics: first-pass approval, revisions, clamps, human-review flags.
 
-The Analyst's scripted answers are the hand-assigned reference scores from the study.
+The scripted Analyst answers are the hand-assigned reference scores from the study.
 The rule-based factors (F1, F5, F7, F9) are recomputed by the pipeline from real Steam
 store data and the reconstructed history, so the pipeline score can differ from the
-reference score.
+reference score. The same harness replays real-model answers in recorded_eval.py, and
+naive_baseline() gives a peak-only reference point that uses no agent at all.
 """
 
 from __future__ import annotations
@@ -28,7 +29,7 @@ from sra import grid
 from sra.config import Settings
 from sra.deps import Deps
 from sra.graph import build_graph, run_candidate
-from sra.llm import ScriptedChatModel
+from sra.llm import ScriptedChatModel, TextChatModel
 from sra.skills import SkillRegistry
 from sra.sources.http import FixtureMissingError, HttpClient
 from sra.sources.steam import SteamTools, snapshot_from_item
@@ -136,14 +137,17 @@ def case_preset(case: Case, http: HttpClient, study_date: str) -> dict[str, Any]
     return {"steam": steam, "roblox": roblox}
 
 
-def run_once(root: Path, cases: list[Case], study_date: str, noise: float, seed: int) -> list[dict[str, Any]]:
-    settings = replace(Settings(root=root), llm_provider="fake", http_mode="replay", critic_llm=True)
+def run_with_model(
+    root: Path, cases: list[Case], study_date: str, llm: TextChatModel, label: str, critic_llm: bool = True
+) -> list[dict[str, Any]]:
+    """Run the full graph on each case with the given model and collect one row per case."""
+    settings = replace(Settings(root=root), llm_provider="fake", http_mode="replay", critic_llm=critic_llm)
     deps = Deps(
         settings=settings,
         http=HttpClient(mode="replay", fixtures_dir=root / "fixtures" / "http"),
-        llm=ScriptedChatModel(scripts=scripted_answers(cases), noise=noise, seed=seed),
+        llm=llm,
         skills=SkillRegistry.from_dir(root / "skills"),
-        journal=Journal(None, f"eval-seed{seed}"),
+        journal=Journal(None, f"eval-{label}"),
     )
     graph = build_graph(deps)
     rows = []
@@ -171,6 +175,11 @@ def run_once(root: Path, cases: list[Case], study_date: str, noise: float, seed:
     return rows
 
 
+def run_once(root: Path, cases: list[Case], study_date: str, noise: float, seed: int) -> list[dict[str, Any]]:
+    llm = ScriptedChatModel(scripts=scripted_answers(cases), noise=noise, seed=seed)
+    return run_with_model(root, cases, study_date, llm, f"seed{seed}")
+
+
 def critic_stats(rows: list[dict[str, Any]]) -> dict[str, float]:
     n = len(rows)
     return {
@@ -186,7 +195,7 @@ def accuracy(rows: list[dict[str, Any]]) -> dict[str, Any]:
     n = len(rows)
     matrix = {e: dict.fromkeys(VERDICTS, 0) for e in VERDICTS}
     for r in rows:
-        matrix[r["expected"]][r["verdict"]] += 1
+        matrix[r["expected"]][r["verdict"]] = matrix[r["expected"]].get(r["verdict"], 0) + 1
     gaps = [r["score"] - r["ref_score"] for r in rows]
     return {
         "n": n,
@@ -211,6 +220,60 @@ def reference_baseline(cases: list[Case]) -> dict[str, Any]:
         for c in cases
     ]
     return accuracy(rows)
+
+
+# Naive baseline: verdict from the Steam peak alone (no agents, no grid). Thresholds fixed a
+# priori as round numbers, not tuned on the cases.
+NAIVE_THRESHOLDS = (150_000, 50_000)
+
+
+def naive_verdict(peak_ccu: int | None, thresholds: tuple[int, int] = NAIVE_THRESHOLDS) -> str:
+    hi, lo = thresholds
+    peak = peak_ccu or 0
+    return "prototype" if peak >= hi else "watch" if peak >= lo else "pass"
+
+
+def naive_rows(cases: list[Case], thresholds: tuple[int, int] = NAIVE_THRESHOLDS) -> list[dict[str, Any]]:
+    return [
+        {
+            "id": c.id,
+            "name": c.name,
+            "verdict": naive_verdict(c.history.get("peak_ccu"), thresholds),
+            "expected": c.expected,
+            "outcome": c.outcome,
+            "score": 0,
+            "ref_score": c.ref_score,
+        }
+        for c in cases
+    ]
+
+
+def naive_baseline(cases: list[Case]) -> dict[str, Any]:
+    """Peak-only baseline with fixed thresholds, plus the best thresholds found in hindsight (overfit bound)."""
+    fixed = accuracy(naive_rows(cases))
+    peaks = sorted({int(c.history.get("peak_ccu") or 0) for c in cases} | {0})
+    best: tuple[float, float, int, int] = (-1.0, -1.0, 0, 0)
+    for lo in peaks:
+        for hi in peaks:
+            if hi <= lo:
+                continue
+            a = accuracy(naive_rows(cases, (hi, lo)))
+            key = (a["strict_accuracy"], a["lenient_accuracy"], hi, lo)
+            if key[:2] > best[:2]:
+                best = key
+    return {
+        "thresholds": {"prototype_min_peak": NAIVE_THRESHOLDS[0], "watch_min_peak": NAIVE_THRESHOLDS[1]},
+        "strict_accuracy": fixed["strict_accuracy"],
+        "lenient_accuracy": fixed["lenient_accuracy"],
+        "confusion": fixed["confusion"],
+        "verdicts": {r["id"]: r["verdict"] for r in naive_rows(cases)},
+        "hindsight_best": {
+            "prototype_min_peak": best[2],
+            "watch_min_peak": best[3],
+            "strict_accuracy": best[0],
+            "lenient_accuracy": best[1],
+        },
+    }
 
 
 def stability(runs: list[list[dict[str, Any]]]) -> dict[str, Any]:
