@@ -332,10 +332,11 @@ committed metrics), the demo, a Docker build and a gitleaks scan of the full his
 ## How AI was used
 
 The scoring grid, the factor weights and the 21-case study come from my earlier project, a
-scoring cron written as plain scripts. For this repository I chose the architecture (graph
-roles, Critic loop, skills, journal) and the evaluation protocol. An AI coding agent wrote most
-of the code, the tests and the first drafts of this README from those specifications; I
-reviewed the results and the evaluation numbers. The answers in `eval/recordings/` are
-unedited outputs of GPT-6 Sol and Claude Sonnet 5.5.
+scoring cron written as plain scripts. I built this repository the way I build my other
+projects: with AI coding agents. I set the goal and the constraints (LangGraph, a Critic that
+can send work back, no paid API, an evaluation that runs offline in CI, honest numbers even
+when they are bad). The agents proposed the graph, wrote the code, the tests and the first
+drafts of this README; tests, CI and the recorded evaluation are how I check their work.
+The answers in `eval/recordings/` are unedited outputs of GPT-6 Sol and Claude Sonnet 5.5.
 
 License: MIT.
