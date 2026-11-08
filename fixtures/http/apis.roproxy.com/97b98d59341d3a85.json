@@ -1,0 +1,1196 @@
+{
+ "request": {
+  "url": "https://apis.roproxy.com/search-api/omni-search",
+  "params": {
+   "searchQuery": "zombie monster",
+   "pageType": "all",
+   "sessionId": "sra"
+  }
+ },
+ "fetched_at": "2026-11-08T13:43:24Z",
+ "status": 200,
+ "json": {
+  "searchResults": [
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 8014099969,
+      "name": "[🎃] Protect The House From Monsters",
+      "description": "",
+      "playerCount": 3327,
+      "totalUpVotes": 144897,
+      "totalDownVotes": 13117,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 115286378269814,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/115286378269814/Protect-The-House-From-Monsters",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 8014099969,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10138624079,
+      "name": "Zombie Rush Survival 🧟‍♂️",
+      "description": "",
+      "playerCount": 10058,
+      "totalUpVotes": 134722,
+      "totalDownVotes": 3555,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 82457571485380,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/82457571485380/Zombie-Rush-Survival",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10138624079,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 3382649031,
+      "name": "All of Us Are Dead",
+      "description": "",
+      "playerCount": 226,
+      "totalUpVotes": 57325,
+      "totalDownVotes": 17693,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 8967937413,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/8967937413/All-of-Us-Are-Dead",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 3382649031,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 5283219861,
+      "name": "Lethal Ape (Big Update)",
+      "description": "",
+      "playerCount": 13558,
+      "totalUpVotes": 85150,
+      "totalDownVotes": 11610,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 15318113891,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/15318113891/Lethal-Ape",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 5283219861,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 4563062026,
+      "name": "Glory Kill Testing",
+      "description": "",
+      "playerCount": 174,
+      "totalUpVotes": 38712,
+      "totalDownVotes": 4542,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 13059719130,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Moderate",
+      "contentMaturity": "moderate",
+      "canonicalUrlPath": "/games/13059719130/Glory-Kill-Testing",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 4563062026,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 7373989866,
+      "name": "Army Roads 🚂",
+      "description": "",
+      "playerCount": 1133,
+      "totalUpVotes": 103367,
+      "totalDownVotes": 4266,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 90367590248857,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/90367590248857/Army-Roads",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 7373989866,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 7400570888,
+      "name": "Dead Sands",
+      "description": "",
+      "playerCount": 128,
+      "totalUpVotes": 71636,
+      "totalDownVotes": 3800,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 90251107895288,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/90251107895288/Dead-Sands",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 7400570888,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 1709832923,
+      "name": "Zombie Uprising",
+      "description": "",
+      "playerCount": 736,
+      "totalUpVotes": 1053154,
+      "totalDownVotes": 53797,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 4972091010,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/4972091010/Zombie-Uprising",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 1709832923,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 6358669866,
+      "name": "Zombie Base Attack",
+      "description": "",
+      "playerCount": 469,
+      "totalUpVotes": 2427,
+      "totalDownVotes": 1119,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 18768363424,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/18768363424/Zombie-Base-Attack",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 6358669866,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 8296765616,
+      "name": "Defend Bunker from Zombies 🧟",
+      "description": "",
+      "playerCount": 2433,
+      "totalUpVotes": 53362,
+      "totalDownVotes": 2807,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 134361906638337,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/134361906638337/Defend-Bunker-from-Zombies",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 8296765616,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 7603401533,
+      "name": "Zombie RP🧟🏠(NEW)",
+      "description": "",
+      "playerCount": 47,
+      "totalUpVotes": 3334,
+      "totalDownVotes": 1193,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 70926168007672,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/70926168007672/Zombie-RP",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 7603401533,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 8194380894,
+      "name": "Zombies vs Police",
+      "description": "",
+      "playerCount": 357,
+      "totalUpVotes": 1616,
+      "totalDownVotes": 615,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 101067806567227,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/101067806567227/Zombies-vs-Police",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 8194380894,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10772440379,
+      "name": "Monster Maker",
+      "description": "",
+      "playerCount": 12258,
+      "totalUpVotes": 52013,
+      "totalDownVotes": 3064,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 137036689378411,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/137036689378411/Monster-Maker",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10772440379,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10770643759,
+      "name": "Zombie Titans",
+      "description": "",
+      "playerCount": 4595,
+      "totalUpVotes": 2001,
+      "totalDownVotes": 307,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 78668701287240,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/78668701287240/Zombie-Titans",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10770643759,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10325586706,
+      "name": "Ultra Zombie Defense",
+      "description": "",
+      "playerCount": 209,
+      "totalUpVotes": 1137,
+      "totalDownVotes": 294,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 106963908109458,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/106963908109458/Ultra-Zombie-Defense",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10325586706,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 9900286623,
+      "name": "[🎃]Hold the Door: Zombie Defense",
+      "description": "",
+      "playerCount": 358,
+      "totalUpVotes": 11034,
+      "totalDownVotes": 1951,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 104812936457083,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/104812936457083/Hold-the-Door-Zombie-Defense",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 9900286623,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10642906493,
+      "name": "Merge a Zombie",
+      "description": "",
+      "playerCount": 10,
+      "totalUpVotes": 124,
+      "totalDownVotes": 44,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 115898491896827,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/115898491896827/Merge-a-Zombie",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10642906493,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10077468510,
+      "name": "[💥SPECTRE TANK] Defend Base from Zombies RNG 🧟",
+      "description": "",
+      "playerCount": 82,
+      "totalUpVotes": 6441,
+      "totalDownVotes": 1357,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 71607575632633,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/71607575632633/Defend-Base-from-Zombies-RNG",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10077468510,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10505622541,
+      "name": "Revenant Protocol: ZOMBIES",
+      "description": "",
+      "playerCount": 1772,
+      "totalUpVotes": 6668,
+      "totalDownVotes": 650,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 136189272144990,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/136189272144990/Revenant-Protocol-ZOMBIES",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10505622541,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10766671102,
+      "name": "[UPD] My Zombie Zoo",
+      "description": "",
+      "playerCount": 2677,
+      "totalUpVotes": 25829,
+      "totalDownVotes": 444,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 112520004217275,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/112520004217275/My-Zombie-Zoo",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10766671102,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10731880024,
+      "name": "Survive 1 Billion Zombies",
+      "description": "",
+      "playerCount": 1958,
+      "totalUpVotes": 1951,
+      "totalDownVotes": 293,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 77973837140217,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/77973837140217/Survive-1-Billion-Zombies",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10731880024,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10767826343,
+      "name": "[🎃] Zombie Air Force ✈️",
+      "description": "",
+      "playerCount": 1809,
+      "totalUpVotes": 17462,
+      "totalDownVotes": 2291,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 73810139314608,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/73810139314608/Zombie-Air-Force",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10767826343,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 4202932581,
+      "name": "[UPD] 🧟 Zombie Battle Tycoon 🧟",
+      "description": "",
+      "playerCount": 1049,
+      "totalUpVotes": 106240,
+      "totalDownVotes": 10531,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 11877743732,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/11877743732/Zombie-Battle-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 4202932581,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 3712573899,
+      "name": "ZOMBIE INVASION",
+      "description": "",
+      "playerCount": 222,
+      "totalUpVotes": 18690,
+      "totalDownVotes": 4851,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 10101846733,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/10101846733/ZOMBIE-INVASION",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 3712573899,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10352959937,
+      "name": "🧟 ZOMBIE BASE SURVIVAL [NEW MAPS 🎃]🛡️",
+      "description": "",
+      "playerCount": 158,
+      "totalUpVotes": 894,
+      "totalDownVotes": 187,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 122691391861348,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/122691391861348/ZOMBIE-BASE-SURVIVAL",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10352959937,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10383069965,
+      "name": "Kill Infinite Zombies 🧟",
+      "description": "",
+      "playerCount": 212,
+      "totalUpVotes": 1420,
+      "totalDownVotes": 218,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 130071966133000,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/130071966133000/Kill-Infinite-Zombies",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10383069965,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 9411907989,
+      "name": "[UPD] Catch a Zombie!🪝",
+      "description": "",
+      "playerCount": 2,
+      "totalUpVotes": 2387,
+      "totalDownVotes": 358,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 104380929598820,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/104380929598820/Catch-a-Zombie",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 9411907989,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10765197905,
+      "name": "[🩸UPD] Run from Monsters!",
+      "description": "",
+      "playerCount": 1524,
+      "totalUpVotes": 3887,
+      "totalDownVotes": 551,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 122815847545297,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Moderate",
+      "contentMaturity": "moderate",
+      "canonicalUrlPath": "/games/122815847545297/Run-from-Monsters",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10765197905,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10047545658,
+      "name": "[x2]Kill Zombies in Area 51",
+      "description": "",
+      "playerCount": 1209,
+      "totalUpVotes": 6097,
+      "totalDownVotes": 1286,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 107186729022278,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/107186729022278/Kill-Zombies-in-Area-51",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10047545658,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10770329505,
+      "name": "[🎃] Build A Zombie",
+      "description": "",
+      "playerCount": 376,
+      "totalUpVotes": 1327,
+      "totalDownVotes": 387,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 75681813931688,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/75681813931688/Build-A-Zombie",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10770329505,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 2369077151,
+      "name": "Build to Survive 🛠️ ",
+      "description": "",
+      "playerCount": 5584,
+      "totalUpVotes": 461682,
+      "totalDownVotes": 18824,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 6382584061,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/6382584061/Build-to-Survive",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 2369077151,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 9584013605,
+      "name": "Shoot Zombies To Move Up",
+      "description": "",
+      "playerCount": 365,
+      "totalUpVotes": 2613,
+      "totalDownVotes": 764,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 80497193963352,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/80497193963352/Shoot-Zombies-To-Move-Up",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 9584013605,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 7868055955,
+      "name": "Zombie Troll Tower",
+      "description": "",
+      "playerCount": 1611,
+      "totalUpVotes": 39908,
+      "totalDownVotes": 3252,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 129408497314827,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/129408497314827/Zombie-Troll-Tower",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 7868055955,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10763830934,
+      "name": " 【🌱New】Merge Plants VS Zombies",
+      "description": "",
+      "playerCount": 338,
+      "totalUpVotes": 3406,
+      "totalDownVotes": 151,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 119208979015875,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/119208979015875/New-Merge-Plants-VS-Zombies",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10763830934,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 9098570654,
+      "name": "[⚒️UPD] 🧟 Survive the Apocalypse",
+      "description": "",
+      "playerCount": 11464,
+      "totalUpVotes": 201284,
+      "totalDownVotes": 12593,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 90148635862803,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/90148635862803/Survive-the-Apocalypse",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 9098570654,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10764208570,
+      "name": "[UPDATE] MM2 of The Monsters",
+      "description": "",
+      "playerCount": 6452,
+      "totalUpVotes": 4114,
+      "totalDownVotes": 715,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 100860415498291,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/100860415498291/MM2-of-The-Monsters",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10764208570,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 1701332290,
+      "name": "Field Trip Z",
+      "description": "",
+      "playerCount": 2143,
+      "totalUpVotes": 348875,
+      "totalDownVotes": 99253,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 4954096313,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/4954096313/Field-Trip-Z",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 1701332290,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 3997370929,
+      "name": "Zombie Merge Tycoon",
+      "description": "",
+      "playerCount": 54,
+      "totalUpVotes": 102107,
+      "totalDownVotes": 6292,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 11196588443,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/11196588443/Zombie-Merge-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 3997370929,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10765361336,
+      "name": "[Console Support!] Super Zombie Siege Defense",
+      "description": "",
+      "playerCount": 283,
+      "totalUpVotes": 2626,
+      "totalDownVotes": 493,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 138801629175656,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/138801629175656/Super-Zombie-Siege-Defense",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10765361336,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10741654282,
+      "name": "Build and Kill Zombies",
+      "description": "",
+      "playerCount": 1665,
+      "totalUpVotes": 293162,
+      "totalDownVotes": 6110,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 105011592530400,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/105011592530400/Build-and-Kill-Zombies",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10741654282,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   }
+  ],
+  "nextPageToken": "eyJzdGFydCI6NDAsImNvdW50Ijo0MCwiZW5kT2ZQYWdlIjpmYWxzZX0=",
+  "filteredSearchQuery": null,
+  "vertical": "Game",
+  "sorts": [
+   {
+    "topicId": "Invalid",
+    "treatmentType": null,
+    "feedItemKey": null,
+    "topicLayoutData": {
+     "componentType": "GridTile",
+     "numOfRows": -1,
+     "minNumOfRows": 0,
+     "enableCollectionLayout": false,
+     "containedTile": false,
+     "enableCollectionGrid": true
+    }
+   }
+  ],
+  "paginationMethod": "Scroll",
+  "sdui": null
+ }
+}

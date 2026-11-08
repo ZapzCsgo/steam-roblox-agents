@@ -1,0 +1,201 @@
+{
+ "request": {
+  "url": "https://api.steampowered.com/IStoreBrowseService/GetItems/v1/",
+  "params": {
+   "input_json": "{\"context\": {\"country_code\": \"US\", \"language\": \"english\"}, \"data_request\": {\"include_basic_info\": true, \"include_ratings\": true, \"include_release\": true, \"include_reviews\": true, \"include_tag_count\": 20}, \"ids\": [{\"appid\": 1623730}]}"
+  }
+ },
+ "fetched_at": "2026-11-08T13:47:32Z",
+ "status": 200,
+ "json": {
+  "response": {
+   "store_items": [
+    {
+     "item_type": 0,
+     "id": 1623730,
+     "success": 1,
+     "visible": true,
+     "name": "Palworld",
+     "store_url_path": "app/1623730/Palworld",
+     "store_url_slug": "Palworld",
+     "appid": 1623730,
+     "type": 0,
+     "tagids": [
+      1695,
+      1662,
+      916648,
+      3859,
+      1100689,
+      3843,
+      1702,
+      492,
+      1685,
+      21,
+      7332,
+      3810,
+      1643,
+      255534,
+      3814,
+      122,
+      19,
+      4085,
+      4182,
+      3834
+     ],
+     "categories": {
+      "supported_player_categoryids": [
+       2,
+       1,
+       9,
+       38,
+       27
+      ],
+      "feature_categoryids": [
+       22,
+       29,
+       30,
+       23,
+       62
+      ],
+      "controller_categoryids": [
+       28,
+       55,
+       56,
+       57,
+       58
+      ]
+     },
+     "reviews": {
+      "summary_filtered": {
+       "review_count": 417826,
+       "percent_positive": 94,
+       "review_score": 8,
+       "review_score_label": "Very Positive"
+      },
+      "summary_language_specific": {
+       "review_count": 185151,
+       "percent_positive": 95,
+       "review_score": 9,
+       "review_score_label": "Overwhelmingly Positive"
+      }
+     },
+     "basic_info": {
+      "short_description": "Fight, farm, build and work alongside mysterious creatures called \"Pals\" in this completely new multiplayer, open world survival and crafting game!",
+      "publishers": [
+       {
+        "name": "Pocketpair",
+        "creator_clan_account_id": 41648656
+       }
+      ],
+      "developers": [
+       {
+        "name": "Pocketpair",
+        "creator_clan_account_id": 41648656
+       }
+      ]
+     },
+     "tags": [
+      {
+       "tagid": 1695,
+       "weight": 957
+      },
+      {
+       "tagid": 1662,
+       "weight": 860
+      },
+      {
+       "tagid": 916648,
+       "weight": 818
+      },
+      {
+       "tagid": 3859,
+       "weight": 808
+      },
+      {
+       "tagid": 1100689,
+       "weight": 745
+      },
+      {
+       "tagid": 3843,
+       "weight": 565
+      },
+      {
+       "tagid": 1702,
+       "weight": 563
+      },
+      {
+       "tagid": 492,
+       "weight": 537
+      },
+      {
+       "tagid": 1685,
+       "weight": 523
+      },
+      {
+       "tagid": 21,
+       "weight": 470
+      },
+      {
+       "tagid": 7332,
+       "weight": 440
+      },
+      {
+       "tagid": 3810,
+       "weight": 422
+      },
+      {
+       "tagid": 1643,
+       "weight": 336
+      },
+      {
+       "tagid": 255534,
+       "weight": 335
+      },
+      {
+       "tagid": 3814,
+       "weight": 297
+      },
+      {
+       "tagid": 122,
+       "weight": 297
+      },
+      {
+       "tagid": 19,
+       "weight": 283
+      },
+      {
+       "tagid": 4085,
+       "weight": 262
+      },
+      {
+       "tagid": 4182,
+       "weight": 236
+      },
+      {
+       "tagid": 3834,
+       "weight": 236
+      }
+     ],
+     "release": {
+      "steam_release_date": 1783652772,
+      "original_steam_release_date": 1705651175,
+      "release_from_early_access_date": 1783666800,
+      "release_from_early_access_style": 1
+     },
+     "best_purchase_option": {
+      "packageid": 576498,
+      "purchase_option_name": "Palworld",
+      "final_price_in_cents": "2999",
+      "formatted_final_price": "$29.99",
+      "user_can_purchase_as_gift": true,
+      "hide_discount_pct_for_compliance": false,
+      "included_game_count": 1,
+      "must_purchase_as_set": false,
+      "package_group": "default",
+      "price_cannot_be_displayed_as_discount": false
+     }
+    }
+   ]
+  }
+ }
+}

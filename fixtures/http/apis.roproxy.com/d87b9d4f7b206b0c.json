@@ -1,0 +1,1196 @@
+{
+ "request": {
+  "url": "https://apis.roproxy.com/search-api/omni-search",
+  "params": {
+   "searchQuery": "cleaning simulator",
+   "pageType": "all",
+   "sessionId": "sra"
+  }
+ },
+ "fetched_at": "2026-11-08T13:43:13Z",
+ "status": 200,
+ "json": {
+  "searchResults": [
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 339208486,
+      "name": "Cleaning Simulator",
+      "description": "",
+      "playerCount": 16,
+      "totalUpVotes": 260343,
+      "totalDownVotes": 52380,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 818287233,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/818287233/Cleaning-Simulator",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 339208486,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10770466814,
+      "name": "[MARS] Clean the Moon!",
+      "description": "",
+      "playerCount": 13592,
+      "totalUpVotes": 22381,
+      "totalDownVotes": 1678,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 76678170614451,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/76678170614451/Clean-the-Moon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10770466814,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 9991421325,
+      "name": "Carpet Cleaning Simulator [HALLOWEEN!]",
+      "description": "",
+      "playerCount": 54,
+      "totalUpVotes": 27619,
+      "totalDownVotes": 8164,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 124374448373637,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/124374448373637/Carpet-Cleaning-Simulator",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 9991421325,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10658593346,
+      "name": "Wash The Plane ✈️",
+      "description": "",
+      "playerCount": 266,
+      "totalUpVotes": 1642,
+      "totalDownVotes": 440,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 81738288743483,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/81738288743483/Wash-The-Plane",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10658593346,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10421901778,
+      "name": "[🎃] Clean Everything",
+      "description": "",
+      "playerCount": 8167,
+      "totalUpVotes": 61104,
+      "totalDownVotes": 2939,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 140576663170542,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/140576663170542/Clean-Everything",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10421901778,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10584047390,
+      "name": "[🧽] Clean the House!",
+      "description": "",
+      "playerCount": 1239,
+      "totalUpVotes": 1661,
+      "totalDownVotes": 374,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 79085853083381,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/79085853083381/Clean-the-House",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10584047390,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10463491374,
+      "name": "Clean the cosmetics!",
+      "description": "",
+      "playerCount": 71,
+      "totalUpVotes": 869,
+      "totalDownVotes": 171,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 100071565190358,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/100071565190358/Clean-the-cosmetics",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10463491374,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10767450249,
+      "name": "Surface Cleaning Simulator [ HARVEST🍂]",
+      "description": "",
+      "playerCount": 4,
+      "totalUpVotes": 46,
+      "totalDownVotes": 17,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 72218610435360,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/72218610435360/Surface-Cleaning-Simulator",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10767450249,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10405010493,
+      "name": "[🎃] Wash The House 🧼",
+      "description": "",
+      "playerCount": 725,
+      "totalUpVotes": 177907,
+      "totalDownVotes": 13356,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 130960835358983,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/130960835358983/Wash-The-House",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10405010493,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10744256065,
+      "name": "[🎃SPOOKY] Wash A House",
+      "description": "",
+      "playerCount": 857,
+      "totalUpVotes": 3321,
+      "totalDownVotes": 597,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 76937117305659,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/76937117305659/Wash-A-House",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10744256065,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10769686869,
+      "name": "Pressure Wash Simulator [FULL RELEASE]",
+      "description": "",
+      "playerCount": 123,
+      "totalUpVotes": 1403,
+      "totalDownVotes": 392,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 89898889035055,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/89898889035055/Pressure-Wash-Simulator",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10769686869,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10514321384,
+      "name": "🏢 Clean The Skyscraper!",
+      "description": "",
+      "playerCount": 33,
+      "totalUpVotes": 1093,
+      "totalDownVotes": 366,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 98238267558139,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/98238267558139/Clean-The-Skyscraper",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10514321384,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10741514942,
+      "name": "Renovate A House",
+      "description": "",
+      "playerCount": 4592,
+      "totalUpVotes": 11378,
+      "totalDownVotes": 2319,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 74865107636750,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/74865107636750/Renovate-A-House",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10741514942,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10400326382,
+      "name": "Clean The Rooms",
+      "description": "",
+      "playerCount": 3,
+      "totalUpVotes": 149,
+      "totalDownVotes": 138,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 116995685365102,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/116995685365102/Clean-The-Rooms",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10400326382,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10183412018,
+      "name": "[UPDATE!] Pool Cleaning Simulator",
+      "description": "",
+      "playerCount": 1,
+      "totalUpVotes": 466,
+      "totalDownVotes": 628,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 100863877679880,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/100863877679880/Pool-Cleaning-Simulator",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10183412018,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10341261393,
+      "name": "🧹 Cozy Cleaning ",
+      "description": "",
+      "playerCount": 6,
+      "totalUpVotes": 97,
+      "totalDownVotes": 40,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 94671514343695,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/94671514343695/Cozy-Cleaning",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10341261393,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 4107674683,
+      "name": "Pressure Wash Simulator 2",
+      "description": "",
+      "playerCount": 38,
+      "totalUpVotes": 398139,
+      "totalDownVotes": 21599,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 11572573905,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/11572573905/Pressure-Wash-Simulator-2",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 4107674683,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10088416550,
+      "name": "Concrete Cleaning Simulator 💦",
+      "description": "",
+      "playerCount": 9,
+      "totalUpVotes": 5993,
+      "totalDownVotes": 2375,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 99397872893294,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/99397872893294/Concrete-Cleaning-Simulator",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10088416550,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10765906597,
+      "name": "[UPD4] Clean all the Balls",
+      "description": "",
+      "playerCount": 188,
+      "totalUpVotes": 19789,
+      "totalDownVotes": 1061,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 118723800148573,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/118723800148573/Clean-all-the-Balls",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10765906597,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10763694503,
+      "name": "Cleaning Simulator",
+      "description": "",
+      "playerCount": 11,
+      "totalUpVotes": 97,
+      "totalDownVotes": 89,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 90049130235767,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/90049130235767/Cleaning-Simulator",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10763694503,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10468620195,
+      "name": "Clean the Farm",
+      "description": "",
+      "playerCount": 9,
+      "totalUpVotes": 7720,
+      "totalDownVotes": 582,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 126795914339721,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/126795914339721/Clean-the-Farm",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10468620195,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10766227240,
+      "name": "🧼 Wash The Dirt!",
+      "description": "",
+      "playerCount": 20,
+      "totalUpVotes": 90,
+      "totalDownVotes": 27,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 73480759102738,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/73480759102738/Wash-The-Dirt",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10766227240,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10473977908,
+      "name": "Clean the Kitchen!",
+      "description": "",
+      "playerCount": 437,
+      "totalUpVotes": 3369,
+      "totalDownVotes": 634,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 139983569383683,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/139983569383683/Clean-the-Kitchen",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10473977908,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10760141077,
+      "name": "[🌍] Clean A Planet",
+      "description": "",
+      "playerCount": 128,
+      "totalUpVotes": 1554,
+      "totalDownVotes": 92,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 129664980871931,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/129664980871931/Clean-A-Planet",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10760141077,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10418117926,
+      "name": "🎃Clean The Superstore!",
+      "description": "",
+      "playerCount": 2004,
+      "totalUpVotes": 52277,
+      "totalDownVotes": 2549,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 80000420704526,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/80000420704526/Clean-The-Superstore",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10418117926,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10420582875,
+      "name": "🧼 [UPD] Clean Your Keycaps",
+      "description": "",
+      "playerCount": 304,
+      "totalUpVotes": 60112,
+      "totalDownVotes": 3731,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 82745432464897,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/82745432464897/Clean-Your-Keycaps",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10420582875,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10454823955,
+      "name": "Clean Your Room before Mom Comes Home",
+      "description": "",
+      "playerCount": 20,
+      "totalUpVotes": 2180,
+      "totalDownVotes": 393,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 85081695804302,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/85081695804302/Clean-Your-Room-before-Mom-Comes-Home",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10454823955,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 7791104322,
+      "name": "Disaster Janitor 🧽",
+      "description": "",
+      "playerCount": 95,
+      "totalUpVotes": 37314,
+      "totalDownVotes": 3497,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 89597299598186,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/89597299598186/Disaster-Janitor",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 7791104322,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10757974834,
+      "name": "[SHOWROOMS!! 🏎️] Clean a Car",
+      "description": "",
+      "playerCount": 307,
+      "totalUpVotes": 604,
+      "totalDownVotes": 153,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 73195406532974,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/73195406532974/Clean-a-Car",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10757974834,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10765633110,
+      "name": "Clean the Chaos Mansions",
+      "description": "",
+      "playerCount": 9,
+      "totalUpVotes": 756,
+      "totalDownVotes": 182,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 118879656071139,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/118879656071139/Clean-the-Chaos-Mansions",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10765633110,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10518836988,
+      "name": "[🎃] Garden Cleaner Evolution",
+      "description": "",
+      "playerCount": 35,
+      "totalUpVotes": 99575,
+      "totalDownVotes": 3346,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 89907728898683,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/89907728898683/Garden-Cleaner-Evolution",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10518836988,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10662865817,
+      "name": "Clean your ASMR [🎧]",
+      "description": "",
+      "playerCount": 104,
+      "totalUpVotes": 2050,
+      "totalDownVotes": 428,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 79880685816862,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/79880685816862/Clean-your-ASMR",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10662865817,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10125093108,
+      "name": "Window Cleaner [SIMULATOR] ",
+      "description": "",
+      "playerCount": 14,
+      "totalUpVotes": 7890,
+      "totalDownVotes": 1523,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 77850042651278,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/77850042651278/Window-Cleaner",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10125093108,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10765893887,
+      "name": "[ASMR] Clean the Keyboard !",
+      "description": "",
+      "playerCount": 75,
+      "totalUpVotes": 1067,
+      "totalDownVotes": 293,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 102647031146169,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/102647031146169/Clean-the-Keyboard",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10765893887,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10414174246,
+      "name": "Clean The Closet",
+      "description": "",
+      "playerCount": 16,
+      "totalUpVotes": 970,
+      "totalDownVotes": 525,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 89940040242012,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/89940040242012/Clean-The-Closet",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10414174246,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10767634248,
+      "name": "[UPD] Firefighting Sim 🚒",
+      "description": "",
+      "playerCount": 13961,
+      "totalUpVotes": 36011,
+      "totalDownVotes": 3093,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 102476635575386,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/102476635575386/Firefighting-Sim",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10767634248,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10562112762,
+      "name": "[🧼] Clean Your Carpet! ",
+      "description": "",
+      "playerCount": 1,
+      "totalUpVotes": 287,
+      "totalDownVotes": 82,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 82225385960847,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/82225385960847/Clean-Your-Carpet",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10562112762,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10769835310,
+      "name": "Clean a Painting",
+      "description": "",
+      "playerCount": 3049,
+      "totalUpVotes": 137578,
+      "totalDownVotes": 1961,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 111695660104985,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/111695660104985/Clean-a-Painting",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10769835310,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10419177074,
+      "name": "[🛒] Clean The Store!",
+      "description": "",
+      "playerCount": 59,
+      "totalUpVotes": 1362,
+      "totalDownVotes": 274,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 87686199676023,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/87686199676023/Clean-The-Store",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10419177074,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10476906044,
+      "name": "[🔊 SOUND] Clean the ASMR!",
+      "description": "",
+      "playerCount": 9,
+      "totalUpVotes": 1695,
+      "totalDownVotes": 379,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 83132176319546,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/83132176319546/Clean-the-ASMR",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10476906044,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   }
+  ],
+  "nextPageToken": "eyJzdGFydCI6NDAsImNvdW50Ijo0MCwiZW5kT2ZQYWdlIjpmYWxzZX0=",
+  "filteredSearchQuery": null,
+  "vertical": "Game",
+  "sorts": [
+   {
+    "topicId": "Invalid",
+    "treatmentType": null,
+    "feedItemKey": null,
+    "topicLayoutData": {
+     "componentType": "GridTile",
+     "numOfRows": -1,
+     "minNumOfRows": 0,
+     "enableCollectionLayout": false,
+     "containedTile": false,
+     "enableCollectionGrid": true
+    }
+   }
+  ],
+  "paginationMethod": "Scroll",
+  "sdui": null
+ }
+}

@@ -1,0 +1,1196 @@
+{
+ "request": {
+  "url": "https://apis.roproxy.com/search-api/omni-search",
+  "params": {
+   "searchQuery": "zoo tycoon",
+   "pageType": "all",
+   "sessionId": "sra"
+  }
+ },
+ "fetched_at": "2026-11-08T13:43:59Z",
+ "status": 200,
+ "json": {
+  "searchResults": [
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 465016798,
+      "name": "Zoo Tycoon 🥚🐲",
+      "description": "",
+      "playerCount": 2276,
+      "totalUpVotes": 102802,
+      "totalDownVotes": 18032,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 1128650291,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/1128650291/Zoo-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 465016798,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10455280395,
+      "name": "[🦁 CUBS!] Zoo Builder Tycoon ",
+      "description": "",
+      "playerCount": 5787,
+      "totalUpVotes": 3183,
+      "totalDownVotes": 436,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 76814078654313,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/76814078654313/Zoo-Builder-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10455280395,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 3933985529,
+      "name": "[BABIES!] Zoo World Tycoon 🐘",
+      "description": "",
+      "playerCount": 248,
+      "totalUpVotes": 19259,
+      "totalDownVotes": 3385,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 10904785329,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/10904785329/Zoo-World-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 3933985529,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 2324410019,
+      "name": "Zoo Tycoon 🐒",
+      "description": "",
+      "playerCount": 14,
+      "totalUpVotes": 95325,
+      "totalDownVotes": 11117,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 6299257505,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/6299257505/Zoo-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 2324410019,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10769819961,
+      "name": "Zoo Tycoon [BETA]",
+      "description": "",
+      "playerCount": 18,
+      "totalUpVotes": 263,
+      "totalDownVotes": 122,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 112008231014647,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/112008231014647/Zoo-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10769819961,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10768640705,
+      "name": "Welcome to the Zoo! 🦁 Tycoon",
+      "description": "",
+      "playerCount": 11,
+      "totalUpVotes": 18,
+      "totalDownVotes": 8,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 89765960176050,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/89765960176050/Welcome-to-the-Zoo-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10768640705,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 2384686405,
+      "name": "Dinosaur Zoo Tycoon 🦖",
+      "description": "",
+      "playerCount": 74,
+      "totalUpVotes": 45783,
+      "totalDownVotes": 6301,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 6412231967,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/6412231967/Dinosaur-Zoo-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 2384686405,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 2339827261,
+      "name": "Zoo Park Tycoon 🦁 Build a Zoo!",
+      "description": "",
+      "playerCount": 11,
+      "totalUpVotes": 4399,
+      "totalDownVotes": 762,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 6328646546,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/6328646546/Zoo-Park-Tycoon-Build-a-Zoo",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 2339827261,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 9988260338,
+      "name": "Zoológico Tycoon 🦁",
+      "description": "",
+      "playerCount": 5,
+      "totalUpVotes": 154,
+      "totalDownVotes": 53,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 72997795570538,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/72997795570538/Zool-gico-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 9988260338,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10769892835,
+      "name": "Zoo Simulator",
+      "description": "",
+      "playerCount": 58,
+      "totalUpVotes": 68,
+      "totalDownVotes": 34,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 134587051600251,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/134587051600251/Zoo-Simulator",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10769892835,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10127539195,
+      "name": "Create A Zoo! 🦊",
+      "description": "",
+      "playerCount": 11,
+      "totalUpVotes": 53,
+      "totalDownVotes": 26,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 78690837780805,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/78690837780805/Create-A-Zoo",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10127539195,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 9625497943,
+      "name": "[🐅] My ZOO",
+      "description": "",
+      "playerCount": 138,
+      "totalUpVotes": 35420,
+      "totalDownVotes": 3119,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 96539133045244,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/96539133045244/My-ZOO",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 9625497943,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 9102655210,
+      "name": " Exotic Zoo Tycoon 🐉",
+      "description": "",
+      "playerCount": 6,
+      "totalUpVotes": 27213,
+      "totalDownVotes": 1138,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 137123477806267,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/137123477806267/Exotic-Zoo-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 9102655210,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 9351808693,
+      "name": "Your Zoo! 🦓",
+      "description": "",
+      "playerCount": 65,
+      "totalUpVotes": 51462,
+      "totalDownVotes": 1631,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 72811796045029,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/72811796045029/Your-Zoo",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 9351808693,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 9930864676,
+      "name": "🦊 2 Player Zootopia 2 Tycoon",
+      "description": "",
+      "playerCount": 9,
+      "totalUpVotes": 496,
+      "totalDownVotes": 45,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 130824662501346,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/130824662501346/2-Player-Zootopia-2-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 9930864676,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 1746088502,
+      "name": "Aquarium Tycoon 🐠🐟",
+      "description": "",
+      "playerCount": 29,
+      "totalUpVotes": 34490,
+      "totalDownVotes": 5589,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 5049532701,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/5049532701/Aquarium-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 1746088502,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 9865411422,
+      "name": "My DREAM Zoo!",
+      "description": "",
+      "playerCount": 7,
+      "totalUpVotes": 1016,
+      "totalDownVotes": 282,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 78096810290260,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/78096810290260/My-DREAM-Zoo",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 9865411422,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10282097014,
+      "name": "Pet Store Tycoon",
+      "description": "",
+      "playerCount": 5938,
+      "totalUpVotes": 112179,
+      "totalDownVotes": 4357,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 118845698633260,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/118845698633260/Pet-Store-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10282097014,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 9504282706,
+      "name": "My Zoo 🐘",
+      "description": "",
+      "playerCount": 2,
+      "totalUpVotes": 2583,
+      "totalDownVotes": 472,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 120236946926450,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/120236946926450/My-Zoo",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 9504282706,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 8066283370,
+      "name": "[🎃]Build a Zoo🧸",
+      "description": "",
+      "playerCount": 1108,
+      "totalUpVotes": 435571,
+      "totalDownVotes": 16613,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 105555311806207,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/105555311806207/Build-a-Zoo",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 8066283370,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 9898479530,
+      "name": "Zoo Exhibit Tycoon",
+      "description": "",
+      "playerCount": 0,
+      "totalUpVotes": 575,
+      "totalDownVotes": 85,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 127286306147082,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/127286306147082/Zoo-Exhibit-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 9898479530,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10092181670,
+      "name": "Fish Tank Tycoon",
+      "description": "",
+      "playerCount": 299,
+      "totalUpVotes": 60769,
+      "totalDownVotes": 2373,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 80086813981390,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/80086813981390/Fish-Tank-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10092181670,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10771981045,
+      "name": "[🎃] Build A Zoo",
+      "description": "",
+      "playerCount": 1,
+      "totalUpVotes": 13,
+      "totalDownVotes": 6,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 106591294872583,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/106591294872583/Build-A-Zoo",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10771981045,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 8550874096,
+      "name": "🦖Dinosaur Tycoon",
+      "description": "",
+      "playerCount": 57,
+      "totalUpVotes": 3871,
+      "totalDownVotes": 748,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 131299942133885,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/131299942133885/Dinosaur-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 8550874096,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 3616579578,
+      "name": "Zoo Tropica 🦓 ",
+      "description": "",
+      "playerCount": 20,
+      "totalUpVotes": 7275,
+      "totalDownVotes": 1489,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 9759893929,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/9759893929/Zoo-Tropica",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 3616579578,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 9788675660,
+      "name": "[NEW!] Steal A Zoo!",
+      "description": "",
+      "playerCount": 80,
+      "totalUpVotes": 19666,
+      "totalDownVotes": 1211,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 76111710810728,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/76111710810728/Steal-A-Zoo",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 9788675660,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 9283157457,
+      "name": "🐰Zootopia 2 Tycoon - 2 Player",
+      "description": "",
+      "playerCount": 1,
+      "totalUpVotes": 534,
+      "totalDownVotes": 35,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 94825671346704,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/94825671346704/Zootopia-2-Tycoon-2-Player",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 9283157457,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 4387068555,
+      "name": "EVERLAND Zoo Adventure",
+      "description": "",
+      "playerCount": 18,
+      "totalUpVotes": 565,
+      "totalDownVotes": 228,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 12478274697,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/12478274697/EVERLAND-Zoo-Adventure",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 4387068555,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10500307061,
+      "name": "[🦒] My Billionaire Zoo",
+      "description": "",
+      "playerCount": 184,
+      "totalUpVotes": 64616,
+      "totalDownVotes": 1339,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 129441589031863,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/129441589031863/My-Billionaire-Zoo",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10500307061,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 7812781276,
+      "name": "Dinosaur Park Tycoon",
+      "description": "",
+      "playerCount": 8,
+      "totalUpVotes": 16659,
+      "totalDownVotes": 675,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 118833602476959,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/118833602476959/Dinosaur-Park-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 7812781276,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 1840326425,
+      "name": "Pet Store Tycoon",
+      "description": "",
+      "playerCount": 16,
+      "totalUpVotes": 116648,
+      "totalDownVotes": 22287,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 5254674128,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/5254674128/Pet-Store-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 1840326425,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10013145287,
+      "name": "Giant Bug Zoo 🐞",
+      "description": "",
+      "playerCount": 22,
+      "totalUpVotes": 56162,
+      "totalDownVotes": 7626,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 79442754394573,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/79442754394573/Giant-Bug-Zoo",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10013145287,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 4518160318,
+      "name": "Mansion Tycoon 🌴🏠",
+      "description": "",
+      "playerCount": 6466,
+      "totalUpVotes": 732122,
+      "totalDownVotes": 22239,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 12912731475,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/12912731475/Mansion-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 4518160318,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10046699121,
+      "name": "My Mini Zoo🦁",
+      "description": "",
+      "playerCount": 3,
+      "totalUpVotes": 624,
+      "totalDownVotes": 99,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 78908635651638,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/78908635651638/My-Mini-Zoo",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10046699121,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10766020235,
+      "name": "Catch A Zoo 🦁[New!]",
+      "description": "",
+      "playerCount": 2,
+      "totalUpVotes": 34,
+      "totalDownVotes": 13,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 138487603780578,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/138487603780578/Catch-A-Zoo",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10766020235,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10766671102,
+      "name": "[UPD] My Zombie Zoo",
+      "description": "",
+      "playerCount": 2677,
+      "totalUpVotes": 25829,
+      "totalDownVotes": 444,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 112520004217275,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/112520004217275/My-Zombie-Zoo",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10766671102,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10765635650,
+      "name": "Impossible Animals",
+      "description": "",
+      "playerCount": 6335,
+      "totalUpVotes": 147610,
+      "totalDownVotes": 1818,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 119929094294460,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/119929094294460/Impossible-Animals",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10765635650,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 4343544885,
+      "name": "[🎃] Tropical Resort Tycoon 2 🌴",
+      "description": "",
+      "playerCount": 1708,
+      "totalUpVotes": 400823,
+      "totalDownVotes": 10907,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 12338455185,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/12338455185/Tropical-Resort-Tycoon-2",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 4343544885,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 5774505918,
+      "name": "My Axolotl Tycoon",
+      "description": "",
+      "playerCount": 5,
+      "totalUpVotes": 2465,
+      "totalDownVotes": 552,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 16802032810,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/16802032810/My-Axolotl-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 5774505918,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 9683445773,
+      "name": "Ranch Tycoon 🐮",
+      "description": "",
+      "playerCount": 50,
+      "totalUpVotes": 10734,
+      "totalDownVotes": 565,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 129499000862570,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/129499000862570/Ranch-Tycoon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 9683445773,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   }
+  ],
+  "nextPageToken": "eyJzdGFydCI6NDAsImNvdW50Ijo0MCwiZW5kT2ZQYWdlIjpmYWxzZX0=",
+  "filteredSearchQuery": null,
+  "vertical": "Game",
+  "sorts": [
+   {
+    "topicId": "Invalid",
+    "treatmentType": null,
+    "feedItemKey": null,
+    "topicLayoutData": {
+     "componentType": "GridTile",
+     "numOfRows": -1,
+     "minNumOfRows": 0,
+     "enableCollectionLayout": false,
+     "containedTile": false,
+     "enableCollectionGrid": true
+    }
+   }
+  ],
+  "paginationMethod": "Scroll",
+  "sdui": null
+ }
+}

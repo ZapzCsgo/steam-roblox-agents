@@ -1,0 +1,208 @@
+{
+ "request": {
+  "url": "https://api.steampowered.com/IStoreBrowseService/GetItems/v1/",
+  "params": {
+   "input_json": "{\"context\": {\"country_code\": \"US\", \"language\": \"english\"}, \"data_request\": {\"include_basic_info\": true, \"include_ratings\": true, \"include_release\": true, \"include_reviews\": true, \"include_tag_count\": 20}, \"ids\": [{\"appid\": 2881650}]}"
+  }
+ },
+ "fetched_at": "2026-11-08T13:47:21Z",
+ "status": 200,
+ "json": {
+  "response": {
+   "store_items": [
+    {
+     "item_type": 0,
+     "id": 2881650,
+     "success": 1,
+     "visible": true,
+     "name": "Content Warning",
+     "store_url_path": "app/2881650/Content_Warning",
+     "store_url_slug": "Content_Warning",
+     "appid": 2881650,
+     "type": 0,
+     "tagids": [
+      3843,
+      1667,
+      5125,
+      3834,
+      42804,
+      3859,
+      1719,
+      3968,
+      1685,
+      4136,
+      3839,
+      1721,
+      3978,
+      4166,
+      21,
+      3835,
+      4191,
+      16689,
+      8369,
+      5716
+     ],
+     "categories": {
+      "supported_player_categoryids": [
+       1,
+       9,
+       38,
+       27
+      ],
+      "feature_categoryids": [
+       23,
+       62
+      ],
+      "controller_categoryids": [
+       55,
+       57,
+       18
+      ]
+     },
+     "reviews": {
+      "summary_filtered": {
+       "review_count": 73254,
+       "percent_positive": 92,
+       "review_score": 8,
+       "review_score_label": "Very Positive"
+      },
+      "summary_language_specific": {
+       "review_count": 35587,
+       "percent_positive": 93,
+       "review_score": 8,
+       "review_score_label": "Very Positive"
+      }
+     },
+     "basic_info": {
+      "short_description": "Film your friends doing scary things to become SpöökTube famous! (strongly advised to not go alone)",
+      "publishers": [
+       {
+        "name": "Evil Landfall?",
+        "creator_clan_account_id": 32941859
+       }
+      ],
+      "developers": [
+       {
+        "name": "Zorro"
+       },
+       {
+        "name": "Wilnyl"
+       },
+       {
+        "name": "Philip"
+       },
+       {
+        "name": "thePetHen"
+       },
+       {
+        "name": "Skog"
+       }
+      ],
+      "franchises": [
+       {
+        "name": "Landfall"
+       }
+      ]
+     },
+     "tags": [
+      {
+       "tagid": 3843,
+       "weight": 798
+      },
+      {
+       "tagid": 1667,
+       "weight": 795
+      },
+      {
+       "tagid": 5125,
+       "weight": 742
+      },
+      {
+       "tagid": 3834,
+       "weight": 685
+      },
+      {
+       "tagid": 42804,
+       "weight": 662
+      },
+      {
+       "tagid": 3859,
+       "weight": 638
+      },
+      {
+       "tagid": 1719,
+       "weight": 614
+      },
+      {
+       "tagid": 3968,
+       "weight": 595
+      },
+      {
+       "tagid": 1685,
+       "weight": 587
+      },
+      {
+       "tagid": 4136,
+       "weight": 576
+      },
+      {
+       "tagid": 3839,
+       "weight": 534
+      },
+      {
+       "tagid": 1721,
+       "weight": 330
+      },
+      {
+       "tagid": 3978,
+       "weight": 329
+      },
+      {
+       "tagid": 4166,
+       "weight": 320
+      },
+      {
+       "tagid": 21,
+       "weight": 314
+      },
+      {
+       "tagid": 3835,
+       "weight": 314
+      },
+      {
+       "tagid": 4191,
+       "weight": 311
+      },
+      {
+       "tagid": 16689,
+       "weight": 294
+      },
+      {
+       "tagid": 8369,
+       "weight": 279
+      },
+      {
+       "tagid": 5716,
+       "weight": 272
+      }
+     ],
+     "release": {
+      "steam_release_date": 1711987152
+     },
+     "best_purchase_option": {
+      "packageid": 1027482,
+      "purchase_option_name": "Content Warning",
+      "final_price_in_cents": "799",
+      "formatted_final_price": "$7.99",
+      "user_can_purchase_as_gift": true,
+      "hide_discount_pct_for_compliance": false,
+      "included_game_count": 1,
+      "must_purchase_as_set": false,
+      "package_group": "default",
+      "price_cannot_be_displayed_as_discount": false
+     }
+    }
+   ]
+  }
+ }
+}

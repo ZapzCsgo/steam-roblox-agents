@@ -1,0 +1,1196 @@
+{
+ "request": {
+  "url": "https://apis.roproxy.com/search-api/omni-search",
+  "params": {
+   "searchQuery": "Moon Sweepers",
+   "pageType": "all",
+   "sessionId": "sra"
+  }
+ },
+ "fetched_at": "2026-11-08T13:43:11Z",
+ "status": 200,
+ "json": {
+  "searchResults": [
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10770466814,
+      "name": "[MARS] Clean the Moon!",
+      "description": "🌕 CLEAN THE MOON 🧹\n\nThe Moon is a total mess, and you’re the only one who can fix it!\n\nSuit up, grab your broom, and sweep moon dust, space junk, and meteor debris across the lunar surface. Sell what you collect, upgrade your gear, and build a base that cleans the Moon for you!\n\n🧹 Sweep dust and debris to earn cash\n🤖 Unlock cleaning robots to automate your work\n🏗️ Build and expand your own lunar base\n⚡ Upgrade your broom, backpack, and moon boots\n🌑 Unlock new craters and zones as you progress\n👨‍🚀 Team up with friends to clean faster together\n\nCan you clean the ENTIRE Moon? 🌍\n\n\n🖨️Your progress on your moon saves!\n👍 Like and ⭐ Favorite for new updates!\n🔔 Join the group for exclusive rewards!\n\nTags: Clean The Moon, Sweep The Moon, Moon, Space, Sweep, Clean, Dust, Vacuum, Robots, Conveyor, Simulator, Incremental, Upgrade, Peel The Potato, Search For The Needle, Punch To Escape",
+      "playerCount": 13592,
+      "totalUpVotes": 22381,
+      "totalDownVotes": 1678,
+      "emphasis": true,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "Lunarlit Works",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 792825799,
+      "rootPlaceId": 76678170614451,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/76678170614451/Clean-the-Moon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10770466814,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10772543706,
+      "name": "Sweep The Moon 🌕",
+      "description": "",
+      "playerCount": 41343,
+      "totalUpVotes": 36121,
+      "totalDownVotes": 942,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 109576450376407,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/109576450376407/Sweep-The-Moon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10772543706,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10770495464,
+      "name": "🌑Moon Sweepers",
+      "description": "",
+      "playerCount": 128,
+      "totalUpVotes": 39,
+      "totalDownVotes": 44,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 92540628028223,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/92540628028223/Moon-Sweepers",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10770495464,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10773099280,
+      "name": "Moon Sweepers & Build",
+      "description": "",
+      "playerCount": 0,
+      "totalUpVotes": 13,
+      "totalDownVotes": 14,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 126535950266014,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/126535950266014/Moon-Sweepers-Build",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10773099280,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10770340148,
+      "name": "[🌕EVENTS] Clean the Moon!",
+      "description": "",
+      "playerCount": 89,
+      "totalUpVotes": 173,
+      "totalDownVotes": 70,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 78086118798161,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/78086118798161/Clean-the-Moon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10770340148,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10770518294,
+      "name": "[🛸UFO UPDATE] Clean THE Moon",
+      "description": "",
+      "playerCount": 184,
+      "totalUpVotes": 311,
+      "totalDownVotes": 174,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 73695758197534,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/73695758197534/Clean-THE-Moon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10770518294,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10771264732,
+      "name": "[NEW] MOON SWEEPERS! 🌙",
+      "description": "",
+      "playerCount": 0,
+      "totalUpVotes": 127,
+      "totalDownVotes": 16,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 117500290848628,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/117500290848628/MOON-SWEEPERS",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10771264732,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10773129855,
+      "name": "Moon Cleaners",
+      "description": "",
+      "playerCount": 112,
+      "totalUpVotes": 64,
+      "totalDownVotes": 47,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 106831250923249,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/106831250923249/Moon-Cleaners",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10773129855,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10770847724,
+      "name": "[👽 ALIENS] Clean the Moon! 🌙",
+      "description": "",
+      "playerCount": 35,
+      "totalUpVotes": 127,
+      "totalDownVotes": 99,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 82672816337399,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/82672816337399/Clean-the-Moon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10770847724,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10773247443,
+      "name": "Moon Cleaners🌙",
+      "description": "",
+      "playerCount": 47,
+      "totalUpVotes": 23,
+      "totalDownVotes": 25,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 76218721018566,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/76218721018566/Moon-Cleaners",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10773247443,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10772978501,
+      "name": "Clean The Moon",
+      "description": "",
+      "playerCount": 12,
+      "totalUpVotes": 21,
+      "totalDownVotes": 28,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 90304021343388,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/90304021343388/Clean-The-Moon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10772978501,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10770575075,
+      "name": "Clean the Moon",
+      "description": "",
+      "playerCount": 1,
+      "totalUpVotes": 10,
+      "totalDownVotes": 17,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 122794085902711,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/122794085902711/Clean-the-Moon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10770575075,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10770435946,
+      "name": "Clean The Moon!",
+      "description": "",
+      "playerCount": 0,
+      "totalUpVotes": 12,
+      "totalDownVotes": 27,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 95249373136746,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/95249373136746/Clean-The-Moon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10770435946,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10773215959,
+      "name": "[🎃] Sweep a Planet!",
+      "description": "",
+      "playerCount": 1,
+      "totalUpVotes": 14,
+      "totalDownVotes": 2,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 100017533681350,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/100017533681350/Sweep-a-Planet",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10773215959,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10773895809,
+      "name": "[UPD] Space Sweepers",
+      "description": "",
+      "playerCount": 4,
+      "totalUpVotes": 18,
+      "totalDownVotes": 15,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 71285361416621,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/71285361416621/Space-Sweepers",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10773895809,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10773186887,
+      "name": "Clean The Moon Together!",
+      "description": "",
+      "playerCount": 1,
+      "totalUpVotes": 37,
+      "totalDownVotes": 29,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 78103481012671,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/78103481012671/Clean-The-Moon-Together",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10773186887,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10744256065,
+      "name": "[🎃SPOOKY] Wash A House",
+      "description": "",
+      "playerCount": 857,
+      "totalUpVotes": 3321,
+      "totalDownVotes": 597,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 76937117305659,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/76937117305659/Wash-A-House",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10744256065,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10765906597,
+      "name": "[UPD4] Clean all the Balls",
+      "description": "",
+      "playerCount": 193,
+      "totalUpVotes": 19788,
+      "totalDownVotes": 1061,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 118723800148573,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/118723800148573/Clean-all-the-Balls",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10765906597,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10769694478,
+      "name": "Steal The Moon! [CO-OP]",
+      "description": "",
+      "playerCount": 2,
+      "totalUpVotes": 13,
+      "totalDownVotes": 6,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 104047257899485,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/104047257899485/Steal-The-Moon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10769694478,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10760141077,
+      "name": "[🌍] Clean A Planet",
+      "description": "",
+      "playerCount": 128,
+      "totalUpVotes": 1554,
+      "totalDownVotes": 92,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 129664980871931,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/129664980871931/Clean-A-Planet",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10760141077,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10584047390,
+      "name": "[🧽] Clean the House!",
+      "description": "",
+      "playerCount": 1220,
+      "totalUpVotes": 1661,
+      "totalDownVotes": 374,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 79085853083381,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/79085853083381/Clean-the-House",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10584047390,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10769194813,
+      "name": "[💫] Steal the Moon",
+      "description": "",
+      "playerCount": 96,
+      "totalUpVotes": 2299,
+      "totalDownVotes": 815,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 102306826723630,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/102306826723630/Steal-the-Moon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10769194813,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10770453554,
+      "name": "[🧊] Sweeper!",
+      "description": "",
+      "playerCount": 0,
+      "totalUpVotes": 8,
+      "totalDownVotes": 2,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 116487625511400,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/116487625511400/Sweeper",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10770453554,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10767818527,
+      "name": "[🐾] Build the Moon!",
+      "description": "",
+      "playerCount": 1,
+      "totalUpVotes": 209,
+      "totalDownVotes": 25,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 140094106629341,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/140094106629341/Build-the-Moon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10767818527,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 8751492147,
+      "name": "[PROXIMA!] The Moon Wakes Up",
+      "description": "",
+      "playerCount": 501,
+      "totalUpVotes": 32749,
+      "totalDownVotes": 9227,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 133579701570149,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/133579701570149/The-Moon-Wakes-Up",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 8751492147,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10771421858,
+      "name": "DONT SPLASH",
+      "description": "",
+      "playerCount": 100375,
+      "totalUpVotes": 125124,
+      "totalDownVotes": 19448,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 119958473240233,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/119958473240233/DONT-SPLASH",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10771421858,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10514321384,
+      "name": "🏢 Clean The Skyscraper!",
+      "description": "",
+      "playerCount": 33,
+      "totalUpVotes": 1093,
+      "totalDownVotes": 366,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 98238267558139,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/98238267558139/Clean-The-Skyscraper",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10514321384,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 5174979552,
+      "name": "🚀[Titan] The Space Simulator",
+      "description": "",
+      "playerCount": 1073,
+      "totalUpVotes": 339179,
+      "totalDownVotes": 12823,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 15027718878,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/15027718878/The-Space-Simulator",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 5174979552,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10769757791,
+      "name": "Ghost Sweepers",
+      "description": "",
+      "playerCount": 22,
+      "totalUpVotes": 436,
+      "totalDownVotes": 75,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 85726949480581,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/85726949480581/Ghost-Sweepers",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10769757791,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10493707858,
+      "name": "Destroy The Sun ☀️",
+      "description": "",
+      "playerCount": 4325,
+      "totalUpVotes": 22758,
+      "totalDownVotes": 1066,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 80761166368092,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Mild",
+      "contentMaturity": "mild",
+      "canonicalUrlPath": "/games/80761166368092/Destroy-The-Sun",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10493707858,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10766309747,
+      "name": "[🎃]Melt All The Ice!🧊",
+      "description": "",
+      "playerCount": 3623,
+      "totalUpVotes": 73300,
+      "totalDownVotes": 1973,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 98940528508770,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/98940528508770/Melt-All-The-Ice",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10766309747,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10539411000,
+      "name": "🍂[NEW MAPS] Clean all the Leaves",
+      "description": "",
+      "playerCount": 5125,
+      "totalUpVotes": 139117,
+      "totalDownVotes": 22206,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 92637789841354,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/92637789841354/Clean-all-the-Leaves",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10539411000,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10658593346,
+      "name": "Wash The Plane ✈️",
+      "description": "",
+      "playerCount": 266,
+      "totalUpVotes": 1642,
+      "totalDownVotes": 440,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 81738288743483,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/81738288743483/Wash-The-Plane",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10658593346,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10766971567,
+      "name": "Clean The Tiles 🧱",
+      "description": "",
+      "playerCount": 219,
+      "totalUpVotes": 5493,
+      "totalDownVotes": 475,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 108498711337173,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/108498711337173/Clean-The-Tiles",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10766971567,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10582471996,
+      "name": "Slime Sweeper",
+      "description": "",
+      "playerCount": 0,
+      "totalUpVotes": 170,
+      "totalDownVotes": 91,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 90349351033117,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/90349351033117/Slime-Sweeper",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10582471996,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10769835310,
+      "name": "Clean a Painting",
+      "description": "",
+      "playerCount": 3002,
+      "totalUpVotes": 137541,
+      "totalDownVotes": 1961,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 111695660104985,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/111695660104985/Clean-a-Painting",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10769835310,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10762810257,
+      "name": "Wash The Skyscraper 🧼",
+      "description": "",
+      "playerCount": 10,
+      "totalUpVotes": 6691,
+      "totalDownVotes": 685,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 88844652058629,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/88844652058629/Wash-The-Skyscraper",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10762810257,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 9434930347,
+      "name": "[UPDATE] Planetary Awakening RP [The Moon Woke Up]",
+      "description": "",
+      "playerCount": 253,
+      "totalUpVotes": 3283,
+      "totalDownVotes": 487,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 90210669226602,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/90210669226602/Planetary-Awakening-RP",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 9434930347,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10456511458,
+      "name": "[Black Hole! 🕳️] Build to the moon!",
+      "description": "",
+      "playerCount": 827,
+      "totalUpVotes": 17535,
+      "totalDownVotes": 1540,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 105355546387524,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/105355546387524/Build-to-the-moon",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10456511458,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   },
+   {
+    "contentGroupType": "Game",
+    "contents": [
+     {
+      "universeId": 10756011174,
+      "name": "[⚔️] Search For The Needle",
+      "description": "",
+      "playerCount": 3633,
+      "totalUpVotes": 433491,
+      "totalDownVotes": 20967,
+      "emphasis": false,
+      "isSponsored": false,
+      "nativeAdData": "",
+      "creatorName": "",
+      "creatorHasVerifiedBadge": false,
+      "creatorId": 0,
+      "rootPlaceId": 77108422251420,
+      "minimumAge": 0,
+      "ageRecommendationDisplayName": "Maturity: Minimal",
+      "contentMaturity": "minimal",
+      "canonicalUrlPath": "/games/77108422251420/Search-For-The-Needle",
+      "primaryWideVideoAssetId": null,
+      "contentType": "Game",
+      "contentId": 10756011174,
+      "defaultLayoutData": {}
+     }
+    ],
+    "topicId": "Invalid"
+   }
+  ],
+  "nextPageToken": "eyJzdGFydCI6NDAsImNvdW50Ijo0MCwiZW5kT2ZQYWdlIjpmYWxzZX0=",
+  "filteredSearchQuery": null,
+  "vertical": "Game",
+  "sorts": [
+   {
+    "topicId": "Invalid",
+    "treatmentType": null,
+    "feedItemKey": null,
+    "topicLayoutData": {
+     "componentType": "GridTile",
+     "numOfRows": -1,
+     "minNumOfRows": 0,
+     "enableCollectionLayout": false,
+     "containedTile": false,
+     "enableCollectionGrid": true
+    }
+   }
+  ],
+  "paginationMethod": "Scroll",
+  "sdui": null
+ }
+}

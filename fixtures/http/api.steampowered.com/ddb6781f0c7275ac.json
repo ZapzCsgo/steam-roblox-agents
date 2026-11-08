@@ -1,0 +1,195 @@
+{
+ "request": {
+  "url": "https://api.steampowered.com/IStoreBrowseService/GetItems/v1/",
+  "params": {
+   "input_json": "{\"context\": {\"country_code\": \"US\", \"language\": \"english\"}, \"data_request\": {\"include_basic_info\": true, \"include_ratings\": true, \"include_release\": true, \"include_reviews\": true, \"include_tag_count\": 20}, \"ids\": [{\"appid\": 2379780}]}"
+  }
+ },
+ "fetched_at": "2026-11-08T13:47:31Z",
+ "status": 200,
+ "json": {
+  "response": {
+   "store_items": [
+    {
+     "item_type": 0,
+     "id": 2379780,
+     "success": 1,
+     "visible": true,
+     "name": "Balatro",
+     "store_url_path": "app/2379780/Balatro",
+     "store_url_slug": "Balatro",
+     "appid": 2379780,
+     "type": 0,
+     "tagids": [
+      1666,
+      1716,
+      1091588,
+      32322,
+      4182,
+      9,
+      3964,
+      4711,
+      3959,
+      492,
+      1677,
+      597,
+      791774,
+      4026,
+      3871,
+      6426,
+      1654,
+      1741,
+      1773,
+      16250
+     ],
+     "categories": {
+      "supported_player_categoryids": [
+       2
+      ],
+      "feature_categoryids": [
+       22,
+       29,
+       66,
+       68,
+       74,
+       76,
+       77,
+       23,
+       62
+      ],
+      "controller_categoryids": [
+       28,
+       57,
+       58
+      ]
+     },
+     "reviews": {
+      "summary_filtered": {
+       "review_count": 162769,
+       "percent_positive": 97,
+       "review_score": 9,
+       "review_score_label": "Overwhelmingly Positive"
+      },
+      "summary_language_specific": {
+       "review_count": 105593,
+       "percent_positive": 98,
+       "review_score": 9,
+       "review_score_label": "Overwhelmingly Positive"
+      }
+     },
+     "basic_info": {
+      "short_description": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
+      "publishers": [
+       {
+        "name": "Playstack",
+        "creator_clan_account_id": 39826181
+       }
+      ],
+      "developers": [
+       {
+        "name": "LocalThunk"
+       }
+      ]
+     },
+     "tags": [
+      {
+       "tagid": 1666,
+       "weight": 830
+      },
+      {
+       "tagid": 1716,
+       "weight": 770
+      },
+      {
+       "tagid": 1091588,
+       "weight": 731
+      },
+      {
+       "tagid": 32322,
+       "weight": 654
+      },
+      {
+       "tagid": 4182,
+       "weight": 640
+      },
+      {
+       "tagid": 9,
+       "weight": 582
+      },
+      {
+       "tagid": 3964,
+       "weight": 582
+      },
+      {
+       "tagid": 4711,
+       "weight": 567
+      },
+      {
+       "tagid": 3959,
+       "weight": 519
+      },
+      {
+       "tagid": 492,
+       "weight": 463
+      },
+      {
+       "tagid": 1677,
+       "weight": 430
+      },
+      {
+       "tagid": 597,
+       "weight": 421
+      },
+      {
+       "tagid": 791774,
+       "weight": 388
+      },
+      {
+       "tagid": 4026,
+       "weight": 384
+      },
+      {
+       "tagid": 3871,
+       "weight": 376
+      },
+      {
+       "tagid": 6426,
+       "weight": 365
+      },
+      {
+       "tagid": 1654,
+       "weight": 350
+      },
+      {
+       "tagid": 1741,
+       "weight": 330
+      },
+      {
+       "tagid": 1773,
+       "weight": 318
+      },
+      {
+       "tagid": 16250,
+       "weight": 290
+      }
+     ],
+     "release": {
+      "steam_release_date": 1708440403
+     },
+     "best_purchase_option": {
+      "packageid": 856021,
+      "purchase_option_name": "Balatro",
+      "final_price_in_cents": "1499",
+      "formatted_final_price": "$14.99",
+      "user_can_purchase_as_gift": true,
+      "hide_discount_pct_for_compliance": false,
+      "included_game_count": 1,
+      "must_purchase_as_set": false,
+      "package_group": "default",
+      "price_cannot_be_displayed_as_discount": false
+     }
+    }
+   ]
+  }
+ }
+}

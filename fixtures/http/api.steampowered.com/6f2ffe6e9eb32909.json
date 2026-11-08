@@ -1,0 +1,196 @@
+{
+ "request": {
+  "url": "https://api.steampowered.com/IStoreBrowseService/GetItems/v1/",
+  "params": {
+   "input_json": "{\"context\": {\"country_code\": \"US\", \"language\": \"english\"}, \"data_request\": {\"include_basic_info\": true, \"include_ratings\": true, \"include_release\": true, \"include_reviews\": true, \"include_tag_count\": 20}, \"ids\": [{\"appid\": 2835570}]}"
+  }
+ },
+ "fetched_at": "2026-11-08T13:47:26Z",
+ "status": 200,
+ "json": {
+  "response": {
+   "store_items": [
+    {
+     "item_type": 0,
+     "id": 2835570,
+     "success": 1,
+     "visible": true,
+     "name": "Buckshot Roulette",
+     "store_url_path": "app/2835570/Buckshot_Roulette",
+     "store_url_slug": "Buckshot_Roulette",
+     "appid": 2835570,
+     "type": 0,
+     "tagids": [
+      3859,
+      4342,
+      16250,
+      1667,
+      3839,
+      9,
+      4182,
+      492,
+      5186,
+      4191,
+      4345,
+      1721,
+      1664,
+      19,
+      13782,
+      1716,
+      599,
+      1710,
+      1663,
+      3959
+     ],
+     "categories": {
+      "supported_player_categoryids": [
+       2,
+       1,
+       49,
+       36
+      ],
+      "feature_categoryids": [
+       22,
+       29,
+       25,
+       62
+      ],
+      "controller_categoryids": [
+       55,
+       56,
+       57,
+       58,
+       18
+      ]
+     },
+     "reviews": {
+      "summary_filtered": {
+       "review_count": 112389,
+       "percent_positive": 95,
+       "review_score": 9,
+       "review_score_label": "Overwhelmingly Positive"
+      },
+      "summary_language_specific": {
+       "review_count": 36938,
+       "percent_positive": 95,
+       "review_score": 9,
+       "review_score_label": "Overwhelmingly Positive"
+      }
+     },
+     "basic_info": {
+      "short_description": "Play Russian roulette with a 12-gauge shotgun. Four enter. One leaves. Roll the dice with your life. Good luck!",
+      "publishers": [
+       {
+        "name": "CRITICAL REFLEX",
+        "creator_clan_account_id": 40619234
+       }
+      ],
+      "developers": [
+       {
+        "name": "Mike Klubnika",
+        "creator_clan_account_id": 45275615
+       }
+      ]
+     },
+     "tags": [
+      {
+       "tagid": 3859,
+       "weight": 1169
+      },
+      {
+       "tagid": 4342,
+       "weight": 807
+      },
+      {
+       "tagid": 16250,
+       "weight": 802
+      },
+      {
+       "tagid": 1667,
+       "weight": 726
+      },
+      {
+       "tagid": 3839,
+       "weight": 705
+      },
+      {
+       "tagid": 9,
+       "weight": 676
+      },
+      {
+       "tagid": 4182,
+       "weight": 639
+      },
+      {
+       "tagid": 492,
+       "weight": 613
+      },
+      {
+       "tagid": 5186,
+       "weight": 499
+      },
+      {
+       "tagid": 4191,
+       "weight": 489
+      },
+      {
+       "tagid": 4345,
+       "weight": 386
+      },
+      {
+       "tagid": 1721,
+       "weight": 377
+      },
+      {
+       "tagid": 1664,
+       "weight": 355
+      },
+      {
+       "tagid": 19,
+       "weight": 296
+      },
+      {
+       "tagid": 13782,
+       "weight": 291
+      },
+      {
+       "tagid": 1716,
+       "weight": 290
+      },
+      {
+       "tagid": 599,
+       "weight": 246
+      },
+      {
+       "tagid": 1710,
+       "weight": 233
+      },
+      {
+       "tagid": 1663,
+       "weight": 218
+      },
+      {
+       "tagid": 3959,
+       "weight": 171
+      }
+     ],
+     "release": {
+      "steam_release_date": 1712250013
+     },
+     "best_purchase_option": {
+      "packageid": 1011957,
+      "purchase_option_name": "Buckshot Roulette",
+      "final_price_in_cents": "299",
+      "formatted_final_price": "$2.99",
+      "user_can_purchase_as_gift": true,
+      "hide_discount_pct_for_compliance": false,
+      "included_game_count": 1,
+      "must_purchase_as_set": false,
+      "package_group": "default",
+      "price_cannot_be_displayed_as_discount": false
+     }
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,199 @@
+{
+ "request": {
+  "url": "https://api.steampowered.com/IStoreBrowseService/GetItems/v1/",
+  "params": {
+   "input_json": "{\"context\": {\"country_code\": \"US\", \"language\": \"english\"}, \"data_request\": {\"include_basic_info\": true, \"include_ratings\": true, \"include_release\": true, \"include_reviews\": true, \"include_tag_count\": 20}, \"ids\": [{\"appid\": 3716600}]}"
+  }
+ },
+ "fetched_at": "2026-11-08T13:47:27Z",
+ "status": 200,
+ "json": {
+  "response": {
+   "store_items": [
+    {
+     "item_type": 0,
+     "id": 3716600,
+     "success": 1,
+     "visible": true,
+     "name": "Mage Arena",
+     "store_url_path": "app/3716600/Mage_Arena",
+     "store_url_slug": "Mage_Arena",
+     "appid": 3716600,
+     "type": 0,
+     "is_early_access": true,
+     "content_descriptorids": [
+      2,
+      5
+     ],
+     "tagids": [
+      4057,
+      1775,
+      4604,
+      19,
+      4172,
+      3839,
+      597,
+      3993,
+      4231,
+      1663,
+      5055,
+      4191,
+      4195,
+      9204,
+      4305,
+      4166,
+      1719,
+      1684,
+      1702,
+      1685
+     ],
+     "categories": {
+      "supported_player_categoryids": [
+       1,
+       49,
+       36,
+       9,
+       38
+      ],
+      "feature_categoryids": [
+       69,
+       70,
+       74,
+       62
+      ]
+     },
+     "reviews": {
+      "summary_filtered": {
+       "review_count": 17859,
+       "percent_positive": 91,
+       "review_score": 8,
+       "review_score_label": "Very Positive"
+      },
+      "summary_language_specific": {
+       "review_count": 11563,
+       "percent_positive": 90,
+       "review_score": 8,
+       "review_score_label": "Very Positive"
+      }
+     },
+     "basic_info": {
+      "short_description": "A co-op PvP experience about using your voice to cast spells in the Mage Arena to settle an ages-old feud between sorcerers and warlocks.",
+      "publishers": [
+       {
+        "name": "jrsjams",
+        "creator_clan_account_id": 45711139
+       }
+      ],
+      "developers": [
+       {
+        "name": "jrsjams",
+        "creator_clan_account_id": 45711139
+       }
+      ]
+     },
+     "tags": [
+      {
+       "tagid": 4057,
+       "weight": 780
+      },
+      {
+       "tagid": 1775,
+       "weight": 749
+      },
+      {
+       "tagid": 4604,
+       "weight": 716
+      },
+      {
+       "tagid": 19,
+       "weight": 696
+      },
+      {
+       "tagid": 4172,
+       "weight": 636
+      },
+      {
+       "tagid": 3839,
+       "weight": 607
+      },
+      {
+       "tagid": 597,
+       "weight": 587
+      },
+      {
+       "tagid": 3993,
+       "weight": 579
+      },
+      {
+       "tagid": 4231,
+       "weight": 506
+      },
+      {
+       "tagid": 1663,
+       "weight": 488
+      },
+      {
+       "tagid": 5055,
+       "weight": 477
+      },
+      {
+       "tagid": 4191,
+       "weight": 439
+      },
+      {
+       "tagid": 4195,
+       "weight": 426
+      },
+      {
+       "tagid": 9204,
+       "weight": 424
+      },
+      {
+       "tagid": 4305,
+       "weight": 382
+      },
+      {
+       "tagid": 4166,
+       "weight": 366
+      },
+      {
+       "tagid": 1719,
+       "weight": 353
+      },
+      {
+       "tagid": 1684,
+       "weight": 287
+      },
+      {
+       "tagid": 1702,
+       "weight": 260
+      },
+      {
+       "tagid": 1685,
+       "weight": 234
+      }
+     ],
+     "release": {
+      "steam_release_date": 1753373693,
+      "is_early_access": true
+     },
+     "game_rating": {
+      "content_survey_notes": "Player characters can die and kill other player characters through various means. "
+     },
+     "best_purchase_option": {
+      "packageid": 1308442,
+      "purchase_option_name": "Mage Arena",
+      "final_price_in_cents": "299",
+      "formatted_final_price": "$2.99",
+      "user_can_purchase_as_gift": true,
+      "hide_discount_pct_for_compliance": false,
+      "included_game_count": 1,
+      "must_purchase_as_set": false,
+      "package_group": "default",
+      "price_cannot_be_displayed_as_discount": false
+     }
+    }
+   ]
+  }
+ }
+}

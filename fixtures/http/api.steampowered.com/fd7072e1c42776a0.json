@@ -1,0 +1,170 @@
+{
+ "request": {
+  "url": "https://api.steampowered.com/IStoreBrowseService/GetItems/v1/",
+  "params": {
+   "input_json": "{\"context\": {\"country_code\": \"US\", \"language\": \"english\"}, \"data_request\": {\"include_basic_info\": true, \"include_ratings\": true, \"include_release\": true, \"include_reviews\": true, \"include_tag_count\": 20}, \"ids\": [{\"appid\": 2381590}]}"
+  }
+ },
+ "fetched_at": "2026-11-08T13:47:25Z",
+ "status": 200,
+ "json": {
+  "response": {
+   "store_items": [
+    {
+     "item_type": 0,
+     "id": 2381590,
+     "success": 1,
+     "visible": true,
+     "name": "not available",
+     "store_url_path": "app/2381590/not_available",
+     "store_url_slug": "not_available",
+     "appid": 2381590,
+     "type": 0,
+     "tagids": [
+      4036,
+      5395,
+      4026,
+      1721,
+      21,
+      597,
+      1697,
+      5796,
+      3968,
+      1695,
+      3834,
+      1625,
+      1742,
+      1773,
+      4711,
+      4166,
+      3859,
+      1716,
+      599,
+      4145
+     ],
+     "categories": {
+      "supported_player_categoryids": [
+       2
+      ],
+      "feature_categoryids": [
+       22,
+       62
+      ]
+     },
+     "reviews": {
+      "summary_filtered": {
+       "review_count": 14961,
+       "percent_positive": 73,
+       "review_score": 6,
+       "review_score_label": "Mostly Positive"
+      },
+      "summary_language_specific": {
+       "review_count": 6103,
+       "percent_positive": 73,
+       "review_score": 6,
+       "review_score_label": "Mostly Positive"
+      }
+     },
+     "basic_info": {
+      "publishers": [
+       {
+        "name": "Indiesolodev"
+       }
+      ],
+      "developers": [
+       {
+        "name": "Indiesolodev"
+       }
+      ]
+     },
+     "tags": [
+      {
+       "tagid": 4036,
+       "weight": 764
+      },
+      {
+       "tagid": 5395,
+       "weight": 737
+      },
+      {
+       "tagid": 4026,
+       "weight": 698
+      },
+      {
+       "tagid": 1721,
+       "weight": 642
+      },
+      {
+       "tagid": 21,
+       "weight": 586
+      },
+      {
+       "tagid": 597,
+       "weight": 586
+      },
+      {
+       "tagid": 1697,
+       "weight": 576
+      },
+      {
+       "tagid": 5796,
+       "weight": 566
+      },
+      {
+       "tagid": 3968,
+       "weight": 540
+      },
+      {
+       "tagid": 1695,
+       "weight": 536
+      },
+      {
+       "tagid": 3834,
+       "weight": 494
+      },
+      {
+       "tagid": 1625,
+       "weight": 474
+      },
+      {
+       "tagid": 1742,
+       "weight": 431
+      },
+      {
+       "tagid": 1773,
+       "weight": 428
+      },
+      {
+       "tagid": 4711,
+       "weight": 355
+      },
+      {
+       "tagid": 4166,
+       "weight": 349
+      },
+      {
+       "tagid": 3859,
+       "weight": 322
+      },
+      {
+       "tagid": 1716,
+       "weight": 312
+      },
+      {
+       "tagid": 599,
+       "weight": 299
+      },
+      {
+       "tagid": 4145,
+       "weight": 296
+      }
+     ],
+     "release": {
+      "steam_release_date": 1684940520
+     },
+     "unlisted": true
+    }
+   ]
+  }
+ }
+}

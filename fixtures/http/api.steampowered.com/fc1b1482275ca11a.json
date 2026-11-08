@@ -1,0 +1,213 @@
+{
+ "request": {
+  "url": "https://api.steampowered.com/IStoreBrowseService/GetItems/v1/",
+  "params": {
+   "input_json": "{\"context\": {\"country_code\": \"US\", \"language\": \"english\"}, \"data_request\": {\"include_basic_info\": true, \"include_ratings\": true, \"include_release\": true, \"include_reviews\": true, \"include_tag_count\": 20}, \"ids\": [{\"appid\": 3527290}]}"
+  }
+ },
+ "fetched_at": "2026-11-08T13:47:20Z",
+ "status": 200,
+ "json": {
+  "response": {
+   "store_items": [
+    {
+     "item_type": 0,
+     "id": 3527290,
+     "success": 1,
+     "visible": true,
+     "name": "PEAK",
+     "store_url_path": "app/3527290/PEAK",
+     "store_url_slug": "PEAK",
+     "appid": 3527290,
+     "type": 0,
+     "tagids": [
+      3859,
+      3843,
+      1685,
+      21,
+      3968,
+      3834,
+      3839,
+      1719,
+      4191,
+      5125,
+      4166,
+      42804,
+      4747,
+      19,
+      16689,
+      1625,
+      1667,
+      5716,
+      3978,
+      8369
+     ],
+     "categories": {
+      "supported_player_categoryids": [
+       2,
+       1,
+       9,
+       38
+      ],
+      "feature_categoryids": [
+       22,
+       29,
+       62
+      ],
+      "controller_categoryids": [
+       28,
+       55,
+       56,
+       57,
+       58
+      ]
+     },
+     "reviews": {
+      "summary_filtered": {
+       "review_count": 312161,
+       "percent_positive": 94,
+       "review_score": 8,
+       "review_score_label": "Very Positive"
+      },
+      "summary_language_specific": {
+       "review_count": 148469,
+       "percent_positive": 95,
+       "review_score": 9,
+       "review_score_label": "Overwhelmingly Positive"
+      }
+     },
+     "basic_info": {
+      "short_description": "PEAK is a co-op climbing game where the slightest mistake can spell your doom. Either solo or as a group of lost nature scouts, your only hope of rescue from a mysterious island is to scale the mountain at its center. Do you have what it takes to reach the PEAK?",
+      "publishers": [
+       {
+        "name": "Aggro Crab",
+        "creator_clan_account_id": 36064034
+       },
+       {
+        "name": "Evil Landfall?",
+        "creator_clan_account_id": 32941859
+       }
+      ],
+      "developers": [
+       {
+        "name": "Team PEAK"
+       }
+      ],
+      "franchises": [
+       {
+        "name": "Landfall"
+       }
+      ]
+     },
+     "tags": [
+      {
+       "tagid": 3859,
+       "weight": 1025
+      },
+      {
+       "tagid": 3843,
+       "weight": 911
+      },
+      {
+       "tagid": 1685,
+       "weight": 813
+      },
+      {
+       "tagid": 21,
+       "weight": 665
+      },
+      {
+       "tagid": 3968,
+       "weight": 657
+      },
+      {
+       "tagid": 3834,
+       "weight": 643
+      },
+      {
+       "tagid": 3839,
+       "weight": 585
+      },
+      {
+       "tagid": 1719,
+       "weight": 569
+      },
+      {
+       "tagid": 4191,
+       "weight": 460
+      },
+      {
+       "tagid": 5125,
+       "weight": 440
+      },
+      {
+       "tagid": 4166,
+       "weight": 395
+      },
+      {
+       "tagid": 42804,
+       "weight": 361
+      },
+      {
+       "tagid": 4747,
+       "weight": 344
+      },
+      {
+       "tagid": 19,
+       "weight": 342
+      },
+      {
+       "tagid": 16689,
+       "weight": 337
+      },
+      {
+       "tagid": 1625,
+       "weight": 324
+      },
+      {
+       "tagid": 1667,
+       "weight": 310
+      },
+      {
+       "tagid": 5716,
+       "weight": 285
+      },
+      {
+       "tagid": 3978,
+       "weight": 263
+      },
+      {
+       "tagid": 8369,
+       "weight": 261
+      }
+     ],
+     "release": {
+      "steam_release_date": 1750093261
+     },
+     "best_purchase_option": {
+      "packageid": 1245027,
+      "purchase_option_name": "PEAK",
+      "final_price_in_cents": "495",
+      "original_price_in_cents": "799",
+      "formatted_final_price": "$4.95",
+      "formatted_original_price": "$7.99",
+      "discount_pct": 38,
+      "active_discounts": [
+       {
+        "discount_amount": "304",
+        "discount_description": "#discount_desc_preset_special",
+        "discount_end_date": 1794736800
+       }
+      ],
+      "user_can_purchase_as_gift": true,
+      "hide_discount_pct_for_compliance": false,
+      "included_game_count": 1,
+      "must_purchase_as_set": false,
+      "package_group": "default",
+      "price_cannot_be_displayed_as_discount": false
+     }
+    }
+   ]
+  }
+ }
+}

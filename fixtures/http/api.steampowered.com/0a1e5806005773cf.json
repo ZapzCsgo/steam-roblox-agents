@@ -1,0 +1,201 @@
+{
+ "request": {
+  "url": "https://api.steampowered.com/IStoreBrowseService/GetItems/v1/",
+  "params": {
+   "input_json": "{\"context\": {\"country_code\": \"US\", \"language\": \"english\"}, \"data_request\": {\"include_basic_info\": true, \"include_ratings\": true, \"include_release\": true, \"include_reviews\": true, \"include_tag_count\": 20}, \"ids\": [{\"appid\": 2567870}]}"
+  }
+ },
+ "fetched_at": "2026-11-08T13:47:15Z",
+ "status": 200,
+ "json": {
+  "response": {
+   "store_items": [
+    {
+     "item_type": 0,
+     "id": 2567870,
+     "success": 1,
+     "visible": true,
+     "name": "Chained Together",
+     "store_url_path": "app/2567870/Chained_Together",
+     "store_url_slug": "Chained_Together",
+     "appid": 2567870,
+     "type": 0,
+     "content_descriptorids": [
+      2,
+      5
+     ],
+     "tagids": [
+      1685,
+      21,
+      1625,
+      597,
+      3859,
+      3843,
+      5537,
+      4136,
+      5395,
+      599,
+      4106,
+      1697,
+      3834,
+      5608,
+      3968,
+      5716,
+      3835,
+      7481,
+      1710,
+      6426
+     ],
+     "categories": {
+      "supported_player_categoryids": [
+       2,
+       1,
+       9,
+       38,
+       39,
+       24
+      ],
+      "feature_categoryids": [
+       44,
+       62
+      ],
+      "controller_categoryids": [
+       18
+      ]
+     },
+     "reviews": {
+      "summary_filtered": {
+       "review_count": 55503,
+       "percent_positive": 89,
+       "review_score": 8,
+       "review_score_label": "Very Positive"
+      },
+      "summary_language_specific": {
+       "review_count": 20735,
+       "percent_positive": 90,
+       "review_score": 8,
+       "review_score_label": "Very Positive"
+      }
+     },
+     "basic_info": {
+      "short_description": "Climb up from the depths of Hell. Scale various worlds solo or chained together with your friends in the 1-4 player platforming sensation.",
+      "publishers": [
+       {
+        "name": "Secret Mode",
+        "creator_clan_account_id": 40103847
+       }
+      ],
+      "developers": [
+       {
+        "name": "Anegar Games"
+       },
+       {
+        "name": "Lab42"
+       }
+      ]
+     },
+     "tags": [
+      {
+       "tagid": 1685,
+       "weight": 1061
+      },
+      {
+       "tagid": 21,
+       "weight": 705
+      },
+      {
+       "tagid": 1625,
+       "weight": 619
+      },
+      {
+       "tagid": 597,
+       "weight": 615
+      },
+      {
+       "tagid": 3859,
+       "weight": 613
+      },
+      {
+       "tagid": 3843,
+       "weight": 590
+      },
+      {
+       "tagid": 5537,
+       "weight": 571
+      },
+      {
+       "tagid": 4136,
+       "weight": 511
+      },
+      {
+       "tagid": 5395,
+       "weight": 509
+      },
+      {
+       "tagid": 599,
+       "weight": 498
+      },
+      {
+       "tagid": 4106,
+       "weight": 496
+      },
+      {
+       "tagid": 1697,
+       "weight": 491
+      },
+      {
+       "tagid": 3834,
+       "weight": 469
+      },
+      {
+       "tagid": 5608,
+       "weight": 343
+      },
+      {
+       "tagid": 3968,
+       "weight": 341
+      },
+      {
+       "tagid": 5716,
+       "weight": 336
+      },
+      {
+       "tagid": 3835,
+       "weight": 336
+      },
+      {
+       "tagid": 7481,
+       "weight": 321
+      },
+      {
+       "tagid": 1710,
+       "weight": 308
+      },
+      {
+       "tagid": 6426,
+       "weight": 255
+      }
+     ],
+     "release": {
+      "steam_release_date": 1718811835
+     },
+     "game_rating": {
+      "content_survey_notes": "This game features depictions of Hell, Purgatory and Heaven, including structures made of bones and human remains. Screams of the damned can be heard in the background. "
+     },
+     "best_purchase_option": {
+      "packageid": 922271,
+      "purchase_option_name": "Chained Together",
+      "final_price_in_cents": "499",
+      "formatted_final_price": "$4.99",
+      "user_can_purchase_as_gift": true,
+      "hide_discount_pct_for_compliance": false,
+      "included_game_count": 1,
+      "must_purchase_as_set": false,
+      "package_group": "default",
+      "price_cannot_be_displayed_as_discount": false
+     }
+    }
+   ]
+  }
+ }
+}

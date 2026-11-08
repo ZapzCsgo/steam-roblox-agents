@@ -1,0 +1,126 @@
+{
+ "request": {
+  "url": "https://store.steampowered.com/appreviewhistogram/5335510",
+  "params": {
+   "l": "english",
+   "review_score_preference": 0
+  }
+ },
+ "fetched_at": "2026-11-08T13:43:11Z",
+ "status": 200,
+ "json": {
+  "success": 1,
+  "results": {
+   "start_date": 1792713600,
+   "end_date": 1794096000,
+   "weeks": [],
+   "rollups": [
+    {
+     "date": 1792713600,
+     "recommendations_up": 2199,
+     "recommendations_down": 676
+    },
+    {
+     "date": 1793318400,
+     "recommendations_up": 2578,
+     "recommendations_down": 777
+    },
+    {
+     "date": 1793923200,
+     "recommendations_up": 662,
+     "recommendations_down": 203
+    }
+   ],
+   "rollup_type": "week",
+   "recent": [
+    {
+     "date": 1792713600,
+     "recommendations_up": 130,
+     "recommendations_down": 49
+    },
+    {
+     "date": 1792800000,
+     "recommendations_up": 208,
+     "recommendations_down": 88
+    },
+    {
+     "date": 1792886400,
+     "recommendations_up": 285,
+     "recommendations_down": 81
+    },
+    {
+     "date": 1792972800,
+     "recommendations_up": 331,
+     "recommendations_down": 80
+    },
+    {
+     "date": 1793059200,
+     "recommendations_up": 353,
+     "recommendations_down": 115
+    },
+    {
+     "date": 1793145600,
+     "recommendations_up": 474,
+     "recommendations_down": 115
+    },
+    {
+     "date": 1793232000,
+     "recommendations_up": 418,
+     "recommendations_down": 148
+    },
+    {
+     "date": 1793318400,
+     "recommendations_up": 418,
+     "recommendations_down": 127
+    },
+    {
+     "date": 1793404800,
+     "recommendations_up": 446,
+     "recommendations_down": 129
+    },
+    {
+     "date": 1793491200,
+     "recommendations_up": 463,
+     "recommendations_down": 134
+    },
+    {
+     "date": 1793577600,
+     "recommendations_up": 393,
+     "recommendations_down": 110
+    },
+    {
+     "date": 1793664000,
+     "recommendations_up": 317,
+     "recommendations_down": 106
+    },
+    {
+     "date": 1793750400,
+     "recommendations_up": 276,
+     "recommendations_down": 98
+    },
+    {
+     "date": 1793836800,
+     "recommendations_up": 265,
+     "recommendations_down": 73
+    },
+    {
+     "date": 1793923200,
+     "recommendations_up": 234,
+     "recommendations_down": 81
+    },
+    {
+     "date": 1794009600,
+     "recommendations_up": 294,
+     "recommendations_down": 87
+    },
+    {
+     "date": 1794096000,
+     "recommendations_up": 134,
+     "recommendations_down": 35
+    }
+   ]
+  },
+  "count_all_reviews": false,
+  "expand_graph": false
+ }
+}

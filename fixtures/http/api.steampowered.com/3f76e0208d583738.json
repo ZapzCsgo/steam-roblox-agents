@@ -1,0 +1,193 @@
+{
+ "request": {
+  "url": "https://api.steampowered.com/IStoreBrowseService/GetItems/v1/",
+  "params": {
+   "input_json": "{\"context\": {\"country_code\": \"US\", \"language\": \"english\"}, \"data_request\": {\"include_basic_info\": true, \"include_ratings\": true, \"include_release\": true, \"include_reviews\": true, \"include_tag_count\": 20}, \"ids\": [{\"appid\": 4704690}]}"
+  }
+ },
+ "fetched_at": "2026-11-08T13:47:14Z",
+ "status": 200,
+ "json": {
+  "response": {
+   "store_items": [
+    {
+     "item_type": 0,
+     "id": 4704690,
+     "success": 1,
+     "visible": true,
+     "name": "MECCHA CHAMELEON",
+     "store_url_path": "app/4704690/MECCHA_CHAMELEON",
+     "store_url_slug": "MECCHA_CHAMELEON",
+     "appid": 4704690,
+     "type": 0,
+     "tagids": [
+      3859,
+      597,
+      7178,
+      4136,
+      1738,
+      3843,
+      6815,
+      1719,
+      1687,
+      4305,
+      1685,
+      492,
+      4726,
+      3813,
+      5711,
+      7481,
+      8369,
+      5716,
+      4175,
+      4004
+     ],
+     "categories": {
+      "supported_player_categoryids": [
+       1,
+       49,
+       36
+      ],
+      "feature_categoryids": [
+       30,
+       67,
+       68,
+       69,
+       70,
+       74,
+       80,
+       23,
+       62
+      ]
+     },
+     "reviews": {
+      "summary_filtered": {
+       "review_count": 81580,
+       "percent_positive": 87,
+       "review_score": 8,
+       "review_score_label": "Very Positive"
+      },
+      "summary_language_specific": {
+       "review_count": 44395,
+       "percent_positive": 90,
+       "review_score": 8,
+       "review_score_label": "Very Positive"
+      }
+     },
+     "basic_info": {
+      "short_description": "Paint yourself to blend in! \"Meccha Chameleon\" is a new-sensation hide-and-seek game where you paint your white body to mimic the stage. Spot, pose, and \"artistic skill\" are keys to survival. Deceive Seekers with techniques that put chameleons to shame! Supports public matches and streaming.",
+      "publishers": [
+       {
+        "name": "lemorion_1224",
+        "creator_clan_account_id": 45635377
+       }
+      ],
+      "developers": [
+       {
+        "name": "lemorion_1224",
+        "creator_clan_account_id": 45635377
+       }
+      ]
+     },
+     "tags": [
+      {
+       "tagid": 3859,
+       "weight": 1502
+      },
+      {
+       "tagid": 597,
+       "weight": 802
+      },
+      {
+       "tagid": 7178,
+       "weight": 781
+      },
+      {
+       "tagid": 4136,
+       "weight": 749
+      },
+      {
+       "tagid": 1738,
+       "weight": 661
+      },
+      {
+       "tagid": 3843,
+       "weight": 657
+      },
+      {
+       "tagid": 6815,
+       "weight": 586
+      },
+      {
+       "tagid": 1719,
+       "weight": 526
+      },
+      {
+       "tagid": 1687,
+       "weight": 502
+      },
+      {
+       "tagid": 4305,
+       "weight": 438
+      },
+      {
+       "tagid": 1685,
+       "weight": 413
+      },
+      {
+       "tagid": 492,
+       "weight": 399
+      },
+      {
+       "tagid": 4726,
+       "weight": 293
+      },
+      {
+       "tagid": 3813,
+       "weight": 289
+      },
+      {
+       "tagid": 5711,
+       "weight": 265
+      },
+      {
+       "tagid": 7481,
+       "weight": 254
+      },
+      {
+       "tagid": 8369,
+       "weight": 251
+      },
+      {
+       "tagid": 5716,
+       "weight": 215
+      },
+      {
+       "tagid": 4175,
+       "weight": 205
+      },
+      {
+       "tagid": 4004,
+       "weight": 201
+      }
+     ],
+     "release": {
+      "steam_release_date": 1781060378
+     },
+     "best_purchase_option": {
+      "packageid": 1637192,
+      "purchase_option_name": "MECCHA CHAMELEON",
+      "final_price_in_cents": "599",
+      "formatted_final_price": "$5.99",
+      "user_can_purchase_as_gift": true,
+      "hide_discount_pct_for_compliance": false,
+      "included_game_count": 1,
+      "must_purchase_as_set": false,
+      "package_group": "default",
+      "price_cannot_be_displayed_as_discount": false
+     }
+    }
+   ]
+  }
+ }
+}

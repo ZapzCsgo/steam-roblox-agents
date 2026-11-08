@@ -1,0 +1,222 @@
+{
+ "request": {
+  "url": "https://api.steampowered.com/IStoreBrowseService/GetItems/v1/",
+  "params": {
+   "input_json": "{\"context\": {\"country_code\": \"US\", \"language\": \"english\"}, \"data_request\": {\"include_basic_info\": true, \"include_ratings\": true, \"include_release\": true, \"include_reviews\": true, \"include_tag_count\": 20}, \"ids\": [{\"appid\": 3219030}]}"
+  }
+ },
+ "fetched_at": "2026-11-08T13:43:57Z",
+ "status": 200,
+ "json": {
+  "response": {
+   "store_items": [
+    {
+     "item_type": 0,
+     "id": 3219030,
+     "success": 1,
+     "visible": true,
+     "name": "Planet Zoo 2",
+     "store_url_path": "app/3219030/Planet_Zoo_2",
+     "store_url_slug": "Planet_Zoo_2",
+     "appid": 3219030,
+     "type": 0,
+     "tagids": [
+      599,
+      9,
+      597,
+      3810,
+      46348,
+      4328,
+      9626,
+      1643,
+      12472,
+      4726,
+      4175,
+      4695,
+      30358,
+      3859,
+      5350,
+      1654,
+      4136,
+      1695,
+      4182,
+      8945
+     ],
+     "categories": {
+      "supported_player_categoryids": [
+       2
+      ],
+      "feature_categoryids": [
+       22,
+       29,
+       64,
+       66,
+       67,
+       68,
+       69,
+       70,
+       74,
+       79,
+       80,
+       23,
+       61,
+       62
+      ],
+      "controller_categoryids": [
+       28,
+       55,
+       57
+      ]
+     },
+     "reviews": {
+      "summary_filtered": {
+       "review_count": 6187,
+       "percent_positive": 63,
+       "review_score": 5,
+       "review_score_label": "Mixed"
+      },
+      "summary_language_specific": {
+       "review_count": 3780,
+       "percent_positive": 62,
+       "review_score": 5,
+       "review_score_label": "Mixed"
+      }
+     },
+     "basic_info": {
+      "short_description": "Build a wilder world in Planet Zoo 2. Create distinctive zoos around the globe filled with awe-inspiring animals, including fully aquatic and flying species, before taking your experience beyond the zoo to release your animals into expansive Wildlife Reserves. \r\n",
+      "publishers": [
+       {
+        "name": "Frontier Developments",
+        "creator_clan_account_id": 26299579
+       }
+      ],
+      "developers": [
+       {
+        "name": "Frontier Developments",
+        "creator_clan_account_id": 26299579
+       }
+      ]
+     },
+     "tags": [
+      {
+       "tagid": 599,
+       "weight": 1010
+      },
+      {
+       "tagid": 9,
+       "weight": 762
+      },
+      {
+       "tagid": 597,
+       "weight": 679
+      },
+      {
+       "tagid": 3810,
+       "weight": 670
+      },
+      {
+       "tagid": 46348,
+       "weight": 633
+      },
+      {
+       "tagid": 4328,
+       "weight": 633
+      },
+      {
+       "tagid": 9626,
+       "weight": 606
+      },
+      {
+       "tagid": 1643,
+       "weight": 560
+      },
+      {
+       "tagid": 12472,
+       "weight": 560
+      },
+      {
+       "tagid": 4726,
+       "weight": 495
+      },
+      {
+       "tagid": 4175,
+       "weight": 440
+      },
+      {
+       "tagid": 4695,
+       "weight": 431
+      },
+      {
+       "tagid": 30358,
+       "weight": 413
+      },
+      {
+       "tagid": 3859,
+       "weight": 404
+      },
+      {
+       "tagid": 5350,
+       "weight": 376
+      },
+      {
+       "tagid": 1654,
+       "weight": 339
+      },
+      {
+       "tagid": 4136,
+       "weight": 266
+      },
+      {
+       "tagid": 1695,
+       "weight": 247
+      },
+      {
+       "tagid": 4182,
+       "weight": 238
+      },
+      {
+       "tagid": 8945,
+       "weight": 229
+      }
+     ],
+     "release": {
+      "steam_release_date": 1791899938
+     },
+     "game_rating": {
+      "rating": "e10",
+      "descriptors": [
+       "Mild Violence",
+       "Mild Blood",
+       "Crude Humor"
+      ],
+      "interactive_elements": "Users Interact\nIn-Game Purchases",
+      "agency": 1,
+      "banned": false,
+      "esrb_online_music_not_rated": false,
+      "esrb_online_interactions_not_rated": false,
+      "survey_interactive_elements": [
+       1,
+       4
+      ],
+      "required_age": 0,
+      "use_age_gate": false,
+      "agency_rating": 4,
+      "image_url": "public/shared/images/game_ratings/ESRB/e10.png"
+     },
+     "best_purchase_option": {
+      "packageid": 1141182,
+      "purchase_option_name": "Planet Zoo 2",
+      "final_price_in_cents": "4999",
+      "formatted_final_price": "$49.99",
+      "user_can_purchase_as_gift": true,
+      "hide_discount_pct_for_compliance": false,
+      "included_game_count": 1,
+      "must_purchase_as_set": false,
+      "package_group": "default",
+      "price_cannot_be_displayed_as_discount": false
+     }
+    }
+   ]
+  }
+ }
+}
