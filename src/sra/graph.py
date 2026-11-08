@@ -19,7 +19,7 @@ from sra.agents.output import reporter, scorer
 from sra.agents.rules import rule_factors
 from sra.config import Settings
 from sra.deps import Deps
-from sra.llm import ScriptedChatModel, build_chat_model
+from sra.llm import ScriptedChatModel, TextChatModel, build_chat_model
 from sra.skills import SkillRegistry
 from sra.sources.http import HttpClient
 from sra.state import PipelineState
@@ -87,7 +87,7 @@ def run_candidate(
     graph: CompiledStateGraph, deps: Deps, appid: int, preset: dict[str, Any] | None = None
 ) -> PipelineState:
     """Run the full graph for one Steam app. preset can pre-fill steam/roblox snapshots (evaluation)."""
-    if isinstance(deps.llm, ScriptedChatModel):
+    if isinstance(deps.llm, TextChatModel):
         deps.llm.reset()
     state: dict[str, Any] = {"run_id": deps.journal.run_id, "appid": appid, **(preset or {})}
     deps.journal.log("graph", "start", appid=appid, data={"preset": sorted(preset or {})})

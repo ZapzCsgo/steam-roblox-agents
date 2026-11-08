@@ -3,6 +3,8 @@
 Real providers go through langchain's init_chat_model (Google Gemini, Anthropic,
 OpenAI, Ollama). Tests, CI, the demo and the evaluation use ScriptedChatModel,
 which replays recorded answers and can inject seeded noise to simulate sampling.
+Text-only models (scripted, recorded, CLI) subclass TextChatModel: invoke_structured
+asks them for JSON and validates it with Pydantic instead of using tool calling.
 """
 
 from __future__ import annotations
@@ -21,6 +23,7 @@ from langchain_core.outputs import ChatGeneration, ChatResult
 from pydantic import BaseModel, Field, PrivateAttr, ValidationError
 
 from sra.config import Settings
+from sra.trace import sha256_text
 
 T = TypeVar("T", bound=BaseModel)
 
@@ -44,7 +47,23 @@ class StructuredOutputError(RuntimeError):
     pass
 
 
-class ScriptedChatModel(BaseChatModel):
+class TextChatModel(BaseChatModel):
+    """Base for models that answer in plain text (no native structured output)."""
+
+    def reset(self) -> None:
+        """Called before each candidate; stateful models (scripts, recordings) rewind here."""
+
+
+def transcript(messages: Sequence[BaseMessage]) -> str:
+    """Flatten a message list into one text prompt (used by CLI models and prompt hashes)."""
+    return "\n\n".join(f"### {m.type.upper()}\n{m.content}" for m in messages)
+
+
+def prompt_sha(messages: Sequence[BaseMessage]) -> str:
+    return sha256_text(transcript(messages))
+
+
+class ScriptedChatModel(TextChatModel):
     """Deterministic chat model for offline runs.
 
     Answers are looked up by "<role>:<appid>", both read from the prompt markers
@@ -108,8 +127,12 @@ def build_chat_model(settings: Settings) -> BaseChatModel:
         return ScriptedChatModel.from_file(
             settings.root / settings.fake_script, noise=settings.fake_noise, seed=settings.fake_seed
         )
+    if provider == "hermes":
+        from sra.hermes_cli import HermesCLIChatModel
+
+        return HermesCLIChatModel.from_spec(settings.llm_model or "")
     if provider not in PROVIDERS:
-        raise ConfigError(f"unknown SRA_LLM_PROVIDER '{provider}', expected fake or one of {sorted(PROVIDERS)}")
+        raise ConfigError(f"unknown SRA_LLM_PROVIDER '{provider}', expected fake, hermes or one of {sorted(PROVIDERS)}")
     lc_provider, default_model, env_key = PROVIDERS[provider]
     if env_key and not os.getenv(env_key):
         raise ConfigError(f"provider '{provider}' needs the {env_key} environment variable")
@@ -127,7 +150,19 @@ def model_name(model: BaseChatModel) -> str:
 
 
 def extract_json(text: str) -> str:
-    """Take the first {...} block, tolerating Markdown fences around it."""
+    """Return the first decodable JSON object in the text.
+
+    Tolerates Markdown fences, prose before or after the object and stray braces in that prose.
+    Falls back to the outermost {...} span so Pydantic can report a precise error.
+    """
+    decoder = json.JSONDecoder()
+    for m in re.finditer(r"\{", text):
+        try:
+            obj, end = decoder.raw_decode(text, m.start())
+        except json.JSONDecodeError:
+            continue
+        if isinstance(obj, dict):
+            return text[m.start() : end]
     start, end = text.find("{"), text.rfind("}")
     if start < 0 or end <= start:
         raise StructuredOutputError("no JSON object in model output")
@@ -138,10 +173,10 @@ def invoke_structured(model: BaseChatModel, schema: type[T], messages: Sequence[
     """Call the model and return (validated object, raw text).
 
     Native structured output (tool calling) is used when the provider supports it;
-    otherwise the model is asked for JSON, validated by Pydantic, and given one retry
+    text-only models are asked for JSON, validated by Pydantic, and given one retry
     with the validation error.
     """
-    if not isinstance(model, ScriptedChatModel):
+    if not isinstance(model, TextChatModel):
         runnable = model.with_structured_output(schema, include_raw=True)
         out = runnable.invoke(list(messages))
         result: dict[str, Any] = out if isinstance(out, dict) else {"parsed": out}
