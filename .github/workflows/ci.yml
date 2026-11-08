@@ -1,0 +1,72 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e ".[dev]"
+      - run: ruff check .
+      - run: ruff format --check .
+      - run: mypy
+
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    env:
+      SRA_LLM_PROVIDER: fake
+      SRA_HTTP_MODE: replay
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: pip install -e ".[dev]"
+      - run: pytest --cov --cov-report=term --cov-fail-under=80
+
+  eval:
+    runs-on: ubuntu-latest
+    needs: test
+    env:
+      SRA_LLM_PROVIDER: fake
+      SRA_HTTP_MODE: replay
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e .
+      - name: Offline evaluation on the historical cases
+        run: sra eval --runs 5 --noise 0.2 --out eval-out
+      - name: Committed results must match a fresh run
+        run: diff eval/results/metrics.json eval-out/metrics.json
+      - name: Offline demo
+        run: sra demo
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eval-report
+          path: eval-out/
+
+  docker:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t steam-roblox-agents .
+      - run: docker run --rm steam-roblox-agents demo

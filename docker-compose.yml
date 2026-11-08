@@ -1,0 +1,21 @@
+# Optional: run the pipeline with a local Ollama model (no API key, no cost).
+#   docker compose up -d ollama && docker compose exec ollama ollama pull qwen2.5:7b
+#   docker compose run --rm agents run 3527290
+services:
+  agents:
+    build: .
+    environment:
+      SRA_LLM_PROVIDER: ${SRA_LLM_PROVIDER:-ollama}
+      SRA_LLM_MODEL: ${SRA_LLM_MODEL:-qwen2.5:7b}
+      SRA_HTTP_MODE: ${SRA_HTTP_MODE:-live}
+      OLLAMA_BASE_URL: http://ollama:11434
+    volumes:
+      - ./runs:/app/runs
+    depends_on:
+      - ollama
+  ollama:
+    image: ollama/ollama:latest
+    volumes:
+      - ollama:/root/.ollama
+volumes:
+  ollama:
