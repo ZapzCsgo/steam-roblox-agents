@@ -1,0 +1,10 @@
+# Default gitleaks rules, minus one known false positive: the Roblox search API returns an
+# opaque "nextPageToken" for pagination, which the generic-api-key rule flags in the
+# recorded responses under fixtures/http/. It is not a credential.
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Roblox search pagination tokens in recorded public API responses"
+regexTarget = "line"
+regexes = ['''"nextPageToken"\s*:''']
