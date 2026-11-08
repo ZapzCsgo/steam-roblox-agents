@@ -1,5 +1,7 @@
 # steam-roblox-agents
 
+[![ci](https://github.com/ZapzCsgo/steam-roblox-agents/actions/workflows/ci.yml/badge.svg)](https://github.com/ZapzCsgo/steam-roblox-agents/actions/workflows/ci.yml)
+
 ## Résumé en français
 
 Pipeline multi-agents LangGraph qui décide si un jeu Steam en tendance mérite une adaptation
