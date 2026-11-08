@@ -1,0 +1,25 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "palworld",
+ "appid": 1623730,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:39:36Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "bd2771bc99c40225",
+     "prompt_chars": 5520,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":3,\"justification\":\"The Survival tag is native to Roblox, but Creature Collector and Open World Survival Craft make it a complex management/open-world game, and the Roblox search found no existing clones or chart presence.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":0,\"justification\":\"The tags Open World, Creature Collector and Open World Survival Craft point to creature AI, a large open world and a large amount of content, which matches the rubric's 0 anchor (Palworld itself).\",\"confidence\":\"high\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"A peak of 2,101,535 CCU and the 'Pals' concept (including the shooter tag) produce many clippable moments, but the Roblox search returned no 'X in Roblox' videos or clones to confirm this.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":1,\"justification\":\"Base Building, Open World and Survival Craft tags indicate long persistent sessions of 60 minutes or more, with no short-session tags.\",\"confidence\":\"high\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Pals, crafting and base upgrades fit the loop (extra Pal slots, boosters, cosmetics), but there is no Roblox evidence to confirm this.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":2,\"justification\":\"Pals are recognisable creature designs, and the 'Pokémon with guns' identity (Creature Collector, Third-Person Shooter) has already drawn IP attention, though the underlying survival-craft mechanic is generic.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 12.3
+    }
+   ]
+  }
+ ]
+}

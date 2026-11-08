@@ -1,0 +1,57 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": false,
+ "case": "phasmophobia",
+ "appid": 739630,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:27:30Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "8f8e8ef5ea81982b",
+     "prompt_chars": 5492,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":5,\"justification\":\"The description’s four-player ghost investigation is objective-based co-op horror, a native Roblox genre under the rubric.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"Gathering evidence with ghost-hunting equipment suggests several interacting systems, though the description does not establish how difficult they are to rebuild.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The co-op horror and supernatural tags suggest scary moments worth clipping, but the supplied Roblox search shows no existing clone or video evidence.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"The description gives no round or session length, so a middle score is provisional rather than evidence of short rounds.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"The described ghost-hunting equipment offers a plausible upgrade loop, but the evidence does not establish whether upgrades or revives fit the game’s balance.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Ghost investigation is a generic mechanic that can be re-skinned, while the named game and its equipment-driven identity make a literal copy riskier.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 16.1
+    }
+   ]
+  },
+  {
+   "run": 1,
+   "recorded_at": "2026-11-08T15:40:25Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "8f8e8ef5ea81982b",
+     "prompt_chars": 5492,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":5,\"justification\":\"The description presents four-player, objective-based co-op horror centered on gathering ghost evidence, a strong fit for a native Roblox genre.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"Ghost behavior, evidence gathering, and multiple pieces of hunting equipment imply several systems, though the description suggests a smaller MVP could focus on one location and a few tools.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The Horror and Online Co-Op tags suggest shared scares could produce clips, but no video performance or existing Roblox videos are provided.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"The description gives an investigation loop but no round length, so a 20-to-40-minute session is only a tentative estimate.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The described ghost-hunting equipment suggests cosmetic options, but the evidence does not establish a progression or revive system.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Ghost investigation is a generic mechanic that can be re-themed, provided an adaptation avoids Phasmophobia’s name and distinctive assets.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 16.1
+    }
+   ]
+  },
+  {
+   "run": 2,
+   "recorded_at": "2026-11-08T15:42:44Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "8f8e8ef5ea81982b",
+     "prompt_chars": 5492,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":5,\"justification\":\"The Horror and Online Co-Op tags and four-player ghost-evidence objective match objective-based co-op horror on Roblox.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"The description calls for ghost activity, multiple hunting tools and evidence gathering, suggesting several systems rather than one simple mechanic.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"Four-player co-op and paranormal activity create plausible scary group moments, but the supplied evidence includes no video-performance data.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"Evidence-gathering with a four-player team suggests a bounded investigation, but no session or round length is provided.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The described ghost-hunting equipment offers a basis for cosmetic items, while the evidence does not establish an upgrade or revive loop.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Ghost hunting and evidence gathering can be re-themed, although Phasmophobia's named identity should not be copied.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 16.1
+    }
+   ]
+  }
+ ]
+}

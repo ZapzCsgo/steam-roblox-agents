@@ -1,0 +1,25 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": false,
+ "case": "vampire-survivors",
+ "appid": 1794680,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:32:43Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "93fea3f8907a1801",
+     "prompt_chars": 5571,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":2,\"justification\":\"The Casual and Arcade tags fit accessible Roblox play, but Singleplayer and Action Roguelike are not among the rubric's strongest native Roblox genres.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"The description suggests a rebuildable monster-survival loop, though its rogue-lite choices and RPG tag imply several systems beyond a single mechanic.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":3,\"justification\":\"Mowing down hundreds of monsters and rapidly snowballing could produce clips, but the supplied evidence shows no videos or recurring standout moments.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"The Arcade and Action Roguelike tags suggest repeatable runs, but no session length is provided.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"The described rogue-lite choices and snowballing progression provide a natural place for upgrades, though the evidence does not establish other monetisation options.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Surviving waves of monsters is a generic mechanic that can be re-themed, although the game's vampire and gothic identity makes a literal copy riskier.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 17.6
+    }
+   ]
+  }
+ ]
+}

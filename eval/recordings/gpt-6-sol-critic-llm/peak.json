@@ -1,0 +1,33 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": true,
+ "case": "peak",
+ "appid": 3527290,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:46:29Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "07cfebe31cd0ade5",
+     "prompt_chars": 5553,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":5,\"justification\":\"Co-op mountain climbing combines an obby-like objective with the Comedy and Physics tags, both identified as native Roblox signals.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"A climbing MVP could focus on one objective, but the Physics and Procedural Generation tags suggest systems beyond a simple clone.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The Comedy and Physics tags, paired with a description where the slightest mistake can end a climb, suggest frequent clippable mishaps, though no video evidence is provided.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"The Action Roguelike tag suggests repeatable attempts, but the description gives no round length or session data.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The Character Customization tag supports cosmetics, while the supplied evidence does not establish a deeper upgrade or booster loop.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Co-op mountain climbing is a generic mechanic that could be re-themed, although the lost-scouts island premise gives PEAK a recognisable identity.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 16.3
+    },
+    {
+     "role": "critic",
+     "prompt_sha": "cc9b1ca03673aa82",
+     "prompt_chars": 5578,
+     "response": "{\"approved\":true,\"issues\":[]}",
+     "attempts": 1,
+     "seconds": 13.1
+    }
+   ]
+  }
+ ]
+}

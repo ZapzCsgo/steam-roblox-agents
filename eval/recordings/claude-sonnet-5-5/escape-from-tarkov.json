@@ -1,0 +1,33 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "escape-from-tarkov",
+ "appid": 3932890,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:38:53Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "cca3038967d56bee",
+     "prompt_chars": 5663,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":2,\"justification\":\"The tags put it in extraction shooter and FPS territory, which the rubric rates at 2 (shooter); the horror and survival tags are secondary and the Roblox search found no extraction clone or active chart presence.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":1,\"justification\":\"The Extraction Shooter tag is flagged as complex, and the loop needs gun customization, looting, health and bleed systems, PvP and AI Scavs, and large maps, so an MVP would take well over 4 weeks.\",\"confidence\":\"high\"},{\"factor\":\"F4\",\"score\":3,\"justification\":\"The game is heavily streamed (45,572 CCU peak) and raids produce tense moments, but the evidence shows no 'Tarkov in Roblox' videos and 0 clones on Roblox.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"Raids typically last 20 to 40 minutes, but the tag hints show no short-session tags, and the persistent loot and prep loop pushes total session length longer.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"Gun customization and loot tags allow cosmetics and gear boosters, but pay-to-win gear would break the gamble-with-loot loop, which limits natural monetisation.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Extraction shooting is a generic mechanic, but Tarkov has a strong identity (PMC and Scav factions, realistic military gear) and a known, active rights holder, so a close copy would risk a claim.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 13.5
+    },
+    {
+     "role": "analyst",
+     "prompt_sha": "0746404fb9ea5c09",
+     "prompt_chars": 5826,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":3,\"justification\":\"The tags Survival, Survival Horror and Psychological Horror map to genres that already work on Roblox, but the core loop is an extraction shooter (a genre that scores 2), so I put it at 3 rather than 4.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":1,\"justification\":\"The Extraction Shooter and Gun Customization tags point to many interlocking systems (ballistics, health, looting, PvP and AI Scavs, large maps), so even an MVP would take well over 4 weeks.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":3,\"justification\":\"The game is widely streamed and raids produce tense moments, but the evidence shows no existing 'Tarkov in Roblox' videos and 0 Roblox clones.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"Raids are typically 20 to 40 minutes with prep and loot management around them, and the tags give no short-session hint.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Gun customization, loadouts, stash upgrades and gear fit paid cosmetics, boosters and insurance-style revives, although selling weapon power would hurt the PvP balance.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":2,\"justification\":\"The Tarkov brand and its realistic military identity are strongly recognisable and the rights holder is likely to file claims, but the extraction mechanic itself is generic enough to re-theme.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 14.2
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "repo",
+ "appid": 3241660,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:35:01Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "4f41701b9dffb545",
+     "prompt_chars": 5456,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"Tags Horror, Online Co-Op, Survival and Physics place it in the co-op horror genre, which the rubric rates 4; the objective-based extraction loop is close to a 5, but the Roblox search returned no query results to show it in the current top charts.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"Physics-based object handling, procedural levels, monster AI and 6-player networking are several systems, but the simple tags Funny and Physics suggest an MVP in 2 to 4 weeks.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":5,\"justification\":\"The Comedy, Funny, Horror and Physics tags and a peak of 266,908 CCU on day 0 point to a clip in every round (physics fails, monster chases), though the Roblox search found no existing 'in Roblox' videos.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"The extraction runs are level-based with no short-session or long-session tags, so a session probably lasts 20 to 40 minutes; the evidence is thin.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Co-op survival with robots and extraction suits upgrades, revives, cosmetics and tools that fit the loop, but the description does not mention any of them.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"The extraction-horror mechanic is generic, but the robot look and the creator's-desires theme give it a strong identity, and the rubric notes that literal copies of E.R.P.O. were taken down (a similar title), so a full re-skin is needed.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 11.6
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": true,
+ "case": "phasmophobia",
+ "appid": 739630,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:45:56Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "8f8e8ef5ea81982b",
+     "prompt_chars": 5492,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"The Horror and Online Co-Op tags and four-player ghost-investigation objective fit a Roblox-friendly co-op horror genre, but the supplied search shows no established Roblox leader.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"Gathering evidence with ghost-hunting equipment suggests several interacting systems, though the description gives too little detail to estimate build time confidently.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The four-player supernatural horror premise offers plausible scary group moments, but no video evidence is supplied to support a top score.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"The description establishes an investigation loop but gives no round length, so a middle score is provisional.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"The described ghost-hunting equipment offers a plausible progression hook, although no monetisation mechanics are documented.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Cooperative paranormal investigation is a concept that could be re-themed without copying Phasmophobia's name or assets, though the supplied evidence does not establish the rights holder's enforcement history.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 21.4
+    },
+    {
+     "role": "critic",
+     "prompt_sha": "56796ca518665386",
+     "prompt_chars": 5621,
+     "response": "{\"approved\":true,\"issues\":[]}",
+     "attempts": 1,
+     "seconds": 10.7
+    }
+   ]
+  }
+ ]
+}

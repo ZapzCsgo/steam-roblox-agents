@@ -1,0 +1,49 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": true,
+ "case": "among-us",
+ "appid": 945360,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:51:32Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "91f8f72c566adc99",
+     "prompt_chars": 5536,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":5,\"justification\":\"Social deduction is a native Roblox genre (Murder Mystery 2 sits at 20,000 players) and the tags Social Deduction, Party Game and Survival all match Roblox-native formats.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"The core loop is simple, with 2D tasks, a role-based vote and 4-15 players. Simple tags (Casual, Party Game, Social Deduction) and no complex tags suggest an MVP fits in under 2 weeks, though lobby, voting and task systems add some work.\",\"confidence\":\"high\"},{\"factor\":\"F4\",\"score\":5,\"justification\":\"Betrayal and accusation moments produce a clip every round, and the Funny and Psychological tags plus a 438,524 CCU peak point to heavy streaming and existing 'in Roblox' content.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":5,\"justification\":\"The Party Game and Social Deduction tags indicate short rounds of roughly 5 to 15 minutes, with no long-session tags.\",\"confidence\":\"high\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"Cosmetics (skins, hats, pets) fit the Cartoony style and are the natural fit, but the PvP deduction loop leaves little room for revives or upgrades without hurting balance.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":2,\"justification\":\"The generic social-deduction mechanic is easy to re-skin, but the crewmate look is highly recognisable and Innersloth owns it, and the roughly 438k CCU peak adds takedown risk for any close copy.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 11.8
+    },
+    {
+     "role": "critic",
+     "prompt_sha": "c4cbbf13025f1ac9",
+     "prompt_chars": 5804,
+     "response": "{\"approved\": false, \"issues\": [\"F4: The justification says 'in Roblox' content already exists, but the Roblox search shows 0 clones and 0 queries, so nothing in the evidence shows Among Us-style Roblox videos. The score of 5 under the rubric needs both a clip every round and existing 'X in Roblox' videos. The first part is plausible for social deduction. The second part is unsupported. A score of 4 fits the evidence, or the justification should say that part is inferred and the confidence should be lowered.\", \"F3: The justification says an MVP fits 'in under 2 weeks'. The rubric gives 5 for one core mechanic rebuilt in a few days and 3 for several systems with an MVP in 2 to 4 weeks. The justification itself lists lobby, voting, tasks, roles and 4-15 players as several systems, which fits 3 better than 4 or 5. A score of 4 is defensible, but the 'under 2 weeks' claim is not stated in the data, so the justification is weakly grounded. This is not a strong reason to reject on its own.\"]}",
+     "attempts": 1,
+     "seconds": 11.4
+    },
+    {
+     "role": "analyst",
+     "prompt_sha": "0023cfea0528a63e",
+     "prompt_chars": 6579,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":5,\"justification\":\"Social deduction is a native Roblox genre: the tags include Social Deduction, Party Game, Casual and Survival, and the Roblox search shows Murder Mystery 2 as the established leader at 20,000 players.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"The game combines several systems (lobby, roles, tasks, meetings and voting, 4-15 players), so under the rubric an MVP fits in 2 to 4 weeks; the tags (Casual, Party Game) point to simple scope but the data gives no build-time estimate.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The Funny, Party Game, Psychological and Social Deduction tags suggest nearly every round produces a clippable betrayal moment, but the Roblox search returned 0 clones and 0 queries, so existing 'X in Roblox' videos are not shown in the evidence.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":5,\"justification\":\"The Party Game, Social Deduction and Minigames tags point to short rounds of a few minutes to about 15 minutes, though the data gives no explicit round length.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The Cartoony and Funny tags fit cosmetics (skins, pets, hats), and the data shows no revive or upgrade loop that would justify a higher score.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Social deduction is a generic mechanic, but the Cartoony tag and the game's strong identity (the crewmate look) mean a re-skin must avoid the original characters, and the data does not show how litigious the owner is.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 13.6
+    },
+    {
+     "role": "critic",
+     "prompt_sha": "9fccc35f8d75fa23",
+     "prompt_chars": 5936,
+     "response": "{\"approved\": true, \"issues\": []}",
+     "attempts": 1,
+     "seconds": 9.0
+    }
+   ]
+  }
+ ]
+}

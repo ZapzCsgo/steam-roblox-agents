@@ -1,0 +1,25 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": false,
+ "case": "among-us",
+ "appid": 945360,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:26:54Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "91f8f72c566adc99",
+     "prompt_chars": 5536,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"The Social Deduction and Party Game tags fit Roblox, where Murder Mystery 2 is an established social-deduction leader.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"The description centers on teamwork and betrayal among 4–15 players, and the tags suggest no large world or complex simulation, though online multiplayer adds implementation work.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The Funny and Social Deduction tags suggest clippable betrayals, but no video evidence was provided.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":4,\"justification\":\"Party Game and Social Deduction suggest round-based play, but the evidence gives no actual session length.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The Cartoony and Party Game tags support cosmetic sales, while the description provides no evidence of upgrades or boosters that fit the loop.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Teamwork and betrayal are generic mechanics that can be re-skinned, but Among Us has a distinct space-themed identity.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 21.8
+    }
+   ]
+  }
+ ]
+}

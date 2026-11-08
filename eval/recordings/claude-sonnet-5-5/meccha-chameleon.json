@@ -1,0 +1,25 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "meccha-chameleon",
+ "appid": 4704690,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:34:32Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "a1d294ea6a7ba3f0",
+     "prompt_chars": 5643,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":5,\"justification\":\"Hide-and-seek is a rubric 5 genre, and the Steam tags (Hidden Object, Party Game, Team-Based, Stealth) map directly to it; the Roblox search returned no results, so I could not check the current top charts.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"The core mechanic is painting your body to blend in and hiding from seekers, and the simple tags (Casual, Hidden Object, Party Game) suggest an MVP in days to a couple of weeks; a paint and brush system with decent blending is the main technical cost.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":5,\"justification\":\"The 340,000 CCU peak, the Funny and Comedy tags, and a premise of painting yourself to blend in and being spotted make nearly every round clippable; no 'in Roblox' videos can be confirmed from the evidence.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":5,\"justification\":\"The Party Game and hide-and-seek round structure points to short matches of a few minutes, though the description does not state round length.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Cosmetics such as brushes, colors, poses and outfits, plus boosters like extra paint time or reveals, fit naturally into the loop; the description names no existing monetisation.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Hide-and-seek with painting is a generic mechanic that is easy to re-skin, but the Meccha Chameleon hand-drawn chameleon identity is distinctive, so the Roblox version must not reuse its characters or art.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 13.4
+    }
+   ]
+  }
+ ]
+}

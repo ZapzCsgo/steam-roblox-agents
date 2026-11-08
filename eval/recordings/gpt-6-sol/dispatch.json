@@ -1,0 +1,25 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": false,
+ "case": "dispatch",
+ "appid": 2592160,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:34:14Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "f415bbd87a94095d",
+     "prompt_chars": 5620,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":0,\"justification\":\"The Choices Matter, Story Rich, Strategy and Singleplayer tags describe a narrative game rather than a native Roblox genre.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":2,\"justification\":\"The description combines emergency dispatch, branching choices and relationships, while the Episodic and Cinematic tags suggest substantial content to recreate.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":2,\"justification\":\"Comedy and Funny tags suggest some clippable moments, but the supplied evidence contains no video results or examples of repeatable viral scenes.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":2,\"justification\":\"The Story Rich and Episodic tags suggest longer play than short rounds, but no session lengths are provided.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":2,\"justification\":\"The description's team of heroes might support cosmetic sales, but it provides no evidence of upgrades, revives or other repeatable purchases.\",\"confidence\":\"low\"},{\"factor\":\"F10\",\"score\":2,\"justification\":\"Dispatch has a distinctive superhero workplace setting and brand, although its emergency-assignment mechanic could be re-themed.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 23.5
+    }
+   ]
+  }
+ ]
+}

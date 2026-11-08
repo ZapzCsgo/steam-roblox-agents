@@ -1,0 +1,33 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": true,
+ "case": "among-us",
+ "appid": 945360,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:45:20Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "91f8f72c566adc99",
+     "prompt_chars": 5536,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"The Social Deduction and Party Game tags fit Roblox's social-play genres, and Murder Mystery 2 already has 20,000 players.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"The description centers on teamwork and betrayal for 4–15 players, while the tags indicate no complex systems, suggesting a focused adaptation.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The Funny and Social Deduction tags suggest clippable betrayals, but no video-performance evidence is provided.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":4,\"justification\":\"Party Game and Social Deduction suggest round-based play, but the evidence gives no session lengths.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The Cartoony and Multiplayer tags suggest room for cosmetics, but no evidence supports stronger purchases within the game loop.\",\"confidence\":\"low\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Social deduction is a transferable mechanic, but the space-set teamwork-and-betrayal premise gives Among Us a recognisable identity that an adaptation should avoid copying literally.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 17.4
+    },
+    {
+     "role": "critic",
+     "prompt_sha": "2a24889b86baabfd",
+     "prompt_chars": 5516,
+     "response": "{\"approved\":true,\"issues\":[]}",
+     "attempts": 1,
+     "seconds": 13.6
+    }
+   ]
+  }
+ ]
+}

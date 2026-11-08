@@ -1,0 +1,33 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": false,
+ "case": "escape-from-tarkov",
+ "appid": 3932890,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:32:23Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "cca3038967d56bee",
+     "prompt_chars": 5663,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":2,\"justification\":\"The Extraction Shooter and FPS tags point to a shooter rather than a native Roblox genre, although Survival Horror offers some overlap.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":2,\"justification\":\"The description combines raid preparation, loot extraction, PMC and Scav combat, while the tags add gun customization and PvP/PvE systems.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":2,\"justification\":\"The description suggests tense extraction moments, but the supplied evidence contains no video-performance data or Roblox adaptation videos.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"The raid-based description suggests bounded sessions, but no raid length or session-duration data is provided.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"Loot and gun customization provide a basis for cosmetics, but the evidence does not establish that paid upgrades would fit the competitive raid loop.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Extraction is a reusable mechanic, but the Escape from Tarkov name and its PMC and Scav identity make a literal copy recognisable.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 16.1
+    },
+    {
+     "role": "analyst",
+     "prompt_sha": "0746404fb9ea5c09",
+     "prompt_chars": 5826,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":3,\"justification\":\"The Survival Horror and Multiplayer tags map to established Roblox play styles, but the realistic tactical FPS and extraction mechanics make this less native than a typical co-op horror game.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":2,\"justification\":\"The description and tags require extraction, loot, gun customization, and both PvP and PvE, making a faithful adaptation more complex than a single-mechanic clone.\",\"confidence\":\"high\"},{\"factor\":\"F4\",\"score\":3,\"justification\":\"The description's risk of losing loot at extraction suggests tense moments, but no video performance or Roblox adaptation evidence is provided.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":2,\"justification\":\"The game uses raids, but the supplied evidence gives no raid duration or indication that sessions fit short Roblox rounds.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"Gun Customization and loot provide a basis for cosmetic sales, while the evidence does not establish whether paid gameplay upgrades would fit fairly.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Extraction is a reusable mechanic, but the named Tarkov identity, PMCs, and Scavs would need to be replaced rather than copied.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 16.4
+    }
+   ]
+  }
+ ]
+}

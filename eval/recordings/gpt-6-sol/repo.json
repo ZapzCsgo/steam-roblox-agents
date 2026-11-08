@@ -1,0 +1,25 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": false,
+ "case": "repo",
+ "appid": 3241660,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:26:30Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "4f41701b9dffb545",
+     "prompt_chars": 5456,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"The description’s six-player co-op horror and object-extraction objective fit a Roblox-friendly genre, but the supplied search found no established Roblox leader.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"An MVP would need physics-based object handling, extraction, stealth and procedural generation, making it more than a single-mechanic clone.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The Comedy, Funny, Physics and Horror tags suggest clippable mishaps and scares, but no video evidence was provided.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"The extraction objective suggests bounded play sessions, but the description and tags give no round duration.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The co-op extraction premise could support cosmetics, but the supplied description does not establish classes, upgrades or other purchasable systems.\",\"confidence\":\"low\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Physics-based co-op retrieval can be re-themed, but the named game and its robot-themed identity make a literal copy risky.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 20.6
+    }
+   ]
+  }
+ ]
+}

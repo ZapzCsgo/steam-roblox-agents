@@ -1,0 +1,41 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": true,
+ "case": "escape-from-tarkov",
+ "appid": 3932890,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:49:04Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "cca3038967d56bee",
+     "prompt_chars": 5663,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":2,\"justification\":\"The Extraction Shooter, FPS and Tactical tags place it closer to the rubric's shooter category than to a native Roblox horror or survival format.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":2,\"justification\":\"The description's raid preparation, PvPvE combat and loot extraction, alongside the Gun Customization tag, imply several systems to rebuild.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":3,\"justification\":\"The description's risk of losing a raid's loot suggests tense moments, but no video evidence is provided to establish consistent clip virality.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"The description establishes a raid-based loop but provides no raid duration, so its fit for short sessions is uncertain.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Gun Customization and the loot-focused raid loop offer natural cosmetic and progression options, though the evidence does not establish how they could be sold fairly.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Escape from Tarkov has a distinctive name and identity, while its extraction-shooter mechanic could be adapted with a different theme and original assets.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 32.8
+    },
+    {
+     "role": "analyst",
+     "prompt_sha": "0746404fb9ea5c09",
+     "prompt_chars": 5826,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":3,\"justification\":\"Survival Horror and Multiplayer map to established Roblox play patterns, though the tactical extraction-shooter loop is less native to the platform.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":2,\"justification\":\"Extraction Shooter, Gun Customization, PvE and PvP imply several interconnected systems rather than a single mechanic that is quick to rebuild.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":2,\"justification\":\"The description's high-stakes raids and loot losses suggest clippable moments, but no video evidence or Roblox adaptations are provided.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":2,\"justification\":\"The description presents raids as discrete sessions, but the evidence gives no raid length or indication that they fit short Roblox sessions.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Raid preparation, loot and Gun Customization offer natural upgrade and cosmetic options, although the evidence does not establish how they would be monetised.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Extraction raids are a transferable mechanic, but Tarkov's named factions, setting and recognisable identity would need to be replaced rather than copied.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 15.1
+    },
+    {
+     "role": "critic",
+     "prompt_sha": "27921d7a025f23c1",
+     "prompt_chars": 5740,
+     "response": "{\"approved\":true,\"issues\":[]}",
+     "attempts": 1,
+     "seconds": 11.9
+    }
+   ]
+  }
+ ]
+}

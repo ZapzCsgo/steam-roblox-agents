@@ -1,0 +1,25 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "among-us",
+ "appid": 945360,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:35:19Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "91f8f72c566adc99",
+     "prompt_chars": 5536,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":5,\"justification\":\"Social Deduction and Party Game tags are native to Roblox, and Murder Mystery 2 at 20,000 players shows the genre already sits in the current top charts.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"The tags are simple (Casual, Funny, Party Game, Social Deduction) and the 2D game is one core loop of tasks, impostor kills and meetings, so an MVP fits in days to a couple of weeks. Lobby, voting and map work add some scope.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":5,\"justification\":\"The betrayal and meeting-accusation moments produce clips every round, the Funny and Psychological tags support this, and the 438,524 CCU peak shows broad streaming. No Roblox clone evidence was given, but Among Us videos are widespread.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":5,\"justification\":\"The Party Game and Social Deduction short-session tags point to rounds of about 5 to 15 minutes, and there are no long-session tags.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Cosmetics fit naturally (Cartoony, 4-15 players). Role boosters, extra tasks and revive-style perks could also fit the loop, though the rubric's top mark needs mechanics that integrate more deeply.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":2,\"justification\":\"The crewmate and impostor character design is highly recognisable and the developer (Innersloth) is known to protect the brand, though the social deduction mechanic itself is generic and can be re-skinned.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 16.2
+    }
+   ]
+  }
+ ]
+}

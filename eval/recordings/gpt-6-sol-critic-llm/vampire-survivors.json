@@ -1,0 +1,33 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": true,
+ "case": "vampire-survivors",
+ "appid": 1794680,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:49:40Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "93fea3f8907a1801",
+     "prompt_chars": 5571,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":2,\"justification\":\"The Casual and Arcade tags support a Roblox-friendly format, but the game is primarily tagged Singleplayer, Action Roguelike, and Bullet Hell rather than a native Roblox co-op or party genre.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"Surviving waves of monsters offers a clear core loop, while the Roguelite and RPG tags and choice-driven snowballing imply additional progression systems.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":3,\"justification\":\"Mowing down hundreds of monsters and rapidly snowballing could produce clips, but the supplied evidence contains no video results or standout player moments.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":4,\"justification\":\"The Arcade and Action Roguelike tags suggest repeatable runs, but the supplied evidence gives no actual session lengths.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"The description's choice-driven snowballing suggests upgrades could fit the loop, though no existing monetisation features are documented.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"The gothic vampire theme gives the game a recognizable identity, but its survive-the-monster-swarm mechanic appears adaptable without copying that identity.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 18.3
+    },
+    {
+     "role": "critic",
+     "prompt_sha": "2914a1ca9c06ac28",
+     "prompt_chars": 5687,
+     "response": "{\"approved\":true,\"issues\":[]}",
+     "attempts": 1,
+     "seconds": 13.5
+    }
+   ]
+  }
+ ]
+}

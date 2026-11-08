@@ -1,0 +1,25 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": false,
+ "case": "supermarket-simulator",
+ "appid": 2670630,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:28:59Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "adf375bbb87bf912",
+     "prompt_chars": 5586,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"The Management and Building tags and store-expansion loop fit a Roblox-style tycoon, though the description includes more detailed simulation systems.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"Stocking, pricing, checkout, staff, shoplifters, deliveries, and layout design require several systems, but a smaller store-management MVP could omit some of them.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":2,\"justification\":\"Shoplifters and multiplayer could create clippable moments, but the supplied evidence includes no video data or examples of standout clips.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":2,\"justification\":\"The description presents ongoing stocking and store expansion rather than timed rounds, but no session-length data is provided.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":5,\"justification\":\"Store expansion, staff, and layout design provide natural opportunities for upgrades and cosmetics within the described management loop.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":5,\"justification\":\"Running and designing a supermarket is a generic mechanic that can be re-themed without copying identifiable characters or assets.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 21.3
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": false,
+ "case": "fall-guys",
+ "appid": 1097150,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:30:00Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "240e53b1a7ef26c0",
+     "prompt_chars": 5659,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":5,\"justification\":\"The Platformer and Party Game tags match Roblox's established obby genre, although the provided search results show that genre is already saturated.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"Obstacle courses offer a clear MVP, but the Massively Multiplayer tag and shareable course builder indicate several systems to rebuild.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The description's clumsy competition in absurd obstacle courses, together with the Funny and Party Game tags, suggests clippable moments, but no video evidence is provided.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":5,\"justification\":\"The Battle Royale and Party Game tags point to short rounds, though the evidence gives no measured session length.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The Cute and Colorful tags suggest cosmetic sales, while the description provides no evidence for loop-based upgrades or boosters.\",\"confidence\":\"low\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Fall Guys has a distinctive named identity, but its obstacle-course competition is a generic mechanic that could be re-themed without copying the brand.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 20.8
+    },
+    {
+     "role": "analyst",
+     "prompt_sha": "dbf449b9435fea12",
+     "prompt_chars": 5846,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":5,\"justification\":\"The Platformer and Party Game tags, obstacle-course description, and established Roblox obby leader place the core loop squarely in a native Roblox genre.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":2,\"justification\":\"Obstacle courses offer a simple starting point, but the Massively Multiplayer tag and community course-building feature add substantial systems to reproduce.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"Clumsy competition in absurd obstacle courses and the Funny and Party Game tags suggest frequent clippable moments, though no video performance evidence is provided.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":4,\"justification\":\"The Battle Royale and Party Game tags suggest round-based play, but the evidence gives no actual session lengths.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The Cute and Colorful tags support cosmetic sales, while the description provides no evidence for loop-based purchases such as upgrades or revives.\",\"confidence\":\"low\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Obstacle-course competition is a generic mechanic that can be re-skinned, but the named Fall Guys identity makes a literal copy risky.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 16.2
+    }
+   ]
+  },
+  {
+   "run": 1,
+   "recorded_at": "2026-11-08T15:41:28Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "240e53b1a7ef26c0",
+     "prompt_chars": 5659,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":5,\"justification\":\"The Platformer and Party Game tags match Roblox's established obby genre, though the search results show it is already saturated.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"Obstacle courses provide a clear MVP, but the description's large multiplayer matches and course builder add systems beyond one simple mechanic.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The Funny and Party Game tags and description of clumsy competition in absurd obstacle courses suggest clippable moments, but no video evidence is provided.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":5,\"justification\":\"The Battle Royale and Party Game tags suggest short rounds, although no session lengths are provided.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The Cute and Colorful tags suggest cosmetic options, but the provided evidence does not establish a natural upgrade or booster loop.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Fall Guys has a recognisable name and visual identity, while its obstacle-course party mechanic can be adapted without copying them.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 20.8
+    },
+    {
+     "role": "analyst",
+     "prompt_sha": "dbf449b9435fea12",
+     "prompt_chars": 5846,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":5,\"justification\":\"The Platformer and Party Game tags and obstacle-course description match Roblox's established obby genre.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":2,\"justification\":\"Individual obstacle courses could be simplified, but the Massively Multiplayer tag and player-built course sharing add substantial complexity.\",\"confidence\":\"high\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The Funny and Party Game tags and description of clumsy competition on absurd obstacle courses suggest clippable moments, though no video evidence is provided.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":5,\"justification\":\"The Battle Royale and Party Game tags point to round-based play, with no long-session tags in the supplied evidence.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The Cute and Colorful tags suggest cosmetic options, but the supplied description provides no evidence of deeper monetisation systems.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Fall Guys has a distinctive named identity, while its obstacle-course competition can be adapted with original characters and assets.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 14.3
+    }
+   ]
+  },
+  {
+   "run": 2,
+   "recorded_at": "2026-11-08T15:43:46Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "240e53b1a7ef26c0",
+     "prompt_chars": 5659,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":5,\"justification\":\"The Platformer and Party Game tags, obstacle-course description, and established Roblox obby leader place the core concept in a native Roblox genre.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"Obstacle courses offer a clear MVP, but the Massively Multiplayer tag and shared-course creation feature add systems beyond a single simple mechanic.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The Funny and Party Game tags and description of clumsy competition in absurd obstacle courses suggest clippable moments, but no video evidence is provided.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":5,\"justification\":\"The Battle Royale and Party Game tags suggest short rounds, although no session-length data is provided.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The Cute and Colorful tags suggest cosmetic options, but the evidence does not establish a natural role for revives or upgrades.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Fall Guys has a named identity, while its obstacle-course party mechanic can be re-themed without copying that identity.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 21.9
+    },
+    {
+     "role": "analyst",
+     "prompt_sha": "dbf449b9435fea12",
+     "prompt_chars": 5846,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":5,\"justification\":\"The Platformer and Party Game tags and obstacle-course description map directly to Roblox obbies, which the search context identifies as an established genre.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":2,\"justification\":\"Obstacle courses offer a clear core mechanic, but the Massively Multiplayer tag and user-built course sharing make a faithful adaptation more complex than a quick clone.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The Funny and Party Game tags and description of chaotic obstacle courses suggest clippable mishaps, though no video results are provided.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":4,\"justification\":\"Battle Royale and Party Game tags suggest round-based play, but the evidence gives no actual session lengths.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The Cute and Colorful tags suggest cosmetic sales could fit, but the description provides no evidence of natural upgrades or boosters.\",\"confidence\":\"low\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Obstacle-course competition is a generic mechanic that can be re-skinned, while the named Fall Guys identity makes a literal copy risky.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 14.6
+    }
+   ]
+  }
+ ]
+}

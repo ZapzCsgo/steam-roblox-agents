@@ -1,0 +1,33 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "only-up",
+ "appid": 2381590,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:37:39Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "56471646b28040f2",
+     "prompt_chars": 5455,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"Tags Parkour, 3D Platformer and Difficult put it in the obby-adjacent genre, which is native to Roblox, but the Roblox search shows obbies already saturated with a 20,000-player leader.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"The core is a climbing parkour mechanic with physics (tags Parkour, Physics, Arcade, Casual) that an MVP can rebuild quickly, though the Open World tag implies some content work.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"Difficult climbing with falls and rage moments (Difficult, Parkour, Psychological Horror) produces clippable content, but no Roblox clone or video evidence was provided.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":2,\"justification\":\"Open World, Story Rich and Exploration tags point to long continuous climbs, with only the Arcade tag suggesting short sessions.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Obby-style climbing fits checkpoint skips, revives, speed and gravity boosters and cosmetics, though Steam gives no monetisation evidence.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Mechanic is generic parkour climbing that is easy to re-skin, but the description is missing, so the identity of the Only Up! brand is unverified.\",\"confidence\":\"low\"}]}",
+     "attempts": 1,
+     "seconds": 10.9
+    },
+    {
+     "role": "analyst",
+     "prompt_sha": "3d8d14fe7c7d99e6",
+     "prompt_chars": 5727,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"Tags Parkour, 3D Platformer and Physics match the obby genre that Roblox already hosts (leader at 20,000 players), but the genre is saturated and the Psychological Horror and Story Rich tags are only a partial fit.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":2,\"justification\":\"The Open World tag signals a large climbable environment and physics-based traversal, so an MVP is harder than a single-mechanic clone, even though the Arcade, Casual and Physics tags are simple.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":3,\"justification\":\"Falls after long climbs are clippable and Parkour and Difficult games are streamed, but Steam lists the game as single-player only, so group clips are limited and Description and peak CCU are missing.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":2,\"justification\":\"Open World, Story Rich and Difficult tags point to long continuous climbs rather than 3 to 15 minute rounds, although the Arcade tag suggests some short-attempt play.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Difficult parkour fits checkpoint skips, revives, speed and jump boosters and cosmetics, which already sell well in Roblox obbies.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"The core mechanic is generic parkour climbing, easy to re-skin, though Only Up! has a recognisable identity as a viral climbing game, so some IP exposure remains.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 11.2
+    }
+   ]
+  }
+ ]
+}

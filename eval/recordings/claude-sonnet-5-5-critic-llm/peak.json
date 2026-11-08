@@ -1,0 +1,33 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": true,
+ "case": "peak",
+ "appid": 3527290,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:52:54Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "07cfebe31cd0ade5",
+     "prompt_chars": 5553,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":3,\"justification\":\"Co-op climbing with Physics and Comedy tags is close to Roblox's obby and co-op survival genres (Chained Together succeeded), but it is not an established top-chart genre and the Roblox search returned no results to confirm it.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"The core mechanic is climbing with stamina and physics, which is simple, but procedural mountain generation, hazards, and co-op rescue and ragdoll systems mean an MVP would take about 2 to 4 weeks (Physics is the only simple tag).\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":5,\"justification\":\"The Comedy and Physics tags, a 169,910 CCU peak, and falls or near-misses in each run are very clippable, as with Chained Together.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"The Action Roguelike tag suggests run-based play, but a full ascent of a mountain probably takes 20 to 40 minutes, and the description gives no run length.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Character Customization supports cosmetics, and revives, stamina or gear upgrades, and checkpoints fit the climbing loop, though pay-to-progress could undermine the challenge.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Climbing a mountain with a group of scouts is a generic mechanic that is easy to re-skin, and nothing in the evidence points to a recognisable brand or a litigious owner, though the Steam hit's identity needs a re-theme.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 12.9
+    },
+    {
+     "role": "critic",
+     "prompt_sha": "349844e8ab6597d7",
+     "prompt_chars": 5891,
+     "response": "{\"approved\": true, \"issues\": []}",
+     "attempts": 1,
+     "seconds": 8.1
+    }
+   ]
+  }
+ ]
+}

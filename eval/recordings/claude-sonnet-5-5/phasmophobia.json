@@ -1,0 +1,57 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "phasmophobia",
+ "appid": 739630,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:35:50Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "8f8e8ef5ea81982b",
+     "prompt_chars": 5492,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"Tags Horror, Psychological Horror and Online Co-Op place it in the co-op horror genre, which the rubric rates 4. It is objective-based (gather evidence), but no Roblox search results were provided to show it in the current top charts.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":2,\"justification\":\"No complexity hints in the tags, but the game combines ghost AI with many behaviours, around 12 evidence types, a toolset of equipment, an investigation loop and VR support. An MVP is feasible in 2 to 4 weeks, but the content is deep and a faithful clone is heavy.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":5,\"justification\":\"A peak of 112,241 CCU and the Detective/Thriller horror co-op format suggest a lot of streamed content. Each round produces scary or funny clips from ghost jump scares and proximity voice chat, and the genre is well suited to 'X in Roblox' videos.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"No short-session tags are present. From general knowledge, contracts run roughly 15 to 40 minutes, which falls in the 3 band. This comes from outside the supplied evidence.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"The loop has a money and equipment system, so equipment upgrades, revives, cosmetics and boosters fit naturally. This is an inference from the genre, as the evidence does not describe the in-game economy.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"The ghost-hunting investigation mechanic is generic and can be re-skinned. However, the game has a strong identity and a recognisable name, and the Roblox search returned no existing clones to show how far the genre has been adapted. Literal copies of assets risk takedowns.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 14.4
+    }
+   ]
+  },
+  {
+   "run": 1,
+   "recorded_at": "2026-11-08T15:41:43Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "8f8e8ef5ea81982b",
+     "prompt_chars": 5492,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"Steam tags Horror, Online Co-Op and Psychological Horror put it in the co-op horror genre, which the rubric rates 4, but the Roblox search returned no queries or results, so it cannot be confirmed as a current top-chart genre.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"The core loop (a ghost with evidence types, equipment and an investigation) needs several systems such as ghost AI, tools and voice or proximity detection, but the description suggests an MVP fits in 2 to 4 weeks, and no simple or complex tags were flagged.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":5,\"justification\":\"A peak of 112,241 CCU on day 0 and a jump-scare horror loop with 4-player co-op reactions make every round clippable, although the Roblox search gave no evidence of existing 'in Roblox' videos.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":2,\"justification\":\"Contracts are investigation runs that typically last 20 to 40 minutes or more, and no short-session or long-session tags were flagged, so this is estimated from the genre rather than from the evidence.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Equipment tiers, revives, cosmetics and boosters fit the loop of a co-op ghost-hunting game without breaking it, but the evidence only contains tags and a description, not monetisation data.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"The mechanic (ghost hunting with evidence gathering) is generic and easy to re-skin, and there are no recognisable characters, but the Phasmophobia name and its distinctive equipment loop are an identifiable identity from a paid indie title.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 11.8
+    }
+   ]
+  },
+  {
+   "run": 2,
+   "recorded_at": "2026-11-08T15:44:02Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "8f8e8ef5ea81982b",
+     "prompt_chars": 5492,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"Tags Horror, Psychological Horror and Online Co-Op place it in co-op horror (rubric score 4), but the Roblox search returned no queries or results, so I have no evidence that it is already in the current top charts.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"The game combines several systems (ghost AI, evidence tools, investigation loop, hunts), but an MVP of a 4-player co-op ghost hunt in one house looks feasible in 2 to 4 weeks; the tag hints show no complex or simple tags.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":5,\"justification\":\"A peak of 112,241 CCU, Horror and Online Co-Op tags and the jump-scare nature of ghost hunts suggest nearly every round produces a clippable reaction, though the Roblox search gave no data on existing 'Phasmophobia in Roblox' videos.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"The description gives no round length and the tag hints show no short-session or long-session tags; contracts are typically about 15 to 30 minutes, which fits the 20 to 40 minute band, but this comes from prior knowledge rather than the evidence given.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Co-op equipment-based investigation lends itself to equipment tiers, cosmetics, revives and boosters that fit the loop, though the evidence given does not describe a monetisation model.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"The ghost-hunting mechanic is generic and easy to re-skin with no recognisable characters, though the strong Phasmophobia identity and equipment set carry some takedown risk if copied literally.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 11.7
+    }
+   ]
+  }
+ ]
+}

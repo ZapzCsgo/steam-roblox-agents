@@ -1,0 +1,25 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "schedule-i",
+ "appid": 3164500,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:39:49Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "37cde4ceb6682c7f",
+     "prompt_chars": 5544,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":1,\"justification\":\"Tags are Simulation, Management, Crime and Open World, which fit the rubric's complex management or niche simulation bands, and the Roblox search found 0 clones and no established leader.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":1,\"justification\":\"The game has an Open World tag plus crafting, automation, base building, employees and a drug production chain, which is a large content scope that does not fit an MVP in 2 to 4 weeks.\",\"confidence\":\"high\"},{\"factor\":\"F4\",\"score\":3,\"justification\":\"A peak of 455,652 CCU means the game is heavily streamed and co-op chaos gives some clips, but the loop is slow management and not every round produces a stand-out moment.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":1,\"justification\":\"Base Building, Open World, Management and Automation tags describe a persistent progression loop with long sessions of 60 minutes or more and no round structure.\",\"confidence\":\"high\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"Character Customization and property, business and employee upgrades give natural room for cosmetics and boosters, but the drug theme would have to be re-themed.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"The mechanic of producing and selling goods is generic and a re-skin as a legal business is possible, but the identity is strong, it has a 455k CCU hit brand, and the Hyland Point setting is distinctive.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 11.0
+    }
+   ]
+  }
+ ]
+}

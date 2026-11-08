@@ -1,0 +1,33 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": true,
+ "case": "liars-bar",
+ "appid": 3097560,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:47:01Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "15ec4e344c3d2e17",
+     "prompt_chars": 5533,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"The four-player bluffing games and Multiplayer, Co-op, and Funny tags fit Roblox social party play.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"The description identifies two tabletop games, Liar's Dice and Liar's Deck, and the tags indicate no obvious large-world or complex-simulation requirements.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"Four-player lying and bluffing could create funny reveal moments, supported by the Funny tag, but no video or Roblox-clone evidence is provided.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":4,\"justification\":\"The four-player tabletop format suggests discrete rounds, but the evidence gives no round or session length.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The bar and tabletop setting offers room for cosmetic customisation, while the description provides no evidence for upgrades or boosters.\",\"confidence\":\"low\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Liar's Dice and Liar's Deck are described as bluffing games that could be re-themed without copying the sketchy-bar identity.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 15.8
+    },
+    {
+     "role": "critic",
+     "prompt_sha": "d94bcb7ba7ef579e",
+     "prompt_chars": 5494,
+     "response": "{\"approved\":true,\"issues\":[]}",
+     "attempts": 1,
+     "seconds": 11.9
+    }
+   ]
+  }
+ ]
+}

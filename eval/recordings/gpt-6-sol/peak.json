@@ -1,0 +1,25 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": false,
+ "case": "peak",
+ "appid": 3527290,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:27:58Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "07cfebe31cd0ade5",
+     "prompt_chars": 5553,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":5,\"justification\":\"Co-op climbing and physics map closely to Roblox obbies, although the supplied search results show no established leader for this concept.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"Climbing is the core mechanic, but the physics, procedural generation, and exploration tags suggest several systems beyond a simple obstacle course.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The comedy tag and the description's warning that the slightest climbing mistake can mean doom suggest clippable failures, but no video evidence is provided.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"The Action Roguelike tag suggests bounded attempts, but the description gives no round or session duration.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The Character Customization tag supports cosmetic purchases, while the supplied evidence does not establish a natural upgrade or revive loop.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"The mountain-climbing mechanic can be re-themed, though PEAK's nature-scout and mysterious-island premise gives it a distinct identity.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 26.7
+    }
+   ]
+  }
+ ]
+}

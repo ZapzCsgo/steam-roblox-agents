@@ -1,0 +1,65 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": true,
+ "case": "vampire-survivors",
+ "appid": 1794680,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:57:59Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "93fea3f8907a1801",
+     "prompt_chars": 5571,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":2,\"justification\":\"Tags are Action Roguelike, Bullet Hell and Roguelite with Casual as the only native Roblox tag, and the Roblox search returned no clones or established leader, so there is no sign the genre is in the Roblox top charts.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"The core loop is auto-attacking, XP gems and wave spawning in 2D, tagged Arcade and Casual, so an MVP can be rebuilt in days to a couple of weeks, though the weapon-evolution and content breadth add some work.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":3,\"justification\":\"The 77,061 CCU peak suggests heavy streaming, and screen-filling bullet-hell chaos is visual, but the game is Singleplayer-first with no clear stand-out clip moments and no 'in Roblox' videos in the evidence.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":4,\"justification\":\"Action Roguelike, Arcade and Roguelike tags point to short runs, and the 'survive until dawn' premise implies runs of about 15 to 30 minutes, though the RPG tag hints at some meta-progression.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Roguelite meta-progression fits upgrades, revives, characters and boosters naturally, and cosmetics would work too, so monetisation would not break the loop.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"The mechanic is generic and easy to re-skin, since the vampires and gothic theme can be swapped, and the Pixel Graphics are not tied to recognisable characters, though the strong game identity carries some risk.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 12.4
+    },
+    {
+     "role": "critic",
+     "prompt_sha": "3ae9e5e9cc3c7a2b",
+     "prompt_chars": 5966,
+     "response": "{\"approved\": false, \"issues\": [\"F6: score 4 does not match the rubric. The justification says runs last about 15 to 30 minutes. The rubric gives 3 for 20 to 40 minutes and 5 for 3 to 15 minutes, so a 15 to 30 minute estimate fits 3 to 4 at best. The Analyst also cites the 'survive until dawn' premise, but the data gives no session length. Vampire Survivors runs are fixed at 30 minutes. The score is defensible only if the justification states that the runs are about 30 minutes, and then 3 fits better. Lower it to 3 or justify 4 explicitly.\", \"F10: the justification contradicts the evidence and the score. It calls the mechanic 'generic and easy to re-skin' but also says the 'strong game identity carries some risk'. The rubric gives 5 for a generic mechanic that is easy to re-skin and 3 for strong identity with a generic mechanic. The evidence names no recognisable characters or litigious owner, but the game's own name and brand are distinctive, and the Roblox search found no existing clones to show that cloning is tolerated. A score of 4 is acceptable, but the justification should say why it falls between the two rubric anchors.\"]}",
+     "attempts": 1,
+     "seconds": 12.0
+    },
+    {
+     "role": "analyst",
+     "prompt_sha": "a550dbbe3696760e",
+     "prompt_chars": 6761,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":3,\"justification\":\"The tags show a Casual action roguelite/bullet-hell survivor, which is not one of the rubric's top Roblox genres (obby, tycoon, co-op horror), and the Roblox search returned no queries or clones to show it is already in the charts.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"The core loop is auto-attacking, picking up XP and choosing upgrades in a 2D arena, which the Arcade and Casual tags support, so an MVP fits in about 1 to 2 weeks, though the RPG tag and the large weapon and character roster add content work.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":3,\"justification\":\"A peak of 77,061 CCU suggests it is widely streamed, but screen-filling bullet-hell chaos gives few distinct funny or scary moments per round, and the Roblox search found no existing 'X in Roblox' videos.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"The description gives no session length, but from my knowledge of the game, a Vampire Survivors run is a fixed 30 minutes ('survive until dawn'), which matches the rubric's 20 to 40 minute anchor for 3.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"The upgrade-and-snowball loop (Roguelite, RPG tags) fits purchasable permanent upgrades, characters, revives and boosters, which is nearly the rubric's 5, but the Singleplayer and Local Co-Op tags limit shared or social monetisation.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"The mechanic (auto-attack survival against waves) is generic and easy to re-skin, which points to 5, but the distinctive name, gothic vampire theme and pixel identity put it between the rubric's 3 and 5 anchors, and no recognisable characters or litigious owner appear in the evidence.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 14.2
+    },
+    {
+     "role": "critic",
+     "prompt_sha": "c20330567d662fdc",
+     "prompt_chars": 6168,
+     "response": "{\"approved\": false, \"issues\": [\"F4: The score of 3 is justified by saying the game gives 'few distinct funny or scary moments per round'. That contradicts the rubric and the evidence. A peak of 77,061 CCU with 0 days since peak shows heavy streaming, and the rubric's 3 anchor is 'streamed but no stand-out moments'. The justification also treats the empty Roblox search (0 queries, 0 clones) as proof that no 'X in Roblox' videos exist. No query was run, so the data says nothing about those videos. Confidence 'low' is fair, but the justification should say the evidence is thin instead of asserting an absence.\", \"F2: The justification says the Roblox search 'returned no queries or clones to show it is already in the charts'. The search ran with queries [] and found 0 clones, so it is not evidence about the charts. The justification should state that the evidence is missing and not read it as a negative. The score of 3 can stand, but the reasoning is flawed. The rubric puts shooters and MMOs at 2 and survival and tycoon at 4, and the hints show only 'Casual' as a native Roblox tag.\", \"F10: The justification says the score 'points to 5' and then picks 4. The rubric defines 5 as a 'generic mechanic, easy to re-skin' and 3 as 'strong identity but generic mechanic'. The justification itself admits the mechanic is generic and that no recognisable characters or litigious owner appear. It cites only the name, the gothic theme and the pixel style as identity, and a 4 is within a defensible range. This is minor. Note, though, that the distinctive name and the game's own IP are a brand risk, so the 4 should be justified by that risk alone and not by a vague 'between anchors' argument.\"]}",
+     "attempts": 1,
+     "seconds": 12.7
+    },
+    {
+     "role": "analyst",
+     "prompt_sha": "97bad47c42def50f",
+     "prompt_chars": 7322,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":3,\"justification\":\"Vampire Survivors is a bullet-hell roguelite, which the rubric does not list as a native Roblox genre; the only native tag is 'Casual' and the Roblox search ran no queries, so there is no evidence either way about the current Roblox charts.\",\"confidence\":\"low\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"The core loop is one mechanic (auto-attacking weapons against waves of enemies, with level-up picks), and the hints list Arcade and Casual as simple tags against RPG as the only complex tag, so an MVP should fit within days to about two weeks.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":3,\"justification\":\"A peak of 77,061 CCU on the day of the peak shows heavy streaming, but the tags and description show nothing that clearly produces a funny or scary clip every round, which matches the rubric's 'streamed but no stand-out moments' anchor; the Roblox search ran no queries, so whether 'X in Roblox' videos exist is unknown.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":4,\"justification\":\"The tags Action Roguelike, Arcade and Roguelike suggest short run-based sessions, and the description's goal of surviving until dawn implies a bounded run, though RPG progression and the lack of explicit run lengths in the evidence keep this below 5.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Roguelite elements and character selection in the description fit upgrades, boosters, revives and class or character unlocks, and cosmetics fit as well, without breaking the loop.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"The mechanic is generic and easy to re-skin, and the evidence shows no recognisable characters or known litigious owner, but the distinctive title and its own gothic pixel-art identity create some brand risk if a literal copy is made, so this is below 5.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 12.8
+    },
+    {
+     "role": "critic",
+     "prompt_sha": "23446bf136922f8d",
+     "prompt_chars": 6254,
+     "response": "{\"approved\": false, \"issues\": [\"F8: The justification says 'character selection in the description', but the description has no character selection. It only mentions rogue-lite elements, choices that let you snowball, and surviving until dawn. The evidence also doesn't state any monetisation hook. A score of 4 needs revives, classes, upgrades or boosters that fit the loop. The roguelite upgrade loop supports that only by inference. Either cite the evidence that is actually there (Roguelite and RPG tags, level-up picks) or lower the score to 3 and set confidence to low.\", \"F6: The justification cites 'surviving until dawn implies a bounded run', which is an inference. A score of 4 sits between the 3 anchor (20 to 40 minutes) and the 5 anchor (3 to 15 minutes), and the evidence gives no run length. The short-session tags (Action Roguelike, Arcade, Roguelike) are consistent with a 4, but the Analyst should state that the run length is unknown and lower confidence to low. Medium confidence overstates the evidence.\"]}",
+     "attempts": 1,
+     "seconds": 11.2
+    }
+   ]
+  }
+ ]
+}

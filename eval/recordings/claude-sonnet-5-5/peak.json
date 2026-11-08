@@ -1,0 +1,25 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "peak",
+ "appid": 3527290,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:36:05Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "07cfebe31cd0ade5",
+     "prompt_chars": 5553,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"PEAK is a co-op climbing and survival game (Online Co-Op, Physics, Comedy tags), close to the co-op survival and obby-like climbing genres that already do well on Roblox, though the Roblox search returned no clones or chart evidence.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"The core is physics-based climbing with procedural generation, stamina and items; the Physics tag points to a simple mechanic, but procedural mountain biomes and co-op interactions mean an MVP would likely take 2 to 4 weeks.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":5,\"justification\":\"The Comedy, Physics and co-op tags plus a peak of 169,910 CCU suggest every fall or rescue produces a clip, but no 'X in Roblox' videos were found in the evidence, so this is an inference from the tags.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"A run up the mountain is a single attempt with roguelike resets (Action Roguelike tag), which suggests roughly 20 to 40 minute sessions, though the evidence gives no explicit session length.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Character Customization is among the tags, and the loop fits revives, stamina or gear upgrades and boosters, but the evidence gives no confirmed monetisation model.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"The mechanic (co-op climbing with scouts) is generic and easy to re-skin, and the description shows no recognisable characters or brand, though the game's strong identity and recent hit status could draw a rights-holder claim if assets were copied.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 12.4
+    }
+   ]
+  }
+ ]
+}

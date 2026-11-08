@@ -1,0 +1,25 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": false,
+ "case": "palworld",
+ "appid": 1623730,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:33:29Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "bd2771bc99c40225",
+     "prompt_chars": 5520,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":3,\"justification\":\"The Survival and Online Co-Op tags fit Roblox play, but Open World, Creature Collector and Third-Person Shooter make this less native than a round-based co-op game.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":0,\"justification\":\"The Open World, Creature Collector, Base Building and Automation tags indicate several large, interdependent systems rather than a small MVP.\",\"confidence\":\"high\"},{\"factor\":\"F4\",\"score\":2,\"justification\":\"The description's combination of fighting, farming and working with Pals suggests visual moments, but no clip or Roblox-video evidence is provided.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":1,\"justification\":\"Open World, Base Building and Crafting point toward extended play, with no short-round mechanic in the tags or description.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"Creature collection and building suggest room for cosmetics, but the supplied evidence does not establish a natural revive or upgrade loop.\",\"confidence\":\"low\"},{\"factor\":\"F10\",\"score\":2,\"justification\":\"Open-world survival and crafting can be re-themed, but the named Pals give this game a recognisable identity that a literal copy would retain.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 17.3
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "lethal-company",
+ "appid": 1966720,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:35:34Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "2d05843a21fac90a",
+     "prompt_chars": 5442,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"Tags Online Co-Op, Horror, Survival Horror and Funny put it in the co-op horror genre (rubric 4), and objective-based scavenging fits Roblox, but the search returned no clone data to confirm it is in the top charts.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"It has several systems (procedural moons, monster AI, scrap economy, ship and terminal), but an MVP of scavenge, quota and a few monsters fits in 2 to 4 weeks; the only simple tag is Funny.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":5,\"justification\":\"The Funny and Horror tags, proximity voice jump-scares, and a peak of 239,369 CCU at 0 days since peak point to clippable moments every run, although the evidence has no Roblox video data.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"A run is a quota cycle of several days with in-session expeditions of roughly 20 to 40 minutes, and the tags (Time Management) give no short-session signal.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"The loop supports cosmetics, suits, and purchasable ship items, tools and revives (scrap-and-company-store economy), which fit without breaking the game.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Mechanics are generic (scavenge, sell scrap, monsters), and there are no licensed characters, but the Company and its monster designs have a strong identity and the game is popular enough to attract claims, so a re-skin is needed.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 12.9
+    }
+   ]
+  }
+ ]
+}

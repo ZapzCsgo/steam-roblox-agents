@@ -1,0 +1,25 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "supermarket-simulator",
+ "appid": 2670630,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:36:33Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "adf375bbb87bf912",
+     "prompt_chars": 5586,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":3,\"justification\":\"Tags are Simulation/Management/Economy, which fits the Roblox tycoon and simulator family (a retail tycoon is a natively understood format). However, it is a management sim with no objective-based co-op loop, and 'Immersive Sim' is a distant tag.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"It has several systems (shelves, pricing, payments, staff, delivery, shoplifters, store layout), but there is no creature AI or physics, so an MVP fits in 2 to 4 weeks; the Steam tags flag 'Immersive Sim' as complex.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":3,\"justification\":\"A 51,353 CCU peak suggests it is streamed, but the description shows no stand-out funny or scary moments in each round, and no 'in Roblox' videos are shown in the evidence.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":2,\"justification\":\"The tags give no short-session signal and it is an open-ended store-management sim with day cycles and persistent progression, so sessions likely run longer than 20 to 40 minutes.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Store expansion, staff hiring, upgrades and boosters fit naturally into the loop as in Roblox tycoons, although the evidence includes no Roblox monetisation data.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"The description shows a generic mechanic (running a supermarket) with no recognisable characters or brand, so it is easy to re-skin, though there is a modest risk with a direct clone of a paid title.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 11.1
+    }
+   ]
+  }
+ ]
+}

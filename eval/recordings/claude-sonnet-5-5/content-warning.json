@@ -1,0 +1,25 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "content-warning",
+ "appid": 2881650,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:36:19Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "2d8a755b864ee258",
+     "prompt_chars": 5409,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"Online co-op horror with Comedy, Funny and Physics tags matches the co-op horror and survival genres that already work on Roblox, but it is not objective-based round play or already in the top charts.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"The core loop is film, survive and earn views, with procedural levels, monsters and physics. The tags give no complex-system warning (Funny and Physics are simple), so an MVP in 2 to 4 weeks is plausible but it needs several systems: camera and recording, monster AI, and level generation.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":5,\"justification\":\"The premise is filming your friends doing scary things for SpöökTube fame. Every run produces funny or scary clips, the Comedy, Funny and Horror tags support this, and the peak of 63,320 CCU suggests heavy streaming.\",\"confidence\":\"high\"},{\"factor\":\"F6\",\"score\":4,\"justification\":\"The Action Roguelike tag and the day-based structure of filming runs point to short repeated rounds. No long-session tags appear, but the evidence does not give round length.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Cosmetics, camera and gear upgrades, and revives fit the loop naturally. The game is free, so there are no price constraints in the evidence, but it has no existing monetisation to confirm this.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"The mechanic of filming in co-op horror is generic and easy to re-skin. The SpöökTube identity and the monster designs are distinctive but there is no sign of a litigious owner and no recognisable brand characters.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 12.6
+    }
+   ]
+  }
+ ]
+}

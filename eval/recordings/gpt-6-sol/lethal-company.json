@@ -1,0 +1,25 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": false,
+ "case": "lethal-company",
+ "appid": 1966720,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:27:12Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "2d05843a21fac90a",
+     "prompt_chars": 5442,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"The Online Co-Op, Horror, Survival Horror and Funny tags place its scavenging loop in a Roblox-friendly co-op horror genre.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"Scavenging scrap to sell gives an MVP a clear loop, but abandoned-moon exploration and the Procedural Generation tag imply several systems to build.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The Funny, Horror and Online Co-Op tags suggest clippable group scares and mishaps, though no video evidence is provided.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"The scavenging-and-selling loop could support bounded sessions, but the description and tags give no session lengths.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"A co-op scavenging game could sell cosmetics without changing its scrap-selling objective, but the evidence does not establish a natural upgrade or revive system.\",\"confidence\":\"low\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Scavenging on abandoned moons is adaptable, but the named Company and its scrap-selling premise give this version a distinct identity that should not be copied literally.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 15.9
+    }
+   ]
+  }
+ ]
+}

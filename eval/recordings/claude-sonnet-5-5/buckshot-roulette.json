@@ -1,0 +1,25 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "buckshot-roulette",
+ "appid": 2835570,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:37:52Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "240201f0322e318d",
+     "prompt_chars": 5404,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":2,\"justification\":\"Tags are Horror and Psychological Horror, but it is a 1v1 turn-based gambling duel, not objective-based co-op horror, and the Roblox search returned no clones or chart presence.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"The core loop is a single mechanic (turn-based shotgun roulette with items) that can be rebuilt in a few days, though the tags give no simple or complex hints.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"Every round ends in a tense or funny shot, which suits clips, and the 20,135 CCU peak suggests heavy streaming, but there is no Roblox search evidence of 'in Roblox' videos.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":5,\"justification\":\"Rounds are short shotgun duels of a few minutes, though the tags give no short-session hints.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"Cosmetics and perhaps extra items or revives could be sold, but the gambling and life-or-death loop limits what can be monetised without breaking the game.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Russian roulette with a shotgun is a generic mechanic that is easy to re-skin, although the dealer and the dark club identity are distinctive and the Roblox search found no clones.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 10.8
+    }
+   ]
+  }
+ ]
+}

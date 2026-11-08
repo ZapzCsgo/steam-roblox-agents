@@ -1,0 +1,25 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": false,
+ "case": "content-warning",
+ "appid": 2881650,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:28:36Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "2d8a755b864ee258",
+     "prompt_chars": 5409,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"The Online Co-Op and Horror tags place it in a Roblox-friendly genre, though the supplied search results show no established Roblox version.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"Filming friends is a clear core loop, but the Procedural Generation and Physics tags suggest several systems to rebuild.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The premise of filming friends doing scary things, alongside the Comedy and Funny tags, suggests clippable moments, but no Roblox videos are provided.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":4,\"justification\":\"The Action Roguelike tag suggests repeatable runs, but the evidence gives no actual session length.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The filming-and-fame premise could support cosmetics, but the description provides no evidence of revives, classes or upgrades.\",\"confidence\":\"low\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"SpöökTube gives the game a distinct identity, while filming scary co-op encounters is a mechanic that could be re-themed.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 35.4
+    }
+   ]
+  }
+ ]
+}

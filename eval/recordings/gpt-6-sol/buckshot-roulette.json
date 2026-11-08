@@ -1,0 +1,25 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": false,
+ "case": "buckshot-roulette",
+ "appid": 2835570,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:31:07Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "240201f0322e318d",
+     "prompt_chars": 5404,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":2,\"justification\":\"The Horror and Multiplayer tags suggest social appeal, but the shotgun-roulette premise is not an objective-based co-op Roblox genre.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"The description presents one central roulette mechanic, though supporting four-player matches adds implementation work.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The 'Four enter. One leaves' premise suggests tense elimination moments, but no video evidence is provided.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":4,\"justification\":\"A four-player elimination format suggests short rounds, but the supplied evidence gives no session lengths.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The Multiplayer format could support cosmetics, while the Gambling tag makes paid bets or chance-based purchases unsuitable.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Russian roulette is a generic mechanic that could be re-themed, but the game's shotgun-centered identity is distinctive.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 19.7
+    }
+   ]
+  }
+ ]
+}

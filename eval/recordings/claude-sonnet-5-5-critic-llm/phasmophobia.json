@@ -1,0 +1,49 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": true,
+ "case": "phasmophobia",
+ "appid": 739630,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:52:29Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "8f8e8ef5ea81982b",
+     "prompt_chars": 5492,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"Tags Horror and Psychological Horror with 4-player co-op investigation match the objective-based co-op horror genre that is native to Roblox, though no Roblox search results confirm a current top-chart presence.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"Ghost AI, a set of evidence tools, multiple maps and ghost types mean several systems, but an MVP with one map and a few ghosts fits in 2 to 4 weeks (no complex or simple tag hints).\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":5,\"justification\":\"A peak of 112,241 CCU and Horror/Co-Op tags suggest every ghost hunt produces scary or funny reaction clips, and the game is a long-standing streamer staple.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"Contracts usually run about 15 to 40 minutes, and the tags give no short-session or long-session hints.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Equipment upgrades, revives, cosmetics and consumables such as sanity pills fit naturally into the contract loop, and the game is paid on Steam, so a free Roblox version would need to monetise through these.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"The ghost-hunting investigation is a generic mechanic that is easy to re-skin, though Phasmophobia has a recognisable identity (equipment, ghost types) and the rights holder could file a claim on a literal copy.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 12.5
+    },
+    {
+     "role": "critic",
+     "prompt_sha": "0b8fdda13c1682d7",
+     "prompt_chars": 5763,
+     "response": "{\"approved\": false, \"issues\": [\"F4: The score of 5 requires that 'X in Roblox' videos already exist. The Roblox search shows 0 clones and no such videos. The justification cites only the 112,241 CCU peak and the Horror/Co-Op tags, so it supports about 4, not 5.\", \"F8: The justification cites revives and sanity pills as natural monetisation. The evidence does not mention revives. Phasmophobia has no revive mechanic that the data supports, and the description gives no sign of one. The cosmetics and consumables it does name fit a score of 3 to 4, so the revives claim is unsupported.\"]}",
+     "attempts": 1,
+     "seconds": 9.7
+    },
+    {
+     "role": "analyst",
+     "prompt_sha": "cd85a058c622846d",
+     "prompt_chars": 6124,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"The Horror and Psychological Horror tags with 4-player Online Co-Op place it in the co-op horror genre, which is native to Roblox, but the Roblox search shows no top-chart presence to justify a 5.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":2,\"justification\":\"The tags (Investigation, Supernatural, VR) and the description (ghost-hunting equipment, gathering evidence) imply several linked systems, such as ghost AI, evidence tools and a deduction loop, so an MVP is probably more than a few days of work.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The Horror and Online Co-Op tags and a 112,241 CCU peak suggest scary co-op moments that can be clipped, but the Roblox search shows no existing 'X in Roblox' videos, so 5 is not supported.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"Investigation rounds with evidence gathering are likely to last 20 to 40 minutes, but the evidence gives no session length and the tags give no short-session or long-session hint.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The description names ghost-hunting equipment, which fits cosmetics and equipment or consumable purchases, but the evidence mentions no revive or class mechanic.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"The ghost-hunting investigation concept is generic and can be re-skinned, but the game has a strong identity (name, equipment, ghost types) and, as a 112,241 CCU hit, it is likely to attract claims against close copies.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 12.9
+    },
+    {
+     "role": "critic",
+     "prompt_sha": "40e9d84d68f6a960",
+     "prompt_chars": 5881,
+     "response": "{\"approved\": true, \"issues\": []}",
+     "attempts": 1,
+     "seconds": 13.6
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "balatro",
+ "appid": 2379780,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:39:21Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "a301b6b3738ff8fe",
+     "prompt_chars": 5467,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":0,\"justification\":\"Balatro is a single-player poker roguelike deckbuilder (tags Card Game, Roguelike Deckbuilder, Strategy, Turn-Based), a niche strategy genre with no native Roblox equivalent and no clones found.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"The core poker-hand scoring is simple to rebuild, but the joker, deck and roguelike-progression content (Deckbuilding, Replay Value tags) makes a full MVP a 2 to 4 week job.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":2,\"justification\":\"Peak CCU of 43,825 shows strong interest and big combo runs are shareable, but turn-based card play produces few funny or scary clips and the Roblox search shows no 'X in Roblox' videos.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"Roguelike runs last 30 to 60 minutes, although single blinds and hands are short, which fits the Card Game and Roguelike short-session tags only partly.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"Cosmetics such as card decks and skins would fit, and extra jokers or rerolls could be sold, but paid power-ups would break a gambling-flavoured score-chasing loop.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Poker is a generic mechanic, but Balatro has a strong recognisable identity (jokers, CRT pixel style) and the Roblox search found no existing clones to gauge the rights holder's reaction.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 11.8
+    }
+   ]
+  }
+ ]
+}

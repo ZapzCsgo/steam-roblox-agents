@@ -1,0 +1,25 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "vampire-survivors",
+ "appid": 1794680,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:39:07Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "93fea3f8907a1801",
+     "prompt_chars": 5571,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":2,\"justification\":\"Vampire Survivors is a solo-oriented action roguelite (tags Action Roguelike, Bullet Hell, Singleplayer) with only a Casual tag native to Roblox, and the Roblox search returned no clones or established leader to show the genre is in the top charts.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"The core loop is simple (auto-attacking, move-only 2D horde survival, with Arcade and Casual tags), so an MVP fits in days to 2 weeks, though weapon evolutions and a large content list add scope.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":3,\"justification\":\"A peak of 77,061 CCU shows it is widely streamed, but the screen-filling chaos is not made up of discrete funny or scary moments, and the evidence shows no 'X in Roblox' videos.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"Runs last about 30 minutes (survive until dawn), which fits the 20 to 40 minute band, even though the Action Roguelike, Arcade and Roguelike tags suggest short sessions and the RPG tag suggests long ones.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Roguelite meta-progression (permanent upgrades, characters, weapons, revives) maps naturally onto Robux boosters, unlocks and revives without breaking the loop.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"The mechanic is generic (auto-attack horde survival with many existing clones in the genre) and the pixel-art vampire theme is easy to re-skin, though the title and its brand identity are strong.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 12.1
+    }
+   ]
+  }
+ ]
+}

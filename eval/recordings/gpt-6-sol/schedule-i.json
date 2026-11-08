@@ -1,0 +1,25 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": false,
+ "case": "schedule-i",
+ "appid": 3164500,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:33:49Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "37cde4ceb6682c7f",
+     "prompt_chars": 5544,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":2,\"justification\":\"The Management and Simulation tags offer some Roblox fit, but the described open-world drug empire is a complex management game rather than a native short-round genre.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":1,\"justification\":\"The Open World tag and description of properties, businesses, employees, manufacturing and distribution imply several substantial systems to rebuild.\",\"confidence\":\"high\"},{\"factor\":\"F4\",\"score\":2,\"justification\":\"Co-op and multiplayer could produce shareable moments, but the supplied evidence includes no gameplay clips or Roblox videos demonstrating repeatable viral moments.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":1,\"justification\":\"The Open World and Base Building tags, together with the empire-building description, suggest long sessions rather than short rounds.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"The described properties, businesses and employees provide natural upgrade paths, although the drug-focused premise would need a full re-theme for Roblox.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"The crime-empire management loop can be re-skinned, but the game's identity is closely tied to manufacturing and distributing drugs, requiring a substantial re-theme.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 17.6
+    }
+   ]
+  }
+ ]
+}

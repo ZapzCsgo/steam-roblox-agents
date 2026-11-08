@@ -1,0 +1,33 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": false,
+ "case": "only-up",
+ "appid": 2381590,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:30:45Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "56471646b28040f2",
+     "prompt_chars": 5455,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":5,\"justification\":\"The Parkour and 3D Platformer tags match Roblox's obby genre, which the search context identifies as an established genre with a 20,000-player leader.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"Parkour and platforming suggest a straightforward core mechanic, though the Open World and Physics tags indicate added implementation work.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":3,\"justification\":\"The Difficult and Parkour tags suggest falls or near-misses could make clips, but no video evidence or gameplay description is provided.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":2,\"justification\":\"The Open World and Story Rich tags suggest longer play, while Arcade points toward shorter sessions, and no session-length data is provided.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"Cosmetics could fit a parkour platformer, but the supplied tags and search results do not establish a natural upgrade or revive loop.\",\"confidence\":\"low\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Parkour and platforming are generic mechanics that can be re-skinned, although the named game has a recognisable identity and no rights-holder information is provided.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 25.7
+    },
+    {
+     "role": "analyst",
+     "prompt_sha": "7fc7d3866b5bc9e6",
+     "prompt_chars": 5631,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":5,\"justification\":\"The Parkour and 3D Platformer tags map directly to Roblox obbies, an established genre with a 20,000-player leader in the supplied search results.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":2,\"justification\":\"Although the Arcade tag suggests a simple core loop, the Open World and Physics tags indicate a substantial environment and movement system to rebuild.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":2,\"justification\":\"Parkour and Difficult suggest potential for dramatic attempts, but the supplied evidence contains no video data or existing Roblox adaptation videos.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":2,\"justification\":\"The Open World and Story Rich tags point toward longer play, while the Arcade tag alone does not establish short rounds.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":2,\"justification\":\"The Parkour and Third Person tags leave room for cosmetics, but the supplied evidence shows no classes, upgrades or other monetisable systems.\",\"confidence\":\"low\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Parkour is a generic mechanic that can be re-skinned, though the named game Only Up! carries some identity risk if copied literally.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 15.4
+    }
+   ]
+  }
+ ]
+}

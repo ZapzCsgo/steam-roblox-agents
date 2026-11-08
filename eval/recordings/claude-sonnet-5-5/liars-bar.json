@@ -1,0 +1,57 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "liars-bar",
+ "appid": 3097560,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:36:46Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "15ec4e344c3d2e17",
+     "prompt_chars": 5533,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":3,\"justification\":\"Social deduction and bluffing party play (Liar's Dice and Liar's Deck, tags Multiplayer, Casual, Funny, PvP) sits close to the native Roblox social-deduction genre. It is a tabletop game rather than a top-chart genre, and the Roblox search found 0 clones and no established leader.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"The description says the game is a table of 4 playing two card and dice bluffing games. The tags show simple tags only (Casual, Funny) and no complex ones, so an MVP with one core ruleset should fit in days to a couple of weeks.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"Bluffing and betrayal moments make good clips, and the peak of 109,419 CCU on the day of the peak shows strong streamer pickup. No 'in Roblox' videos exist yet, since the Roblox search returned 0 clones.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":4,\"justification\":\"Rounds of Liar's Dice or Liar's Deck at a table of 4 are short. The tags give no long-session or short-session signal, so this rests on the description only.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The bar setting, characters and table fit cosmetics well. The description and tags show no revive, class or booster loop that would fit without hurting the fairness of a bluffing game.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Dice and card bluffing are generic public-domain mechanics. The bar setting and its look are distinctive, but the tags and description show no recognisable characters, so a re-skin is easy. The indie developer's enforcement behaviour is unknown.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 11.8
+    }
+   ]
+  },
+  {
+   "run": 1,
+   "recorded_at": "2026-11-08T15:41:57Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "15ec4e344c3d2e17",
+     "prompt_chars": 5533,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":3,\"justification\":\"Social deduction and bluffing (Liar's Dice and Liar's Deck at a table of 4) fits the 4-point social-deduction band, but the tabletop/card format is not a proven Roblox top-chart genre and the Roblox search returned no existing clones.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"The core loop is two tabletop bluffing games for 4 players with simple rules, so an MVP is feasible in days to a couple of weeks, and the tags show no complex systems (Casual, Funny, Board Game).\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"Peak CCU of 109,419 and the Funny, PvP and Dark tags point to heavy streaming, and bluff-and-reveal moments make good clips, though the 0 clones in the Roblox search give no evidence of existing 'in Roblox' videos.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":4,\"justification\":\"Liar's Dice and Liar's Deck rounds at a table of 4 are short elimination games, probably 5 to 15 minutes, but the tags give no session-length signal, so this is inferred from the description.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"Cosmetics such as avatars, table skins and emotes fit naturally, and revives or boosters would be hard to add without breaking the bluffing loop, so the score stays at the cosmetics level.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Liar's Dice and card bluffing are generic public-domain mechanics that are easy to re-skin, but the bar setting and the distinctive animal characters are an identity that has to be changed to avoid a claim.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 11.6
+    }
+   ]
+  },
+  {
+   "run": 2,
+   "recorded_at": "2026-11-08T15:44:17Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "15ec4e344c3d2e17",
+     "prompt_chars": 5533,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":3,\"justification\":\"Liar's Bar is a 4-player social deduction and bluffing card/dice game (tags Casual, Funny, PvP, Tabletop), which is close to the social deduction genre that does well on Roblox. The tabletop format is not an established top-chart genre there, and the Roblox search returned 0 clones, so there is no proof of demand.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"The core is two table games (Liar's Dice and Liar's Deck) for 4 players, with simple tags (Casual, Funny) and no complex tags. An MVP needs a lobby, a card/dice ruleset and basic networking, which fits in a few days to 2 weeks.\",\"confidence\":\"high\"},{\"factor\":\"F4\",\"score\":5,\"justification\":\"The peak of 109,419 CCU on the day of the search and the Funny tag point to heavy streaming. Bluffing, accusations and the Russian-roulette-style penalties produce a clippable moment every round.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":4,\"justification\":\"Rounds of Liar's Dice or Liar's Deck at a 4-player table are short, probably 5 to 15 minutes. The tags give no session-length hint, so this is inferred from the game format.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"A table game with no progression loop mostly supports cosmetics: avatars, dice and card skins, table themes. Revives or boosters would break the fairness of PvP bluffing.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Liar's Dice and Liar's Deck are generic public-domain mechanics that are easy to re-skin. The bar setting and animal characters give the game some identity, and the Dark tag and the penalty mechanic must be re-themed anyway. Nothing suggests the rights holder is litigious.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 13.4
+    }
+   ]
+  }
+ ]
+}

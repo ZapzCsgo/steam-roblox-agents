@@ -1,0 +1,49 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": true,
+ "case": "escape-from-tarkov",
+ "appid": 3932890,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:56:32Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "cca3038967d56bee",
+     "prompt_chars": 5663,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":2,\"justification\":\"The core genre is an extraction shooter (rubric: shooter = 2), and the Survival and Horror tags only partly fit Roblox-native genres; Roblox search returned 0 clones and no leader.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":1,\"justification\":\"The Extraction Shooter tag is flagged complex, and the game combines gun customization, a looting economy, a bleed/health system, PMC and Scav AI, and large maps, so an MVP would take well over 4 weeks.\",\"confidence\":\"high\"},{\"factor\":\"F4\",\"score\":3,\"justification\":\"The game is heavily streamed, with a 45,572 CCU peak today and high-stakes raid moments, but the clips come from a hardcore tactical game and no 'Tarkov in Roblox' videos appear in the evidence.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":2,\"justification\":\"The tags give no session-length hint, but extraction raids with prep, looting and a loot-or-lose-it-all loop usually last 20 to 40 minutes or more.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"Gun customization, loot and gear fit cosmetics and upgrades, but selling power in a PvP extraction loop would break the risk and reward balance.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":2,\"justification\":\"Tarkov is a well-known brand with a distinct identity (PMCs, Scavs, realistic named weapons) from a rights holder known to defend it, although the extraction mechanic itself is generic.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 11.7
+    },
+    {
+     "role": "analyst",
+     "prompt_sha": "0746404fb9ea5c09",
+     "prompt_chars": 5826,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":3,\"justification\":\"Tags Survival Horror, Psychological Horror and Survival map to established Roblox genres, but the core loop is an Extraction Shooter, a shooter genre rated 2 in the rubric, so I settle between the two at 3.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":1,\"justification\":\"The Extraction Shooter and Gun Customization tags imply many systems (ballistics, inventory, medical, loot economy, large maps, PvP and PvE AI), so an MVP would take far more than 2 to 4 weeks.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"Peak CCU of 45,572 and the high-stakes raid loop (sudden deaths, tense extractions) tend to produce clippable moments, but the evidence has no Roblox video data and no Roblox clones.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":2,\"justification\":\"Raids are gambles with progression and loot prep, and no short-session tags are present, so sessions likely last 20 to 40 minutes, with prep and stash management on top.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"Gun Customization and Looter Shooter tags suggest cosmetics, weapon skins and loadout upgrades, but monetising loot or advantages would break the extraction tension.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":2,\"justification\":\"Realistic, Military and Tactical tags point to real firearm brands and a strong, recognisable identity, and the original's owner is likely protective, although the extraction mechanic itself is generic.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 12.2
+    },
+    {
+     "role": "critic",
+     "prompt_sha": "aea04d88db8ae173",
+     "prompt_chars": 5977,
+     "response": "{\"approved\": false, \"issues\": [\"F6: The score of 2 contradicts the justification. The justification says sessions likely last 20 to 40 minutes, and the rubric gives that range a 3. A 2 sits between the 60-minute-or-more band (1) and the 20-to-40-minute band (3). The evidence has no short-session or long-session tags, so the stated duration doesn't support a 2. Either raise the score to 3 or justify a longer session length.\", \"F2: The score of 3 contradicts the rubric. The rubric rates shooters and MMOs at 2, and the Extraction Shooter, Shooter and FPS tags describe the core loop. Psychological Horror and Survival Horror are the only horror tags, and the tag hints list them as native Roblox tags, but the description is about PMC-versus-PMC raids and not co-op horror or objective-based horror. Averaging a shooter genre with the horror and survival tags gives a score that matches neither rubric anchor. Lower it to 2, or cite evidence that the loop is closer to survival or co-op horror (4).\", \"F4: The score of 4 is not supported by the evidence given. The justification relies on peak CCU, which measures Steam popularity and not Roblox video virality. The Roblox search found 0 clones, so no 'X in Roblox' videos exist. The rubric gives 5 only for a game where every round produces a clip and such Roblox videos already exist, and gives 3 for a game that is streamed without stand-out moments. A 4 with low confidence rests only on genre inference. Lower it to 3, or cite evidence of clip culture such as streaming on Twitch or YouTube.\"]}",
+     "attempts": 1,
+     "seconds": 13.0
+    },
+    {
+     "role": "analyst",
+     "prompt_sha": "692cdf5f6b51ed80",
+     "prompt_chars": 7265,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":2,\"justification\":\"The Extraction Shooter, Shooter and FPS tags describe the core loop, and the description is about PMC-versus-PMC raids rather than co-op or objective-based horror, so it fits the rubric's shooter anchor of 2.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":1,\"justification\":\"The Extraction Shooter tag is flagged as complex, and the description lists gun customization, bleeding and health systems, loot persistence and PvP/Scav AI, which cannot fit an MVP in 2 to 4 weeks.\",\"confidence\":\"high\"},{\"factor\":\"F4\",\"score\":3,\"justification\":\"The description and the 45,572 CCU peak suggest the game is streamed, but the Roblox search found 0 clones, so there are no 'X in Roblox' videos and no evidence of stand-out clips on Roblox.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"The description describes discrete raids that end in extraction or death, which likely last 20 to 40 minutes, and the rubric gives that range a 3; there are no short-session or long-session tags to move it either way.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The Gun Customization and Looter Shooter tags point to cosmetics and gear skins as the natural fit, but monetising loot or gear directly would break the extraction risk-and-reward loop.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":2,\"justification\":\"The extraction-shooter mechanic is fairly generic, but the Escape from Tarkov name, its Tarkov setting and its PMC/Scav identity are strong and recognisable, and the realistic firearms make a literal copy likely to draw a claim.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 12.6
+    }
+   ]
+  }
+ ]
+}

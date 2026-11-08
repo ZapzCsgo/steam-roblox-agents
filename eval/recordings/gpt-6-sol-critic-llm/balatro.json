@@ -1,0 +1,33 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": true,
+ "case": "balatro",
+ "appid": 2379780,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:50:14Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "a301b6b3738ff8fe",
+     "prompt_chars": 5467,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":0,\"justification\":\"Steam labels Balatro a single-player strategy card game rather than a native Roblox social or co-op genre.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"The described loop of poker hands, jokers, and combos suggests an MVP is feasible, but the game-changing joker interactions add systems to reproduce.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":2,\"justification\":\"The description highlights outrageous combos, but the supplied evidence gives no examples of clips or Roblox videos.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"The Card Game and Roguelike tags suggest self-contained runs, but no session lengths are provided.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":2,\"justification\":\"Jokers offer a possible cosmetic theme, but the description provides no evidence of revives, classes, or upgrades that would fit monetisation naturally.\",\"confidence\":\"low\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Card-combo deckbuilding can be re-skinned, but Balatro’s poker-and-joker identity is distinctive and its gambling theme would require a full re-theme for Roblox.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 15.7
+    },
+    {
+     "role": "critic",
+     "prompt_sha": "62772f94a4d7e709",
+     "prompt_chars": 5441,
+     "response": "{\"approved\":true,\"issues\":[]}",
+     "attempts": 1,
+     "seconds": 14.6
+    }
+   ]
+  }
+ ]
+}

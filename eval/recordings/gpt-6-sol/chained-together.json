@@ -1,0 +1,25 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": false,
+ "case": "chained-together",
+ "appid": 2567870,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:26:07Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "55ee71cb2a577c07",
+     "prompt_chars": 5514,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":5,\"justification\":\"The Platformer, 3D Platformer, Co-op and Funny tags describe a social climbing game that fits Roblox's obby genre.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"The chained 1–4 player climb has a clear core mechanic, but the Physics tag and description's multiple worlds suggest more than a few days of work.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The Funny, Physics and Co-op tags suggest clippable mishaps between chained friends, though no video results were provided.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"The description specifies a climb through various worlds but gives no round length or session-duration evidence.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":2,\"justification\":\"The platforming-and-physics loop suggests cosmetic options, but the description provides no evidence of classes, upgrades or other natural purchases.\",\"confidence\":\"low\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Chained multiplayer climbing is a mechanic that could be re-themed, although the game's Hell setting and chained-friends presentation give it a recognisable identity.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 17.1
+    }
+   ]
+  }
+ ]
+}

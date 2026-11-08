@@ -1,0 +1,25 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "mage-arena",
+ "appid": 3716600,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:38:07Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "f658f559a74a66da",
+     "prompt_chars": 5411,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":2,\"justification\":\"Mage Arena is a first-person PvP/FPS spell-casting game (tags Magic, PvP, FPS, Action), which falls in the shooter/combat bucket (2) rather than a native Roblox genre; only the Casual tag is native.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":2,\"justification\":\"The game combines several systems (spell casting, PvP combat, team rounds), and its core hook is voice-activated spells, which is hard to rebuild on Roblox because of voice restrictions. A fallback such as typed or button spells would still need an MVP of more than 2 to 4 weeks.\",\"confidence\":\"low\"},{\"factor\":\"F4\",\"score\":5,\"justification\":\"Shouting spells aloud in PvP produces funny and chaotic clips, and a peak of 17,126 CCU on the day of the peak shows strong streamer and viral traction.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":4,\"justification\":\"The tags (PvP, Action, Casual, eSports) suggest arena matches of roughly 5 to 15 minutes, but the evidence gives no explicit round length and no short- or long-session tags.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Spell loadouts, wizard and warlock cosmetics, and class-style upgrades fit the arena loop naturally, and Dark Fantasy and Cartoony art suit skins.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Wizard-versus-warlock PvP is a generic fantasy mechanic with no recognisable characters or litigious brand, although the voice-casting hook gives it a distinct identity.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 12.4
+    }
+   ]
+  }
+ ]
+}

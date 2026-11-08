@@ -1,0 +1,25 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "chained-together",
+ "appid": 2567870,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:34:47Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "55ee71cb2a577c07",
+     "prompt_chars": 5514,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"Tags 3D Platformer, Platformer, Physics and Co-Op map to the obby genre that dominates Roblox, but a chained-together climbing game is not itself a top-chart format.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"The core mechanic is a physics-based climb with players tethered together, and the Casual, Funny and Physics tags suggest an MVP in days to a couple of weeks. Roblox rope constraints make the chain easy, though level content and tuning add work.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":5,\"justification\":\"A peak of 92,186 CCU, Funny and Co-Op tags and the friend-chained falls make every fall a clippable moment, and the Chained Together prior case succeeded on Roblox.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":2,\"justification\":\"No session-length tags are given, and a climb that runs from the depths to the top is usually a long run of 30 to 60+ minutes, though it can be played in checkpoint-sized chunks.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"Cosmetics, skins and chain effects fit naturally, but Roblox paid boosts such as checkpoint skips or revives would partly undermine the climb challenge.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"The mechanic of a chained climb is generic and easy to re-skin, and the Hell theme can be swapped for a different setting, with no recognisable characters or brand in the evidence.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 13.1
+    }
+   ]
+  }
+ ]
+}

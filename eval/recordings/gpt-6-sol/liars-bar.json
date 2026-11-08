@@ -1,0 +1,57 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": false,
+ "case": "liars-bar",
+ "appid": 3097560,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:29:19Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "15ec4e344c3d2e17",
+     "prompt_chars": 5533,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"The four-player bluffing games and Multiplayer, Co-op and Funny tags fit Roblox party and social-deduction play.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":3,\"justification\":\"A four-player table and two bluffing games suggest a manageable MVP, though both Liar's Dice and Liar's Deck require separate rules.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":3,\"justification\":\"The Funny tag and bluffing premise suggest clippable reveals, but the supplied evidence includes no videos or examples of viral moments.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"Table-based games with four players suggest bounded rounds, but no session or round lengths are provided.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The four-player table setting could support cosmetics, while the supplied game description gives no evidence of upgrades or boosters that fit bluffing.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Lying and bluffing in dice and card games are mechanics that can be re-themed, though the named bar setting gives this game a distinct identity.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 17.5
+    }
+   ]
+  },
+  {
+   "run": 1,
+   "recorded_at": "2026-11-08T15:40:49Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "15ec4e344c3d2e17",
+     "prompt_chars": 5533,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"The four-player bluffing games fit Roblox-style social deduction and party play, though the dangerous bar theme would need re-theming.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"Liar's Dice and Liar's Deck share a bluffing core, but the description names two games and an online four-player table rather than a single mechanic.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"The Funny tag and four-player lying-and-bluffing premise suggest clippable reveals, but no video evidence is provided.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":4,\"justification\":\"The description presents table games for four rather than a long campaign, but it gives no round or session length.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The multiplayer tabletop setting could support cosmetics, while the supplied description gives no evidence that revives or upgrades fit its bluffing games.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"Liar's Dice and bluffing are adaptable mechanics, but the named Liar's Bar setting gives the game a recognisable identity that should not be copied.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 21.6
+    }
+   ]
+  },
+  {
+   "run": 2,
+   "recorded_at": "2026-11-08T15:43:06Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "15ec4e344c3d2e17",
+     "prompt_chars": 5533,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":4,\"justification\":\"The four-player bluffing games and Multiplayer, Funny, and Tabletop tags fit Roblox social play, though the evidence does not show this format in its top charts.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":4,\"justification\":\"The description centers on two four-player dice and card games, suggesting a compact adaptation, though implementing both requires more than one mechanic.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"Lying and bluffing at a table of four could produce funny reveal moments, but no video examples are provided.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":4,\"justification\":\"Dice and card games at a four-player table suggest repeatable rounds, but the evidence gives no session lengths.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"A four-player tabletop game could accommodate cosmetic customization, while the description offers no evidence of revives or upgrades that suit its loop.\",\"confidence\":\"low\"},{\"factor\":\"F10\",\"score\":4,\"justification\":\"Liar's Dice and Liar's Deck rely on generic bluffing mechanics that can be re-themed without copying the named bar or its presentation.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 20.0
+    }
+   ]
+  }
+ ]
+}

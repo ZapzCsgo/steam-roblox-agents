@@ -1,0 +1,25 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "helldivers-2",
+ "appid": 553850,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:38:22Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "366370d7976fa04f",
+     "prompt_chars": 5480,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":2,\"justification\":\"Helldivers 2 is a third-person co-op shooter with extraction elements (tags: Third-Person Shooter, Extraction Shooter, PvE), which the rubric places at 2 for shooters, although the Comedy tag and co-op play help slightly.\",\"confidence\":\"medium\"},{\"factor\":\"F3\",\"score\":2,\"justification\":\"It combines several systems (enemy AI hordes, stratagem calls, mission objectives, vehicles, large planets), and the Extraction Shooter tag is flagged as complex, so an MVP would take more than 4 weeks even if a reduced squad-vs-bugs version is possible.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":4,\"justification\":\"Friendly fire, stratagem mishaps and chaotic horde fights produce many funny clips (Comedy and Gore tags, 458,208 peak CCU), but the Roblox search returned no existing 'in Roblox' videos, so this rests on Steam streaming popularity.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"Missions usually run 15 to 40 minutes, which fits the rubric's 20-40 minute band, and no short-session or long-session tags were given.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":4,\"justification\":\"Class-style loadouts, stratagems, armor, boosters and cosmetics map naturally to upgrades and revives in the loop, though a paid Steam game with a Capitalism tag shows the progression is already tied to its own economy.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":1,\"justification\":\"Helldivers 2 has a strongly recognisable identity (Super Earth satire, Helldivers armor, Automatons and Terminids) owned by Sony/Arrowhead, a litigious rights holder, and a clone would be hard to re-skin away from it.\",\"confidence\":\"high\"}]}",
+     "attempts": 1,
+     "seconds": 12.8
+    }
+   ]
+  }
+ ]
+}

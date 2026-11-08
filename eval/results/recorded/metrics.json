@@ -1,0 +1,2695 @@
+{
+ "cases": 21,
+ "grid_version": "1.1",
+ "models": [
+  {
+   "accuracy": {
+    "confusion": {
+     "pass": {
+      "pass": 4,
+      "prototype": 0,
+      "watch": 3
+     },
+     "prototype": {
+      "pass": 0,
+      "prototype": 7,
+      "watch": 2
+     },
+     "watch": {
+      "pass": 3,
+      "prototype": 0,
+      "watch": 2
+     }
+    },
+    "lenient_accuracy": 0.857,
+    "n": 21,
+    "score_bias_vs_reference": 1.24,
+    "score_mae_vs_reference": 7.05,
+    "strict_accuracy": 0.619
+   },
+   "critic": {
+    "clamp_rate": 0.0,
+    "final_validation": 1.0,
+    "first_pass_approval": 0.857,
+    "human_review_rate": 0.0,
+    "llm_rejection_rate": 0.0,
+    "mean_revisions": 0.143
+   },
+   "critic_llm": false,
+   "factor_gaps": {
+    "F10": {
+     "bias": -0.43,
+     "mae": 0.62
+    },
+    "F2": {
+     "bias": -0.48,
+     "mae": 0.76
+    },
+    "F3": {
+     "bias": -0.62,
+     "mae": 0.81
+    },
+    "F4": {
+     "bias": -0.1,
+     "mae": 0.29
+    },
+    "F6": {
+     "bias": -0.19,
+     "mae": 0.48
+    },
+    "F8": {
+     "bias": 0.43,
+     "mae": 0.71
+    }
+   },
+   "missing_cases": [],
+   "model": "claude-sonnet-5-5",
+   "provider": "anthropic",
+   "replay_identical": true,
+   "rows": [
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 5,
+      "F10": 4,
+      "F2": 5,
+      "F3": 4,
+      "F4": 5,
+      "F5": 5,
+      "F6": 5,
+      "F7": 5,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "meccha-chameleon",
+     "name": "Meccha Chameleon",
+     "outcome": "success",
+     "ref_score": 95,
+     "revisions": 0,
+     "score": 95,
+     "validated": true,
+     "verdict": "prototype"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 5,
+      "F10": 4,
+      "F2": 4,
+      "F3": 4,
+      "F4": 5,
+      "F5": 2,
+      "F6": 2,
+      "F7": 4,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "chained-together",
+     "name": "Chained Together",
+     "outcome": "success",
+     "ref_score": 92,
+     "revisions": 0,
+     "score": 79,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 5,
+      "F10": 3,
+      "F2": 4,
+      "F3": 3,
+      "F4": 5,
+      "F5": 4,
+      "F6": 3,
+      "F7": 5,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "repo",
+     "name": "R.E.P.O.",
+     "outcome": "success",
+     "ref_score": 96,
+     "revisions": 0,
+     "score": 89,
+     "validated": true,
+     "verdict": "prototype"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 5,
+      "F10": 2,
+      "F2": 5,
+      "F3": 4,
+      "F4": 5,
+      "F5": 5,
+      "F6": 5,
+      "F7": 5,
+      "F8": 4,
+      "F9": 1
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "among-us",
+     "name": "Among Us",
+     "outcome": "success",
+     "ref_score": 77,
+     "revisions": 0,
+     "score": 81,
+     "validated": true,
+     "verdict": "prototype"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 5,
+      "F10": 4,
+      "F2": 4,
+      "F3": 3,
+      "F4": 5,
+      "F5": 2,
+      "F6": 3,
+      "F7": 5,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "lethal-company",
+     "name": "Lethal Company",
+     "outcome": "success",
+     "ref_score": 94,
+     "revisions": 0,
+     "score": 86,
+     "validated": true,
+     "verdict": "prototype"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 4,
+      "F10": 3,
+      "F2": 4,
+      "F3": 2,
+      "F4": 5,
+      "F5": 4,
+      "F6": 3,
+      "F7": 4,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "phasmophobia",
+     "name": "Phasmophobia",
+     "outcome": "success",
+     "ref_score": 83,
+     "revisions": 0,
+     "score": 83,
+     "validated": true,
+     "verdict": "prototype"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 5,
+      "F10": 4,
+      "F2": 4,
+      "F3": 3,
+      "F4": 5,
+      "F5": 4,
+      "F6": 3,
+      "F7": 5,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "peak",
+     "name": "PEAK",
+     "outcome": "success",
+     "ref_score": 80,
+     "revisions": 0,
+     "score": 84,
+     "validated": true,
+     "verdict": "prototype"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 5,
+      "F10": 4,
+      "F2": 4,
+      "F3": 3,
+      "F4": 5,
+      "F5": 4,
+      "F6": 4,
+      "F7": 3,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "content-warning",
+     "name": "Content Warning",
+     "outcome": "success",
+     "ref_score": 81,
+     "revisions": 0,
+     "score": 90,
+     "validated": true,
+     "verdict": "prototype"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 4,
+      "F10": 4,
+      "F2": 3,
+      "F3": 3,
+      "F4": 3,
+      "F5": 5,
+      "F6": 2,
+      "F7": 4,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "supermarket-simulator",
+     "name": "Supermarket Simulator",
+     "outcome": "success",
+     "ref_score": 84,
+     "revisions": 0,
+     "score": 73,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "watch",
+     "factors": {
+      "F1": 5,
+      "F10": 4,
+      "F2": 3,
+      "F3": 4,
+      "F4": 4,
+      "F5": 2,
+      "F6": 4,
+      "F7": 4,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "liars-bar",
+     "name": "Liar's Bar",
+     "outcome": "mixed",
+     "ref_score": 75,
+     "revisions": 0,
+     "score": 76,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [
+      "C1"
+     ],
+     "expected": "pass",
+     "factors": {
+      "F1": 5,
+      "F10": 2,
+      "F2": 4,
+      "F3": 2,
+      "F4": 5,
+      "F5": 5,
+      "F6": 5,
+      "F7": 5,
+      "F8": 3,
+      "F9": 1
+     },
+     "first_pass_approved": false,
+     "human_review": false,
+     "id": "fall-guys",
+     "name": "Fall Guys",
+     "outcome": "failure",
+     "ref_score": 56,
+     "revisions": 1,
+     "score": 66,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [
+      "C1",
+      "C4"
+     ],
+     "expected": "watch",
+     "factors": {
+      "F1": 0,
+      "F10": 4,
+      "F2": 4,
+      "F3": 2,
+      "F4": 3,
+      "F5": 4,
+      "F6": 2,
+      "F7": 2,
+      "F8": 4,
+      "F9": 1
+     },
+     "first_pass_approved": false,
+     "human_review": false,
+     "id": "only-up",
+     "name": "Only Up!",
+     "outcome": "mixed",
+     "ref_score": 57,
+     "revisions": 1,
+     "score": 40,
+     "validated": true,
+     "verdict": "pass"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "watch",
+     "factors": {
+      "F1": 2,
+      "F10": 4,
+      "F2": 2,
+      "F3": 4,
+      "F4": 4,
+      "F5": 1,
+      "F6": 5,
+      "F7": 3,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "buckshot-roulette",
+     "name": "Buckshot Roulette",
+     "outcome": "mixed",
+     "ref_score": 67,
+     "revisions": 0,
+     "score": 63,
+     "validated": true,
+     "verdict": "pass"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "watch",
+     "factors": {
+      "F1": 4,
+      "F10": 4,
+      "F2": 2,
+      "F3": 2,
+      "F4": 5,
+      "F5": 2,
+      "F6": 4,
+      "F7": 3,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "mage-arena",
+     "name": "Mage Arena",
+     "outcome": "mixed",
+     "ref_score": 66,
+     "revisions": 0,
+     "score": 69,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "pass",
+     "factors": {
+      "F1": 5,
+      "F10": 1,
+      "F2": 2,
+      "F3": 2,
+      "F4": 4,
+      "F5": 2,
+      "F6": 3,
+      "F7": 5,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "helldivers-2",
+     "name": "Helldivers 2",
+     "outcome": "failure",
+     "ref_score": 61,
+     "revisions": 0,
+     "score": 67,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [
+      "C5"
+     ],
+     "expected": "watch",
+     "factors": {
+      "F1": 4,
+      "F10": 2,
+      "F2": 3,
+      "F3": 1,
+      "F4": 3,
+      "F5": 2,
+      "F6": 3,
+      "F7": 3,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": false,
+     "human_review": false,
+     "id": "escape-from-tarkov",
+     "name": "Escape from Tarkov",
+     "outcome": "mixed",
+     "ref_score": 46,
+     "revisions": 1,
+     "score": 61,
+     "validated": true,
+     "verdict": "pass"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "pass",
+     "factors": {
+      "F1": 4,
+      "F10": 4,
+      "F2": 2,
+      "F3": 4,
+      "F4": 3,
+      "F5": 5,
+      "F6": 3,
+      "F7": 4,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "vampire-survivors",
+     "name": "Vampire Survivors",
+     "outcome": "failure",
+     "ref_score": 40,
+     "revisions": 0,
+     "score": 74,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "pass",
+     "factors": {
+      "F1": 0,
+      "F10": 3,
+      "F2": 0,
+      "F3": 3,
+      "F4": 2,
+      "F5": 1,
+      "F6": 3,
+      "F7": 3,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "balatro",
+     "name": "Balatro",
+     "outcome": "failure",
+     "ref_score": 39,
+     "revisions": 0,
+     "score": 40,
+     "validated": true,
+     "verdict": "pass"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "pass",
+     "factors": {
+      "F1": 4,
+      "F10": 2,
+      "F2": 3,
+      "F3": 0,
+      "F4": 4,
+      "F5": 5,
+      "F6": 1,
+      "F7": 5,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "palworld",
+     "name": "Palworld",
+     "outcome": "failure",
+     "ref_score": 35,
+     "revisions": 0,
+     "score": 35,
+     "validated": true,
+     "verdict": "pass"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "pass",
+     "factors": {
+      "F1": 4,
+      "F10": 3,
+      "F2": 1,
+      "F3": 1,
+      "F4": 3,
+      "F5": 0,
+      "F6": 1,
+      "F7": 5,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "schedule-i",
+     "name": "Schedule I",
+     "outcome": "failure",
+     "ref_score": 30,
+     "revisions": 0,
+     "score": 30,
+     "validated": true,
+     "verdict": "pass"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "pass",
+     "factors": {
+      "F1": 0,
+      "F10": 2,
+      "F2": 0,
+      "F3": 1,
+      "F4": 2,
+      "F5": 0,
+      "F6": 1,
+      "F7": 4,
+      "F8": 2,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "dispatch",
+     "name": "Dispatch",
+     "outcome": "failure",
+     "ref_score": 29,
+     "revisions": 0,
+     "score": 28,
+     "validated": true,
+     "verdict": "pass"
+    }
+   ],
+   "stability": {
+    "fully_stable_cases": 3,
+    "max_score_std": 1.41,
+    "mean_score_std": 1.04,
+    "mean_verdict_agreement": 1.0,
+    "per_case": [
+     {
+      "agreement": 1.0,
+      "id": "phasmophobia",
+      "modal_verdict": "prototype",
+      "score_mean": 84.7,
+      "score_std": 1.25,
+      "verdicts": {
+       "prototype": 3
+      }
+     },
+     {
+      "agreement": 1.0,
+      "id": "liars-bar",
+      "modal_verdict": "watch",
+      "score_mean": 77,
+      "score_std": 1.41,
+      "verdicts": {
+       "watch": 3
+      }
+     },
+     {
+      "agreement": 1.0,
+      "id": "fall-guys",
+      "modal_verdict": "watch",
+      "score_mean": 66.7,
+      "score_std": 0.47,
+      "verdicts": {
+       "watch": 3
+      }
+     }
+    ],
+    "runs": 3,
+    "strict_accuracy_per_run": [
+     0.667,
+     0.667,
+     0.667
+    ]
+   },
+   "usage": {
+    "calls": 24,
+    "calls_by_role": {
+     "analyst": 24
+    },
+    "calls_per_case": 1.14,
+    "cases": 21,
+    "failed_runs": 0,
+    "median_seconds_per_call": 12.4,
+    "recorded_between": [
+     "2026-11-08T15:34:32Z",
+     "2026-11-08T15:44:43Z"
+    ],
+    "total_live_calls_all_runs": 32,
+    "transport_retries": 0
+   }
+  },
+  {
+   "accuracy": {
+    "confusion": {
+     "pass": {
+      "pass": 1,
+      "prototype": 0,
+      "watch": 1
+     },
+     "prototype": {
+      "pass": 0,
+      "prototype": 1,
+      "watch": 2
+     },
+     "watch": {
+      "pass": 1,
+      "prototype": 0,
+      "watch": 1
+     }
+    },
+    "lenient_accuracy": 0.857,
+    "n": 7,
+    "score_bias_vs_reference": 5.71,
+    "score_mae_vs_reference": 11.71,
+    "strict_accuracy": 0.429
+   },
+   "critic": {
+    "clamp_rate": 0.286,
+    "final_validation": 0.429,
+    "first_pass_approval": 0.143,
+    "human_review_rate": 0.571,
+    "llm_rejection_rate": 0.857,
+    "mean_revisions": 1.429
+   },
+   "critic_llm": true,
+   "factor_gaps": {
+    "F10": {
+     "bias": -0.43,
+     "mae": 1
+    },
+    "F2": {
+     "bias": 0.29,
+     "mae": 0.86
+    },
+    "F3": {
+     "bias": -0.57,
+     "mae": 0.86
+    },
+    "F4": {
+     "bias": -0.43,
+     "mae": 0.71
+    },
+    "F6": {
+     "bias": 0.14,
+     "mae": 0.43
+    },
+    "F8": {
+     "bias": 0.29,
+     "mae": 0.29
+    }
+   },
+   "missing_cases": [
+    "balatro",
+    "buckshot-roulette",
+    "chained-together",
+    "content-warning",
+    "dispatch",
+    "helldivers-2",
+    "lethal-company",
+    "mage-arena",
+    "meccha-chameleon",
+    "only-up",
+    "palworld",
+    "repo",
+    "schedule-i",
+    "supermarket-simulator"
+   ],
+   "model": "claude-sonnet-5-5 + LLM critic",
+   "provider": "anthropic",
+   "replay_identical": true,
+   "rows": [
+    {
+     "clamped": false,
+     "critic_rules": [
+      "LLM"
+     ],
+     "expected": "prototype",
+     "factors": {
+      "F1": 5,
+      "F10": 3,
+      "F2": 5,
+      "F3": 3,
+      "F4": 4,
+      "F5": 5,
+      "F6": 5,
+      "F7": 5,
+      "F8": 3,
+      "F9": 1
+     },
+     "first_pass_approved": false,
+     "human_review": false,
+     "id": "among-us",
+     "name": "Among Us",
+     "outcome": "success",
+     "ref_score": 77,
+     "revisions": 1,
+     "score": 70,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [
+      "LLM"
+     ],
+     "expected": "prototype",
+     "factors": {
+      "F1": 4,
+      "F10": 3,
+      "F2": 4,
+      "F3": 2,
+      "F4": 4,
+      "F5": 4,
+      "F6": 3,
+      "F7": 4,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": false,
+     "human_review": false,
+     "id": "phasmophobia",
+     "name": "Phasmophobia",
+     "outcome": "success",
+     "ref_score": 83,
+     "revisions": 1,
+     "score": 73,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 5,
+      "F10": 4,
+      "F2": 3,
+      "F3": 3,
+      "F4": 5,
+      "F5": 4,
+      "F6": 3,
+      "F7": 5,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "peak",
+     "name": "PEAK",
+     "outcome": "success",
+     "ref_score": 80,
+     "revisions": 0,
+     "score": 81,
+     "validated": true,
+     "verdict": "prototype"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [
+      "LLM"
+     ],
+     "expected": "watch",
+     "factors": {
+      "F1": 5,
+      "F10": 3,
+      "F2": 3,
+      "F3": 3,
+      "F4": 3,
+      "F5": 2,
+      "F6": 4,
+      "F7": 4,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": false,
+     "human_review": true,
+     "id": "liars-bar",
+     "name": "Liar's Bar",
+     "outcome": "mixed",
+     "ref_score": 75,
+     "revisions": 2,
+     "score": 71,
+     "validated": false,
+     "verdict": "watch"
+    },
+    {
+     "clamped": true,
+     "critic_rules": [
+      "C1",
+      "LLM"
+     ],
+     "expected": "pass",
+     "factors": {
+      "F1": 5,
+      "F10": 3,
+      "F2": 4,
+      "F3": 2,
+      "F4": 4,
+      "F5": 5,
+      "F6": 5,
+      "F7": 5,
+      "F8": 3,
+      "F9": 1
+     },
+     "first_pass_approved": false,
+     "human_review": true,
+     "id": "fall-guys",
+     "name": "Fall Guys",
+     "outcome": "failure",
+     "ref_score": 56,
+     "revisions": 2,
+     "score": 64,
+     "validated": false,
+     "verdict": "pass"
+    },
+    {
+     "clamped": true,
+     "critic_rules": [
+      "C5",
+      "LLM"
+     ],
+     "expected": "watch",
+     "factors": {
+      "F1": 4,
+      "F10": 2,
+      "F2": 3,
+      "F3": 1,
+      "F4": 3,
+      "F5": 2,
+      "F6": 3,
+      "F7": 3,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": false,
+     "human_review": true,
+     "id": "escape-from-tarkov",
+     "name": "Escape from Tarkov",
+     "outcome": "mixed",
+     "ref_score": 46,
+     "revisions": 2,
+     "score": 59,
+     "validated": false,
+     "verdict": "pass"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [
+      "LLM"
+     ],
+     "expected": "pass",
+     "factors": {
+      "F1": 4,
+      "F10": 4,
+      "F2": 3,
+      "F3": 4,
+      "F4": 3,
+      "F5": 5,
+      "F6": 4,
+      "F7": 4,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": false,
+     "human_review": true,
+     "id": "vampire-survivors",
+     "name": "Vampire Survivors",
+     "outcome": "failure",
+     "ref_score": 40,
+     "revisions": 2,
+     "score": 79,
+     "validated": false,
+     "verdict": "watch"
+    }
+   ],
+   "stability": null,
+   "usage": {
+    "calls": 30,
+    "calls_by_role": {
+     "analyst": 17,
+     "critic": 13
+    },
+    "calls_per_case": 4.29,
+    "cases": 7,
+    "failed_runs": 0,
+    "median_seconds_per_call": 12.6,
+    "recorded_between": [
+     "2026-11-08T15:51:32Z",
+     "2026-11-08T15:57:59Z"
+    ],
+    "total_live_calls_all_runs": 30,
+    "transport_retries": 0
+   }
+  },
+  {
+   "accuracy": {
+    "confusion": {
+     "pass": {
+      "pass": 4,
+      "prototype": 0,
+      "watch": 3
+     },
+     "prototype": {
+      "pass": 0,
+      "prototype": 4,
+      "watch": 5
+     },
+     "watch": {
+      "pass": 4,
+      "prototype": 0,
+      "watch": 1
+     }
+    },
+    "lenient_accuracy": 0.857,
+    "n": 21,
+    "score_bias_vs_reference": -1.71,
+    "score_mae_vs_reference": 8.19,
+    "strict_accuracy": 0.429
+   },
+   "critic": {
+    "clamp_rate": 0.0,
+    "final_validation": 1.0,
+    "first_pass_approval": 0.857,
+    "human_review_rate": 0.286,
+    "llm_rejection_rate": 0.0,
+    "mean_revisions": 0.143
+   },
+   "critic_llm": false,
+   "factor_gaps": {
+    "F10": {
+     "bias": -0.29,
+     "mae": 0.57
+    },
+    "F2": {
+     "bias": -0.14,
+     "mae": 0.62
+    },
+    "F3": {
+     "bias": -0.57,
+     "mae": 0.86
+    },
+    "F4": {
+     "bias": -0.95,
+     "mae": 1.05
+    },
+    "F6": {
+     "bias": -0.43,
+     "mae": 0.71
+    },
+    "F8": {
+     "bias": -0.14,
+     "mae": 0.62
+    }
+   },
+   "missing_cases": [],
+   "model": "gpt-6-sol",
+   "provider": "openai-codex",
+   "replay_identical": true,
+   "rows": [
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 5,
+      "F10": 4,
+      "F2": 5,
+      "F3": 4,
+      "F4": 4,
+      "F5": 5,
+      "F6": 4,
+      "F7": 5,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "meccha-chameleon",
+     "name": "Meccha Chameleon",
+     "outcome": "success",
+     "ref_score": 95,
+     "revisions": 0,
+     "score": 89,
+     "validated": true,
+     "verdict": "prototype"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 5,
+      "F10": 4,
+      "F2": 5,
+      "F3": 3,
+      "F4": 4,
+      "F5": 2,
+      "F6": 3,
+      "F7": 4,
+      "F8": 2,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "chained-together",
+     "name": "Chained Together",
+     "outcome": "success",
+     "ref_score": 92,
+     "revisions": 0,
+     "score": 77,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 5,
+      "F10": 3,
+      "F2": 4,
+      "F3": 3,
+      "F4": 4,
+      "F5": 4,
+      "F6": 3,
+      "F7": 5,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "repo",
+     "name": "R.E.P.O.",
+     "outcome": "success",
+     "ref_score": 96,
+     "revisions": 0,
+     "score": 79,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 5,
+      "F10": 3,
+      "F2": 4,
+      "F3": 4,
+      "F4": 4,
+      "F5": 5,
+      "F6": 4,
+      "F7": 5,
+      "F8": 3,
+      "F9": 1
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "among-us",
+     "name": "Among Us",
+     "outcome": "success",
+     "ref_score": 77,
+     "revisions": 0,
+     "score": 67,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 5,
+      "F10": 3,
+      "F2": 4,
+      "F3": 3,
+      "F4": 4,
+      "F5": 2,
+      "F6": 3,
+      "F7": 5,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": true,
+     "id": "lethal-company",
+     "name": "Lethal Company",
+     "outcome": "success",
+     "ref_score": 94,
+     "revisions": 0,
+     "score": 75,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 4,
+      "F10": 3,
+      "F2": 5,
+      "F3": 3,
+      "F4": 4,
+      "F5": 4,
+      "F6": 3,
+      "F7": 4,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "phasmophobia",
+     "name": "Phasmophobia",
+     "outcome": "success",
+     "ref_score": 83,
+     "revisions": 0,
+     "score": 86,
+     "validated": true,
+     "verdict": "prototype"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 5,
+      "F10": 4,
+      "F2": 5,
+      "F3": 3,
+      "F4": 4,
+      "F5": 4,
+      "F6": 3,
+      "F7": 5,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "peak",
+     "name": "PEAK",
+     "outcome": "success",
+     "ref_score": 80,
+     "revisions": 0,
+     "score": 83,
+     "validated": true,
+     "verdict": "prototype"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 5,
+      "F10": 3,
+      "F2": 4,
+      "F3": 3,
+      "F4": 4,
+      "F5": 4,
+      "F6": 4,
+      "F7": 3,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "content-warning",
+     "name": "Content Warning",
+     "outcome": "success",
+     "ref_score": 81,
+     "revisions": 0,
+     "score": 79,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 4,
+      "F10": 5,
+      "F2": 4,
+      "F3": 3,
+      "F4": 2,
+      "F5": 5,
+      "F6": 2,
+      "F7": 4,
+      "F8": 5,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "supermarket-simulator",
+     "name": "Supermarket Simulator",
+     "outcome": "success",
+     "ref_score": 84,
+     "revisions": 0,
+     "score": 82,
+     "validated": true,
+     "verdict": "prototype"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "watch",
+     "factors": {
+      "F1": 5,
+      "F10": 4,
+      "F2": 4,
+      "F3": 3,
+      "F4": 3,
+      "F5": 2,
+      "F6": 3,
+      "F7": 4,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "liars-bar",
+     "name": "Liar's Bar",
+     "outcome": "mixed",
+     "ref_score": 75,
+     "revisions": 0,
+     "score": 73,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [
+      "C1"
+     ],
+     "expected": "pass",
+     "factors": {
+      "F1": 5,
+      "F10": 3,
+      "F2": 5,
+      "F3": 2,
+      "F4": 4,
+      "F5": 5,
+      "F6": 4,
+      "F7": 5,
+      "F8": 3,
+      "F9": 1
+     },
+     "first_pass_approved": false,
+     "human_review": false,
+     "id": "fall-guys",
+     "name": "Fall Guys",
+     "outcome": "failure",
+     "ref_score": 56,
+     "revisions": 1,
+     "score": 66,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [
+      "C1"
+     ],
+     "expected": "watch",
+     "factors": {
+      "F1": 0,
+      "F10": 4,
+      "F2": 5,
+      "F3": 2,
+      "F4": 2,
+      "F5": 4,
+      "F6": 2,
+      "F7": 2,
+      "F8": 2,
+      "F9": 1
+     },
+     "first_pass_approved": false,
+     "human_review": true,
+     "id": "only-up",
+     "name": "Only Up!",
+     "outcome": "mixed",
+     "ref_score": 57,
+     "revisions": 1,
+     "score": 37,
+     "validated": true,
+     "verdict": "pass"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "watch",
+     "factors": {
+      "F1": 2,
+      "F10": 3,
+      "F2": 2,
+      "F3": 4,
+      "F4": 4,
+      "F5": 1,
+      "F6": 4,
+      "F7": 3,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "buckshot-roulette",
+     "name": "Buckshot Roulette",
+     "outcome": "mixed",
+     "ref_score": 67,
+     "revisions": 0,
+     "score": 60,
+     "validated": true,
+     "verdict": "pass"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "watch",
+     "factors": {
+      "F1": 4,
+      "F10": 4,
+      "F2": 2,
+      "F3": 3,
+      "F4": 3,
+      "F5": 2,
+      "F6": 3,
+      "F7": 3,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": true,
+     "id": "mage-arena",
+     "name": "Mage Arena",
+     "outcome": "mixed",
+     "ref_score": 66,
+     "revisions": 0,
+     "score": 63,
+     "validated": true,
+     "verdict": "pass"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "pass",
+     "factors": {
+      "F1": 5,
+      "F10": 3,
+      "F2": 2,
+      "F3": 2,
+      "F4": 3,
+      "F5": 2,
+      "F6": 3,
+      "F7": 5,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": true,
+     "id": "helldivers-2",
+     "name": "Helldivers 2",
+     "outcome": "failure",
+     "ref_score": 61,
+     "revisions": 0,
+     "score": 65,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [
+      "C5"
+     ],
+     "expected": "watch",
+     "factors": {
+      "F1": 4,
+      "F10": 3,
+      "F2": 3,
+      "F3": 2,
+      "F4": 3,
+      "F5": 2,
+      "F6": 2,
+      "F7": 3,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": false,
+     "human_review": false,
+     "id": "escape-from-tarkov",
+     "name": "Escape from Tarkov",
+     "outcome": "mixed",
+     "ref_score": 46,
+     "revisions": 1,
+     "score": 61,
+     "validated": true,
+     "verdict": "pass"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "pass",
+     "factors": {
+      "F1": 4,
+      "F10": 4,
+      "F2": 2,
+      "F3": 3,
+      "F4": 3,
+      "F5": 5,
+      "F6": 3,
+      "F7": 4,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "vampire-survivors",
+     "name": "Vampire Survivors",
+     "outcome": "failure",
+     "ref_score": 40,
+     "revisions": 0,
+     "score": 72,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "pass",
+     "factors": {
+      "F1": 0,
+      "F10": 3,
+      "F2": 0,
+      "F3": 3,
+      "F4": 2,
+      "F5": 1,
+      "F6": 3,
+      "F7": 3,
+      "F8": 2,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": true,
+     "id": "balatro",
+     "name": "Balatro",
+     "outcome": "failure",
+     "ref_score": 39,
+     "revisions": 0,
+     "score": 38,
+     "validated": true,
+     "verdict": "pass"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "pass",
+     "factors": {
+      "F1": 4,
+      "F10": 2,
+      "F2": 3,
+      "F3": 0,
+      "F4": 2,
+      "F5": 5,
+      "F6": 1,
+      "F7": 5,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "palworld",
+     "name": "Palworld",
+     "outcome": "failure",
+     "ref_score": 35,
+     "revisions": 0,
+     "score": 35,
+     "validated": true,
+     "verdict": "pass"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "pass",
+     "factors": {
+      "F1": 4,
+      "F10": 3,
+      "F2": 2,
+      "F3": 1,
+      "F4": 2,
+      "F5": 0,
+      "F6": 1,
+      "F7": 5,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "schedule-i",
+     "name": "Schedule I",
+     "outcome": "failure",
+     "ref_score": 30,
+     "revisions": 0,
+     "score": 30,
+     "validated": true,
+     "verdict": "pass"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "pass",
+     "factors": {
+      "F1": 0,
+      "F10": 2,
+      "F2": 0,
+      "F3": 2,
+      "F4": 2,
+      "F5": 0,
+      "F6": 2,
+      "F7": 4,
+      "F8": 2,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": true,
+     "id": "dispatch",
+     "name": "Dispatch",
+     "outcome": "failure",
+     "ref_score": 29,
+     "revisions": 0,
+     "score": 30,
+     "validated": true,
+     "verdict": "pass"
+    }
+   ],
+   "stability": {
+    "fully_stable_cases": 2,
+    "max_score_std": 3.3,
+    "mean_score_std": 2.13,
+    "mean_verdict_agreement": 0.889,
+    "per_case": [
+     {
+      "agreement": 0.667,
+      "id": "phasmophobia",
+      "modal_verdict": "watch",
+      "score_mean": 81.3,
+      "score_std": 3.3,
+      "verdicts": {
+       "prototype": 1,
+       "watch": 2
+      }
+     },
+     {
+      "agreement": 1.0,
+      "id": "liars-bar",
+      "modal_verdict": "watch",
+      "score_mean": 76.7,
+      "score_std": 2.62,
+      "verdicts": {
+       "watch": 3
+      }
+     },
+     {
+      "agreement": 1.0,
+      "id": "fall-guys",
+      "modal_verdict": "watch",
+      "score_mean": 66.3,
+      "score_std": 0.47,
+      "verdicts": {
+       "watch": 3
+      }
+     }
+    ],
+    "runs": 3,
+    "strict_accuracy_per_run": [
+     0.667,
+     0.333,
+     0.333
+    ]
+   },
+   "usage": {
+    "calls": 24,
+    "calls_by_role": {
+     "analyst": 24
+    },
+    "calls_per_case": 1.14,
+    "cases": 21,
+    "failed_runs": 0,
+    "median_seconds_per_call": 17.6,
+    "recorded_between": [
+     "2026-11-08T15:25:48Z",
+     "2026-11-08T15:43:46Z"
+    ],
+    "total_live_calls_all_runs": 32,
+    "transport_retries": 0
+   }
+  },
+  {
+   "accuracy": {
+    "confusion": {
+     "pass": {
+      "pass": 1,
+      "prototype": 0,
+      "watch": 2
+     },
+     "prototype": {
+      "pass": 0,
+      "prototype": 2,
+      "watch": 1
+     },
+     "watch": {
+      "pass": 1,
+      "prototype": 0,
+      "watch": 1
+     }
+    },
+    "lenient_accuracy": 0.75,
+    "n": 8,
+    "score_bias_vs_reference": 6.88,
+    "score_mae_vs_reference": 9.62,
+    "strict_accuracy": 0.5
+   },
+   "critic": {
+    "clamp_rate": 0.0,
+    "final_validation": 1.0,
+    "first_pass_approval": 0.75,
+    "human_review_rate": 0.25,
+    "llm_rejection_rate": 0.0,
+    "mean_revisions": 0.25
+   },
+   "critic_llm": true,
+   "factor_gaps": {
+    "F10": {
+     "bias": 0,
+     "mae": 0.5
+    },
+    "F2": {
+     "bias": 0.38,
+     "mae": 0.88
+    },
+    "F3": {
+     "bias": -0.12,
+     "mae": 0.38
+    },
+    "F4": {
+     "bias": -0.5,
+     "mae": 0.5
+    },
+    "F6": {
+     "bias": -0.12,
+     "mae": 0.38
+    },
+    "F8": {
+     "bias": 0.38,
+     "mae": 0.62
+    }
+   },
+   "missing_cases": [
+    "buckshot-roulette",
+    "chained-together",
+    "content-warning",
+    "dispatch",
+    "helldivers-2",
+    "lethal-company",
+    "mage-arena",
+    "meccha-chameleon",
+    "only-up",
+    "palworld",
+    "repo",
+    "schedule-i",
+    "supermarket-simulator"
+   ],
+   "model": "gpt-6-sol + LLM critic",
+   "provider": "openai-codex",
+   "replay_identical": true,
+   "rows": [
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 5,
+      "F10": 3,
+      "F2": 4,
+      "F3": 4,
+      "F4": 4,
+      "F5": 5,
+      "F6": 4,
+      "F7": 5,
+      "F8": 3,
+      "F9": 1
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "among-us",
+     "name": "Among Us",
+     "outcome": "success",
+     "ref_score": 77,
+     "revisions": 0,
+     "score": 67,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 4,
+      "F10": 4,
+      "F2": 4,
+      "F3": 3,
+      "F4": 4,
+      "F5": 4,
+      "F6": 3,
+      "F7": 4,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "phasmophobia",
+     "name": "Phasmophobia",
+     "outcome": "success",
+     "ref_score": 83,
+     "revisions": 0,
+     "score": 84,
+     "validated": true,
+     "verdict": "prototype"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "prototype",
+     "factors": {
+      "F1": 5,
+      "F10": 4,
+      "F2": 5,
+      "F3": 3,
+      "F4": 4,
+      "F5": 4,
+      "F6": 3,
+      "F7": 5,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "peak",
+     "name": "PEAK",
+     "outcome": "success",
+     "ref_score": 80,
+     "revisions": 0,
+     "score": 83,
+     "validated": true,
+     "verdict": "prototype"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "watch",
+     "factors": {
+      "F1": 5,
+      "F10": 4,
+      "F2": 4,
+      "F3": 4,
+      "F4": 4,
+      "F5": 2,
+      "F6": 4,
+      "F7": 4,
+      "F8": 3,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": true,
+     "id": "liars-bar",
+     "name": "Liar's Bar",
+     "outcome": "mixed",
+     "ref_score": 75,
+     "revisions": 0,
+     "score": 79,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [
+      "C1"
+     ],
+     "expected": "pass",
+     "factors": {
+      "F1": 5,
+      "F10": 3,
+      "F2": 5,
+      "F3": 2,
+      "F4": 4,
+      "F5": 5,
+      "F6": 5,
+      "F7": 5,
+      "F8": 3,
+      "F9": 1
+     },
+     "first_pass_approved": false,
+     "human_review": false,
+     "id": "fall-guys",
+     "name": "Fall Guys",
+     "outcome": "failure",
+     "ref_score": 56,
+     "revisions": 1,
+     "score": 67,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [
+      "C5"
+     ],
+     "expected": "watch",
+     "factors": {
+      "F1": 4,
+      "F10": 3,
+      "F2": 3,
+      "F3": 2,
+      "F4": 2,
+      "F5": 2,
+      "F6": 2,
+      "F7": 3,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": false,
+     "human_review": false,
+     "id": "escape-from-tarkov",
+     "name": "Escape from Tarkov",
+     "outcome": "mixed",
+     "ref_score": 46,
+     "revisions": 1,
+     "score": 60,
+     "validated": true,
+     "verdict": "pass"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "pass",
+     "factors": {
+      "F1": 4,
+      "F10": 4,
+      "F2": 2,
+      "F3": 3,
+      "F4": 3,
+      "F5": 5,
+      "F6": 4,
+      "F7": 4,
+      "F8": 4,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": false,
+     "id": "vampire-survivors",
+     "name": "Vampire Survivors",
+     "outcome": "failure",
+     "ref_score": 40,
+     "revisions": 0,
+     "score": 73,
+     "validated": true,
+     "verdict": "watch"
+    },
+    {
+     "clamped": false,
+     "critic_rules": [],
+     "expected": "pass",
+     "factors": {
+      "F1": 0,
+      "F10": 3,
+      "F2": 0,
+      "F3": 3,
+      "F4": 2,
+      "F5": 1,
+      "F6": 3,
+      "F7": 3,
+      "F8": 2,
+      "F9": 5
+     },
+     "first_pass_approved": true,
+     "human_review": true,
+     "id": "balatro",
+     "name": "Balatro",
+     "outcome": "failure",
+     "ref_score": 39,
+     "revisions": 0,
+     "score": 38,
+     "validated": true,
+     "verdict": "pass"
+    }
+   ],
+   "stability": null,
+   "usage": {
+    "calls": 18,
+    "calls_by_role": {
+     "analyst": 10,
+     "critic": 8
+    },
+    "calls_per_case": 2.25,
+    "cases": 8,
+    "failed_runs": 0,
+    "median_seconds_per_call": 15.4,
+    "recorded_between": [
+     "2026-11-08T15:45:20Z",
+     "2026-11-08T15:50:14Z"
+    ],
+    "total_live_calls_all_runs": 18,
+    "transport_retries": 0
+   }
+  }
+ ],
+ "naive_baseline": {
+  "confusion": {
+   "pass": {
+    "pass": 1,
+    "prototype": 4,
+    "watch": 2
+   },
+   "prototype": {
+    "pass": 0,
+    "prototype": 5,
+    "watch": 4
+   },
+   "watch": {
+    "pass": 4,
+    "prototype": 0,
+    "watch": 1
+   }
+  },
+  "hindsight_best": {
+   "lenient_accuracy": 0.619,
+   "prototype_min_peak": 51353,
+   "strict_accuracy": 0.619,
+   "watch_min_peak": 0
+  },
+  "lenient_accuracy": 0.714,
+  "strict_accuracy": 0.333,
+  "thresholds": {
+   "prototype_min_peak": 150000,
+   "watch_min_peak": 50000
+  },
+  "verdicts": {
+   "among-us": "prototype",
+   "balatro": "pass",
+   "buckshot-roulette": "pass",
+   "chained-together": "watch",
+   "content-warning": "watch",
+   "dispatch": "watch",
+   "escape-from-tarkov": "pass",
+   "fall-guys": "prototype",
+   "helldivers-2": "prototype",
+   "lethal-company": "prototype",
+   "liars-bar": "watch",
+   "mage-arena": "pass",
+   "meccha-chameleon": "prototype",
+   "only-up": "pass",
+   "palworld": "prototype",
+   "peak": "prototype",
+   "phasmophobia": "watch",
+   "repo": "prototype",
+   "schedule-i": "prototype",
+   "supermarket-simulator": "watch",
+   "vampire-survivors": "watch"
+  }
+ },
+ "scripted": {
+  "accuracy": {
+   "confusion": {
+    "pass": {
+     "pass": 6,
+     "prototype": 0,
+     "watch": 1
+    },
+    "prototype": {
+     "pass": 0,
+     "prototype": 8,
+     "watch": 1
+    },
+    "watch": {
+     "pass": 2,
+     "prototype": 0,
+     "watch": 3
+    }
+   },
+   "lenient_accuracy": 0.952,
+   "n": 21,
+   "score_bias_vs_reference": 2.52,
+   "score_mae_vs_reference": 5.1,
+   "strict_accuracy": 0.81
+  },
+  "critic": {
+   "clamp_rate": 0.143,
+   "final_validation": 0.857,
+   "first_pass_approval": 0.857,
+   "human_review_rate": 0.143,
+   "llm_rejection_rate": 0.0,
+   "mean_revisions": 0.286
+  },
+  "model": "scripted (hand-assigned reference scores)",
+  "rows": [
+   {
+    "clamped": false,
+    "critic_rules": [],
+    "expected": "prototype",
+    "factors": {
+     "F1": 5,
+     "F10": 4,
+     "F2": 5,
+     "F3": 5,
+     "F4": 5,
+     "F5": 5,
+     "F6": 5,
+     "F7": 5,
+     "F8": 4,
+     "F9": 5
+    },
+    "first_pass_approved": true,
+    "human_review": false,
+    "id": "meccha-chameleon",
+    "name": "Meccha Chameleon",
+    "outcome": "success",
+    "ref_score": 95,
+    "revisions": 0,
+    "score": 97,
+    "validated": true,
+    "verdict": "prototype"
+   },
+   {
+    "clamped": false,
+    "critic_rules": [],
+    "expected": "prototype",
+    "factors": {
+     "F1": 5,
+     "F10": 4,
+     "F2": 5,
+     "F3": 5,
+     "F4": 5,
+     "F5": 2,
+     "F6": 3,
+     "F7": 4,
+     "F8": 3,
+     "F9": 5
+    },
+    "first_pass_approved": true,
+    "human_review": false,
+    "id": "chained-together",
+    "name": "Chained Together",
+    "outcome": "success",
+    "ref_score": 92,
+    "revisions": 0,
+    "score": 86,
+    "validated": true,
+    "verdict": "prototype"
+   },
+   {
+    "clamped": false,
+    "critic_rules": [],
+    "expected": "prototype",
+    "factors": {
+     "F1": 5,
+     "F10": 4,
+     "F2": 5,
+     "F3": 4,
+     "F4": 5,
+     "F5": 4,
+     "F6": 4,
+     "F7": 5,
+     "F8": 5,
+     "F9": 5
+    },
+    "first_pass_approved": true,
+    "human_review": false,
+    "id": "repo",
+    "name": "R.E.P.O.",
+    "outcome": "success",
+    "ref_score": 96,
+    "revisions": 0,
+    "score": 99,
+    "validated": true,
+    "verdict": "prototype"
+   },
+   {
+    "clamped": false,
+    "critic_rules": [],
+    "expected": "prototype",
+    "factors": {
+     "F1": 5,
+     "F10": 4,
+     "F2": 4,
+     "F3": 5,
+     "F4": 5,
+     "F5": 5,
+     "F6": 5,
+     "F7": 5,
+     "F8": 3,
+     "F9": 1
+    },
+    "first_pass_approved": true,
+    "human_review": false,
+    "id": "among-us",
+    "name": "Among Us",
+    "outcome": "success",
+    "ref_score": 77,
+    "revisions": 0,
+    "score": 75,
+    "validated": true,
+    "verdict": "watch"
+   },
+   {
+    "clamped": false,
+    "critic_rules": [],
+    "expected": "prototype",
+    "factors": {
+     "F1": 5,
+     "F10": 4,
+     "F2": 5,
+     "F3": 4,
+     "F4": 5,
+     "F5": 2,
+     "F6": 4,
+     "F7": 5,
+     "F8": 4,
+     "F9": 5
+    },
+    "first_pass_approved": true,
+    "human_review": false,
+    "id": "lethal-company",
+    "name": "Lethal Company",
+    "outcome": "success",
+    "ref_score": 94,
+    "revisions": 0,
+    "score": 93,
+    "validated": true,
+    "verdict": "prototype"
+   },
+   {
+    "clamped": false,
+    "critic_rules": [],
+    "expected": "prototype",
+    "factors": {
+     "F1": 4,
+     "F10": 4,
+     "F2": 5,
+     "F3": 3,
+     "F4": 5,
+     "F5": 4,
+     "F6": 3,
+     "F7": 4,
+     "F8": 3,
+     "F9": 5
+    },
+    "first_pass_approved": true,
+    "human_review": false,
+    "id": "phasmophobia",
+    "name": "Phasmophobia",
+    "outcome": "success",
+    "ref_score": 83,
+    "revisions": 0,
+    "score": 82,
+    "validated": true,
+    "verdict": "prototype"
+   },
+   {
+    "clamped": false,
+    "critic_rules": [],
+    "expected": "prototype",
+    "factors": {
+     "F1": 5,
+     "F10": 3,
+     "F2": 4,
+     "F3": 3,
+     "F4": 5,
+     "F5": 4,
+     "F6": 3,
+     "F7": 5,
+     "F8": 4,
+     "F9": 5
+    },
+    "first_pass_approved": true,
+    "human_review": false,
+    "id": "peak",
+    "name": "PEAK",
+    "outcome": "success",
+    "ref_score": 80,
+    "revisions": 0,
+    "score": 83,
+    "validated": true,
+    "verdict": "prototype"
+   },
+   {
+    "clamped": false,
+    "critic_rules": [],
+    "expected": "prototype",
+    "factors": {
+     "F1": 5,
+     "F10": 4,
+     "F2": 5,
+     "F3": 3,
+     "F4": 5,
+     "F5": 4,
+     "F6": 4,
+     "F7": 3,
+     "F8": 3,
+     "F9": 5
+    },
+    "first_pass_approved": true,
+    "human_review": false,
+    "id": "content-warning",
+    "name": "Content Warning",
+    "outcome": "success",
+    "ref_score": 81,
+    "revisions": 0,
+    "score": 85,
+    "validated": true,
+    "verdict": "prototype"
+   },
+   {
+    "clamped": false,
+    "critic_rules": [],
+    "expected": "prototype",
+    "factors": {
+     "F1": 4,
+     "F10": 5,
+     "F2": 5,
+     "F3": 4,
+     "F4": 3,
+     "F5": 5,
+     "F6": 3,
+     "F7": 4,
+     "F8": 5,
+     "F9": 5
+    },
+    "first_pass_approved": true,
+    "human_review": false,
+    "id": "supermarket-simulator",
+    "name": "Supermarket Simulator",
+    "outcome": "success",
+    "ref_score": 84,
+    "revisions": 0,
+    "score": 92,
+    "validated": true,
+    "verdict": "prototype"
+   },
+   {
+    "clamped": false,
+    "critic_rules": [],
+    "expected": "watch",
+    "factors": {
+     "F1": 5,
+     "F10": 4,
+     "F2": 3,
+     "F3": 5,
+     "F4": 4,
+     "F5": 2,
+     "F6": 5,
+     "F7": 4,
+     "F8": 2,
+     "F9": 5
+    },
+    "first_pass_approved": true,
+    "human_review": false,
+    "id": "liars-bar",
+    "name": "Liar's Bar",
+    "outcome": "mixed",
+    "ref_score": 75,
+    "revisions": 0,
+    "score": 79,
+    "validated": true,
+    "verdict": "watch"
+   },
+   {
+    "clamped": false,
+    "critic_rules": [],
+    "expected": "pass",
+    "factors": {
+     "F1": 5,
+     "F10": 2,
+     "F2": 3,
+     "F3": 2,
+     "F4": 5,
+     "F5": 5,
+     "F6": 5,
+     "F7": 5,
+     "F8": 3,
+     "F9": 1
+    },
+    "first_pass_approved": true,
+    "human_review": false,
+    "id": "fall-guys",
+    "name": "Fall Guys",
+    "outcome": "failure",
+    "ref_score": 56,
+    "revisions": 0,
+    "score": 63,
+    "validated": true,
+    "verdict": "pass"
+   },
+   {
+    "clamped": true,
+    "critic_rules": [
+     "C1",
+     "C4"
+    ],
+    "expected": "watch",
+    "factors": {
+     "F1": 0,
+     "F10": 5,
+     "F2": 5,
+     "F3": 2,
+     "F4": 3,
+     "F5": 4,
+     "F6": 2,
+     "F7": 2,
+     "F8": 3,
+     "F9": 1
+    },
+    "first_pass_approved": false,
+    "human_review": true,
+    "id": "only-up",
+    "name": "Only Up!",
+    "outcome": "mixed",
+    "ref_score": 57,
+    "revisions": 2,
+    "score": 40,
+    "validated": false,
+    "verdict": "pass"
+   },
+   {
+    "clamped": false,
+    "critic_rules": [],
+    "expected": "watch",
+    "factors": {
+     "F1": 2,
+     "F10": 4,
+     "F2": 3,
+     "F3": 5,
+     "F4": 4,
+     "F5": 1,
+     "F6": 5,
+     "F7": 3,
+     "F8": 2,
+     "F9": 5
+    },
+    "first_pass_approved": true,
+    "human_review": false,
+    "id": "buckshot-roulette",
+    "name": "Buckshot Roulette",
+    "outcome": "mixed",
+    "ref_score": 67,
+    "revisions": 0,
+    "score": 67,
+    "validated": true,
+    "verdict": "watch"
+   },
+   {
+    "clamped": false,
+    "critic_rules": [],
+    "expected": "watch",
+    "factors": {
+     "F1": 4,
+     "F10": 4,
+     "F2": 3,
+     "F3": 3,
+     "F4": 4,
+     "F5": 2,
+     "F6": 4,
+     "F7": 3,
+     "F8": 3,
+     "F9": 5
+    },
+    "first_pass_approved": true,
+    "human_review": false,
+    "id": "mage-arena",
+    "name": "Mage Arena",
+    "outcome": "mixed",
+    "ref_score": 66,
+    "revisions": 0,
+    "score": 70,
+    "validated": true,
+    "verdict": "watch"
+   },
+   {
+    "clamped": false,
+    "critic_rules": [],
+    "expected": "pass",
+    "factors": {
+     "F1": 5,
+     "F10": 3,
+     "F2": 2,
+     "F3": 1,
+     "F4": 4,
+     "F5": 2,
+     "F6": 2,
+     "F7": 5,
+     "F8": 3,
+     "F9": 5
+    },
+    "first_pass_approved": true,
+    "human_review": false,
+    "id": "helldivers-2",
+    "name": "Helldivers 2",
+    "outcome": "failure",
+    "ref_score": 61,
+    "revisions": 0,
+    "score": 63,
+    "validated": true,
+    "verdict": "pass"
+   },
+   {
+    "clamped": true,
+    "critic_rules": [
+     "C5"
+    ],
+    "expected": "watch",
+    "factors": {
+     "F1": 4,
+     "F10": 4,
+     "F2": 3,
+     "F3": 1,
+     "F4": 2,
+     "F5": 2,
+     "F6": 1,
+     "F7": 3,
+     "F8": 3,
+     "F9": 5
+    },
+    "first_pass_approved": false,
+    "human_review": true,
+    "id": "escape-from-tarkov",
+    "name": "Escape from Tarkov",
+    "outcome": "mixed",
+    "ref_score": 46,
+    "revisions": 2,
+    "score": 56,
+    "validated": false,
+    "verdict": "pass"
+   },
+   {
+    "clamped": false,
+    "critic_rules": [],
+    "expected": "pass",
+    "factors": {
+     "F1": 4,
+     "F10": 4,
+     "F2": 2,
+     "F3": 3,
+     "F4": 3,
+     "F5": 5,
+     "F6": 4,
+     "F7": 4,
+     "F8": 3,
+     "F9": 5
+    },
+    "first_pass_approved": true,
+    "human_review": false,
+    "id": "vampire-survivors",
+    "name": "Vampire Survivors",
+    "outcome": "failure",
+    "ref_score": 40,
+    "revisions": 0,
+    "score": 72,
+    "validated": true,
+    "verdict": "watch"
+   },
+   {
+    "clamped": false,
+    "critic_rules": [],
+    "expected": "pass",
+    "factors": {
+     "F1": 0,
+     "F10": 3,
+     "F2": 1,
+     "F3": 3,
+     "F4": 2,
+     "F5": 1,
+     "F6": 3,
+     "F7": 3,
+     "F8": 2,
+     "F9": 5
+    },
+    "first_pass_approved": true,
+    "human_review": false,
+    "id": "balatro",
+    "name": "Balatro",
+    "outcome": "failure",
+    "ref_score": 39,
+    "revisions": 0,
+    "score": 40,
+    "validated": true,
+    "verdict": "pass"
+   },
+   {
+    "clamped": false,
+    "critic_rules": [],
+    "expected": "pass",
+    "factors": {
+     "F1": 4,
+     "F10": 1,
+     "F2": 3,
+     "F3": 0,
+     "F4": 5,
+     "F5": 5,
+     "F6": 1,
+     "F7": 5,
+     "F8": 4,
+     "F9": 5
+    },
+    "first_pass_approved": true,
+    "human_review": false,
+    "id": "palworld",
+    "name": "Palworld",
+    "outcome": "failure",
+    "ref_score": 35,
+    "revisions": 0,
+    "score": 35,
+    "validated": true,
+    "verdict": "pass"
+   },
+   {
+    "clamped": true,
+    "critic_rules": [
+     "C1"
+    ],
+    "expected": "pass",
+    "factors": {
+     "F1": 4,
+     "F10": 4,
+     "F2": 3,
+     "F3": 2,
+     "F4": 4,
+     "F5": 0,
+     "F6": 2,
+     "F7": 5,
+     "F8": 4,
+     "F9": 5
+    },
+    "first_pass_approved": false,
+    "human_review": true,
+    "id": "schedule-i",
+    "name": "Schedule I",
+    "outcome": "failure",
+    "ref_score": 30,
+    "revisions": 2,
+    "score": 30,
+    "validated": false,
+    "verdict": "pass"
+   },
+   {
+    "clamped": false,
+    "critic_rules": [],
+    "expected": "pass",
+    "factors": {
+     "F1": 0,
+     "F10": 2,
+     "F2": 0,
+     "F3": 1,
+     "F4": 3,
+     "F5": 0,
+     "F6": 1,
+     "F7": 4,
+     "F8": 1,
+     "F9": 5
+    },
+    "first_pass_approved": true,
+    "human_review": false,
+    "id": "dispatch",
+    "name": "Dispatch",
+    "outcome": "failure",
+    "ref_score": 29,
+    "revisions": 0,
+    "score": 29,
+    "validated": true,
+    "verdict": "pass"
+   }
+  ]
+ }
+}

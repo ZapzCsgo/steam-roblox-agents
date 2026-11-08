@@ -22,6 +22,17 @@ jobs:
       - run: ruff format --check .
       - run: mypy
 
+  secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Scan the whole git history with gitleaks
+        run: |
+          curl -sSL https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_linux_x64.tar.gz | tar xz gitleaks
+          ./gitleaks git . --redact --no-banner
+
   test:
     runs-on: ubuntu-latest
     strategy:
@@ -56,6 +67,10 @@ jobs:
         run: sra eval --runs 5 --noise 0.2 --out eval-out
       - name: Committed results must match a fresh run
         run: diff eval/results/metrics.json eval-out/metrics.json
+      - name: Replay the recorded real-model answers (GPT, Claude), offline
+        run: sra eval --recorded --out eval-out/recorded
+      - name: Committed real-model results must match the replay
+        run: diff eval/results/recorded/metrics.json eval-out/recorded/metrics.json
       - name: Offline demo
         run: sra demo
       - uses: actions/upload-artifact@v4

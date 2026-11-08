@@ -1,0 +1,25 @@
+{
+ "model": "gpt-6-sol",
+ "provider": "openai-codex",
+ "critic_llm": false,
+ "case": "helldivers-2",
+ "appid": 553850,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:31:46Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "366370d7976fa04f",
+     "prompt_chars": 5480,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":2,\"justification\":\"The tags emphasize a third-person extraction shooter and online co-op, making it closer to the rubric’s shooter category than a native Roblox genre.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":2,\"justification\":\"The extraction-shooter, PvE, and sci-fi tags suggest multiple systems to rebuild rather than one simple core mechanic.\",\"confidence\":\"medium\"},{\"factor\":\"F4\",\"score\":3,\"justification\":\"Co-op, comedy, and gore tags suggest potentially clippable moments, but the supplied evidence includes no videos or examples of viral clips.\",\"confidence\":\"low\"},{\"factor\":\"F6\",\"score\":3,\"justification\":\"The description calls the action fast and frantic, but neither the tags nor the description establishes how long a session lasts.\",\"confidence\":\"low\"},{\"factor\":\"F8\",\"score\":3,\"justification\":\"The sci-fi shooter premise could support cosmetics, but the supplied evidence does not establish a natural upgrade or booster loop.\",\"confidence\":\"low\"},{\"factor\":\"F10\",\"score\":3,\"justification\":\"The Helldivers name and galactic-freedom premise give the game a strong identity, while its co-op PvE shooter mechanics could be re-themed.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 19.7
+    }
+   ]
+  }
+ ]
+}

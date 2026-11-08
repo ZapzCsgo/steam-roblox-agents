@@ -1,0 +1,25 @@
+{
+ "model": "claude-sonnet-5-5",
+ "provider": "anthropic",
+ "critic_llm": false,
+ "case": "dispatch",
+ "appid": 2592160,
+ "runs": [
+  {
+   "run": 0,
+   "recorded_at": "2026-11-08T15:40:04Z",
+   "error": null,
+   "failed_calls": 0,
+   "exchanges": [
+    {
+     "role": "analyst",
+     "prompt_sha": "f415bbd87a94095d",
+     "prompt_chars": 5620,
+     "response": "{\"assessments\":[{\"factor\":\"F2\",\"score\":0,\"justification\":\"Dispatch is a narrative, choice-driven episodic story game (tags Choices Matter, Story Rich, Choose Your Own Adventure, Point & Click) with light team-management, which matches no native Roblox genre, and no Roblox search results exist.\",\"confidence\":\"high\"},{\"factor\":\"F3\",\"score\":1,\"justification\":\"Its value comes from voiced, branching cinematic episodes with a large amount of scripted content (Episodic, Cinematic, Romance), so a faithful clone would be heavy content work even though the dispatch-management mechanic is simple.\",\"confidence\":\"high\"},{\"factor\":\"F4\",\"score\":2,\"justification\":\"The 124,407 CCU peak shows it is widely streamed, but the story-driven single-player format has few repeatable clippable moments and there are no 'Dispatch in Roblox' videos.\",\"confidence\":\"medium\"},{\"factor\":\"F6\",\"score\":1,\"justification\":\"The tags Story Rich, Episodic and Singleplayer point to long, linear story sessions of an hour or more, not short rounds.\",\"confidence\":\"medium\"},{\"factor\":\"F8\",\"score\":2,\"justification\":\"A narrative game with no repeated loop has little to sell, though cosmetics or hero unlocks could be added around a dispatch-management mini-loop.\",\"confidence\":\"medium\"},{\"factor\":\"F10\",\"score\":2,\"justification\":\"Its identity rests on recognisable original characters, voice cast and art style from a commercial studio, while the generic superhero-dispatch idea alone could be re-skinned.\",\"confidence\":\"medium\"}]}",
+     "attempts": 1,
+     "seconds": 13.6
+    }
+   ]
+  }
+ ]
+}
