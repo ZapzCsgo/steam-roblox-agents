@@ -2,33 +2,30 @@
 
 [![ci](https://github.com/ZapzCsgo/steam-roblox-agents/actions/workflows/ci.yml/badge.svg)](https://github.com/ZapzCsgo/steam-roblox-agents/actions/workflows/ci.yml)
 
+A LangGraph pipeline that decides whether a trending Steam game is worth a Roblox version: prototype, watch or pass.
+It is split into agents so that only two steps call an LLM (scoring six judgement factors and reviewing them), while data collection and the arithmetic stay plain, tested code.
+On 21 historical cases, real models get the exact verdict 61.9% (Claude Sonnet 5.5) and 42.9% (GPT-6 Sol) of the time, against 33.3% for a rule that only looks at the Steam player peak. Try it offline with `make install demo`.
+
 ## Résumé en français
 
-Pipeline multi-agents LangGraph qui décide si un jeu Steam en tendance mérite une adaptation
-Roblox : **prototyper**, **surveiller** ou **passer**. Un agent Collecte interroge les API
-publiques Steam, un agent Roblox cherche les clones existants, un agent Analyste note six
-facteurs qualitatifs par LLM (sortie structurée Pydantic, justification, confiance), un agent
-Critique revérifie les notes avec des règles de cohérence et renvoie à l'Analyste au plus deux
-fois, puis un nœud déterministe calcule le score et un nœud Rapport rédige la décision.
+Pipeline multi-agents LangGraph qui dit si un jeu Steam en tendance mérite une version
+Roblox : prototyper, surveiller ou passer. Un agent Collecte lit les API publiques Steam, un
+agent Roblox cherche les clones, un agent Analyste note six facteurs qualitatifs avec un LLM
+(sortie structurée Pydantic, justification, confiance), un agent Critique revérifie ces notes
+et peut les renvoyer deux fois, puis du code calcule le score. Chaque décision garde ses
+sources dans un journal JSONL.
 
-Points d'attention :
+Évaluation sur 21 cas historiques (2020 à 2026) avec de vrais modèles : Claude Sonnet 5.5
+trouve le verdict exact dans 61,9 % des cas, GPT-6 Sol dans 42,9 %. Une baseline naïve qui ne
+regarde que le pic de joueurs Steam fait 33,3 %. Les notes manuelles de l'étude d'origine,
+rejouées dans le même pipeline, font 81,0 %, mais je les ai posées en connaissant le résultat.
+Les réponses des modèles ont été enregistrées une fois via mes abonnements ChatGPT et Claude
+(CLI Hermes, sans clé d'API payante), puis rejouées hors ligne : la CI recalcule ces chiffres à
+chaque commit. Deux limites : 21 cas, c'est peu (un cas vaut 4,8 points, et l'intervalle de
+confiance à 95 % autour de 61,9 % va de 41 % à 79 %), et ces cas ont servi à calibrer la
+grille. Ce n'est donc pas une mesure à l'aveugle.
 
-- **Traçabilité** : chaque décision garde ses sources (URL, outil, horodatage, live ou
-  fixture) dans un journal JSONL, avec l'empreinte de chaque skill utilisée.
-- **Skills réutilisables** : le dossier `skills/` contient des fichiers Markdown (barème, règles
-  de cohérence, recherche de clones, format de rapport) chargés à la demande par chaque agent.
-- **LLM interchangeable** : Gemini, Anthropic, OpenAI ou Ollama via `init_chat_model`. Les tests,
-  la CI, la démo et l'évaluation tournent hors ligne avec un modèle scripté déterministe et des
-  réponses API enregistrées : aucun appel payant.
-- **Évaluation** sur 21 cas historiques (2020-2026) : exactitude du verdict, matrice de
-  confusion, écart de score, reproductibilité sur N exécutions, stabilité sous bruit simulé,
-  taux de validation du Critique. Ces cas ont servi à calibrer la grille : ce n'est pas une
-  évaluation à l'aveugle.
-- Résultat actuel : 81,0 % de verdicts exacts (95,2 % en lecture tolérante), sorties identiques
-  sur 5 exécutions, 93,3 % d'accord de verdict sous bruit. L'évaluation a trouvé un vrai bug
-  (faux positif de la règle F5 sur Lethal Company), corrigé avec un test de non-régression.
-
-Lancer : `make install && make demo` (hors ligne), `make test`, `make eval`.
+Lancer : `make install demo` (hors ligne), puis `make test` et `make eval-recorded`.
 
 ---
 
@@ -50,7 +47,7 @@ flowchart TD
     reporter --> END([end])
 ```
 
-The compiled graph can be printed with `sra graph`.
+`sra graph` prints the compiled graph.
 
 | Node | Kind | Responsibility |
 |---|---|---|
@@ -64,27 +61,25 @@ The compiled graph can be printed with `sra graph`.
 
 ## Why several agents
 
-The split follows the kind of work, not a fashion for agents:
+I split the pipeline by kind of work. Only the Analyst and the Critic call an LLM, so the part
+that is not reproducible is small and easy to audit. Collection and scoring are code with unit
+tests.
 
-- **Judgement is isolated.** Only the Analyst and the Critic call an LLM. Data collection and
-  arithmetic are code, so the non-reproducible part of the system is small and easy to audit.
-- **A second check before the score.** The Critic is a separate role with its own skills. It
-  catches answers that contradict the evidence (for example "easy to clone" for a game tagged
-  Open World) and sends them back with the rule id. After two revisions it clamps the value to
-  the bound and flags the candidate for a human, instead of looping.
-- **Tool agents stay replaceable.** The Collector and the Scout expose plain typed tools; they
-  run a fixed plan today and could be given to a tool-calling LLM later without touching the
-  rest of the graph.
-- **Typed contracts between nodes.** The state is a `TypedDict` of Pydantic models
-  (`SteamSnapshot`, `RobloxSnapshot`, `FactorScore`, `CriticVerdict`, `ScoreBreakdown`). The
-  Critic history and the list of skills used are append-only.
+The Critic is a separate role with its own skills. Its rule layer catches answers that
+contradict the evidence (for example "easy to clone" for a game tagged Open World) and sends
+them back with the rule id. After two revisions it clamps the value and flags the candidate for
+a human instead of looping. The Collector and the Scout expose plain typed tools and follow a
+fixed plan for now.
+
+Nodes exchange Pydantic models (`SteamSnapshot`, `RobloxSnapshot`, `FactorScore`,
+`CriticVerdict`, `ScoreBreakdown`) inside a `TypedDict` state. The Critic history and the list
+of skills used are append-only.
 
 ## Skills
 
-`skills/` is a small library of Markdown files with YAML front matter. Each skill declares which
-agents and tasks it applies to; agents select their skills at run time
-(`SkillRegistry.select("critic", "review")`). The body goes into the prompt, the optional
-`data:` block is used by code.
+`skills/` holds Markdown files with YAML front matter. Each skill says which agents and tasks
+it applies to, and agents pick their skills at run time (`SkillRegistry.select("critic",
+"review")`). The body goes into the prompt; the optional `data:` block is read by code.
 
 | Skill | Used by | Content |
 |---|---|---|
@@ -94,8 +89,8 @@ agents and tasks it applies to; agents select their skills at run time
 | `clone-search` | Roblox Scout | tag and description keyword maps, clone definitions |
 | `report-template` | Reporter | report structure and next-step wording per verdict |
 
-Each decision in the journal records `name@version#hash` of the skills used, so a score can be
-tied to the exact rubric that produced it. `sra skills` lists the library.
+The journal records `name@version#hash` for every skill used, so a score can be tied to the
+exact rubric that produced it. `sra skills` lists the library.
 
 ## Traceability
 
@@ -111,86 +106,140 @@ Every node appends events to `runs/<run_id>/journal.jsonl`. Data events carry th
           "issues": ["[C1] F3=4 exceeds 2: complex systems (open world, MMO, creature AI) cannot be cloned quickly (tags: Open World)"]}}
 ```
 
-The Analyst events also store the model name, a hash of the prompt and a hash of the raw answer.
+Analyst events also store the model name, a hash of the prompt and a hash of the raw answer.
 Each factor in the final report shows its origin (`rule`, `llm` or `critic-clamp`) and its
 confidence.
 
 ## Evaluation
 
 `eval/cases.yaml` holds 21 Steam games that trended between 2020 and 2026 and what happened on
-Roblox afterwards (success, mixed, failure), from a research note written for the original
+Roblox afterwards (success, mixed, failure), taken from a research note I wrote for the original
 project. Expected verdicts: success -> prototype, mixed -> watch, failure -> pass.
 
-**Honest caveat.** These 21 cases were used to set the grid weights, bonus and malus (v1.0 ->
-v1.1). This is a consistency and reproducibility test, not a blind measure of predictive power.
-A real validation needs games scored before their Roblox outcome is known.
+Two caveats come before any number. The set is small: one case is 4.8 points of accuracy, and
+the 95% interval around 61.9% (13 of 21) runs from 41% to 79%. I also used these same cases to
+set the grid weights, bonus and malus (v1.0 -> v1.1), so this checks the pipeline against known
+history. It does not measure how well it predicts.
 
-How the offline evaluation works:
+Each case gives the pipeline the real Steam store data of the game (recorded once from the
+Steam API) and the context at its Steam peak from the case file (peak players, price at the
+time, whether Roblox already had a leader in the genre).
 
-1. The Steam store data of each game (tags, categories, content descriptors) is the real
-   response of the Steam API, recorded once. The context at the Steam peak (peak players,
-   price at the time, whether Roblox already had a leader in that genre) comes from the case file.
-2. The Analyst is the scripted model; its answers are the hand-assigned reference scores of the
-   study. The rule factors are recomputed by the pipeline from the recorded data, so the
-   pipeline score can differ from the reference score.
-3. Five noise-free runs check determinism. Five more runs add simulated sampling noise: each
-   Analyst score moves by +-1 with probability 0.2 (seeded), to measure how stable the verdicts
-   are when the model wavers, and how often the Critic catches it.
+### Results with real models
 
-Results (`make eval`, full report in [`eval/results/report.md`](eval/results/report.md)):
+The Analyst ran with two real models on all 21 cases. I recorded their answers once through my
+ChatGPT Plus and Claude subscriptions, using the Hermes agent CLI as a bridge (no paid API
+key). They are replayed offline by prompt hash, and CI fails if the replayed metrics differ from
+the committed ones. Full report: [`eval/results/recorded/report.md`](eval/results/recorded/report.md).
 
-| Metric | Pipeline | Reference scores through the grid |
-|---|---|---|
-| Strict accuracy (verdict == expected) | 81.0% | 85.7% |
-| Lenient accuracy (no success dropped, no failure kept) | 95.2% | 100.0% |
-| Score MAE vs reference score | 5.1 | 0 |
-| Identical outputs over 5 noise-free runs | yes | |
-| Mean verdict agreement under noise (p=0.2, 5 seeds) | 93.3% (16/21 cases fully stable) | |
-| Strict accuracy under noise, per run | 71.4%, 81.0%, 76.2%, 81.0%, 66.7% | |
-| Critic first-pass approval / final validation (noise-free) | 85.7% / 85.7% | |
-| Critic clamp rate and human-review rate (noise-free) | 14.3% | |
-
-Confusion matrix (noise-free, rows = expected):
-
-| expected \ predicted | prototype | watch | pass |
+| Approach (same 21 cases) | Strict accuracy | Lenient accuracy | Score MAE vs study |
 |---|---|---|---|
-| prototype | 8 | 1 | 0 |
-| watch | 0 | 3 | 2 |
-| pass | 0 | 1 | 6 |
+| Naive baseline: Steam peak only (>= 150k prototype, >= 50k watch, else pass), no agents | 33.3% | 71.4% | |
+| Same baseline, thresholds picked in hindsight on these cases | 61.9% | 61.9% | |
+| Pipeline + GPT-6 Sol (via ChatGPT Plus) | 42.9% | 85.7% | 8.2 |
+| Pipeline + Claude Sonnet 5.5 (via Claude subscription) | 61.9% | 85.7% | 7.1 |
+| Pipeline + scripted Analyst (the study's own hand scores) | 81.0% | 95.2% | 5.1 |
+| Study's hand scores straight through the grid | 85.7% | 100.0% | 0 |
 
-What the misses say:
+Strict means verdict == expected. Lenient means no success was dropped, no failure was kept and
+no mixed case was rushed to prototype.
 
-- **Vampire Survivors** (failure, predicted watch): Steam now lists local co-op, added after the
-  2022 peak, so the rule gives F1 = 4 instead of 0. Metadata recorded today does not always
-  describe the game at its peak.
-- **Among Us** (success, predicted watch): the saturation malus fires because social deduction
-  was already on Roblox; the study's own score has the same miss.
-- **Only Up!** and **Escape from Tarkov** (mixed, predicted pass): the study's reference scores
-  also give pass. For Tarkov the Critic rule C5 raised F2 because Steam tags the game "Survival
-  Horror"; the candidate was flagged for human review, which is the intended behaviour.
-- **Found and fixed through the evaluation:** the first run gave 76.2%. Lethal Company, a clear
-  Roblox success, was capped at 30 because its content notes mention "fictional medical drugs"
-  and the F5 rule matched any occurrence of "drug". The rule now looks for illegal drugs,
-  dealing or trafficking; a regression test pins the case (see the git history).
+What I take from it:
 
-CI re-runs the evaluation and fails if the fresh `metrics.json` differs from the committed one.
+- Both models beat the fixed peak baseline, by 2 cases (GPT) and 6 cases (Claude). With 21
+  cases the GPT gap is within noise. Claude only ties a peak rule whose thresholds I tuned on
+  the answers, and that tuned rule never says pass, which is why its lenient score is low.
+- The real models are far below the scripted run. That gap is the one that matters: the
+  scripted run replays scores I assigned while knowing the outcome.
+- GPT-6 Sol is conservative. On average it scores every judgement factor below the study, F4
+  virality most (-0.95 out of 5). Five successes land at watch instead of prototype, and four
+  of the five mixed cases fall to pass.
+- Claude Sonnet 5.5 stays closer to the study on F4 and F6, and errs the other way on F8
+  monetisation (+0.43).
+- Some misses are shared by every approach, which points at the grid or the data. Vampire
+  Survivors gets watch everywhere because Steam now lists local co-op, added after its 2022
+  peak. Only Up! and Escape from Tarkov (mixed) fall to pass everywhere, the study's own scores
+  included. Fall Guys and Helldivers 2 (failures) get watch from both models: from their tags
+  and descriptions they look like good party or co-op games, and the context behind the study's
+  lower scores is not in the prompt.
+- The models know these games by name and may know how they did. That leak could only push
+  their accuracy up, so it does not explain the shortfall, but it is one more reason not to
+  read these numbers as a forecast.
+
+### Real sampling variance
+
+Phasmophobia, Liar's Bar and Fall Guys were recorded three times per model.
+
+| Model | Verdict agreement | Mean score std | Notable |
+|---|---|---|---|
+| GPT-6 Sol | 88.9% (2 of 3 cases stable) | 2.1 | Phasmophobia: prototype once, watch twice (86, 79, 79) |
+| Claude Sonnet 5.5 | 100% (3 of 3 stable) | 1.0 | |
+
+A case near a threshold can change verdict between two runs of the same model, so another run
+of GPT on the 21 cases could easily land one case higher or lower.
+
+### The Critic's LLM review
+
+The main runs use the Critic's rule layer only. It sent back 3 of 21 answers for each model
+(C1 on Fall Guys and Only Up!, C5 on Escape from Tarkov), and every one passed on the second
+try. I also ran the optional LLM review on a subset: 8 cases with GPT and 7 with Claude, where
+the call budget ran out.
+
+- The first real run found a bug. The Critic rejected Among Us three times in a row for citing
+  the Roblox genre leader, because its prompt did not include the Roblox evidence the Analyst
+  had seen. It now gets the same evidence block (commit "Show the Critic's LLM review the
+  evidence the Analyst saw").
+- After that fix, GPT-6 Sol approved every answer, so it added nothing on this sample.
+- Claude Sonnet 5.5 as Critic rejected 6 of 7 cases, often over details the data does not state
+  (developer name, session length). It fixed one verdict (Fall Guys to pass) and broke two
+  (Among Us and Phasmophobia, prototype to watch), at 4.3 calls per case instead of 1.1.
+
+On this sample the LLM review costs calls without improving verdicts. I would keep the rule
+layer on and make the LLM review opt-in until it has been measured on more cases.
+
+### Scripted harness
+
+`make eval` runs the same graph with the scripted Analyst (the study's hand scores): five
+noise-free runs to check determinism, then five runs where each score moves by +-1 with
+probability 0.2, to see how the Critic and the verdicts react. Results are in
+[`eval/results/report.md`](eval/results/report.md): identical outputs over 5 runs and 93.3%
+verdict agreement under noise. This harness found a real bug early on. Lethal Company was capped
+at 30 because its content notes mention "fictional medical drugs" and rule F5 matched any
+occurrence of "drug". A regression test pins the fix.
+
+### How recording and replay work
+
+`scripts/record_llm.py` runs the full graph on each case with `HermesCLIChatModel`, which sends
+the prompt to `hermes chat` on stdin, with a timeout, two attempts and 2 s between calls, and
+checks that the answer contains a JSON object. Pydantic validation and one corrective retry
+happen in the shared `invoke_structured`, as for any text-only model. `RecordingChatModel`
+saves each exchange as prompt hash + raw answer in `eval/recordings/<model>/<case>.json`.
+`RecordedChatModel` serves them back by hash, so a replay goes through the same Critic decisions
+and revisions as the live run. If a prompt changes, the replay fails and the recordings need
+refreshing.
+
+The recordings hold 112 live calls. Eight more went to connection tests and to a first Among Us
+run made before the Critic fix, which I discarded because its prompts no longer exist. The
+script stops when a call budget is reached. Hermes puts its own short system prompt in front of
+mine and does not expose the sampling temperature, so these runs use each provider's default.
 
 ## Running it
 
-Requirements: Python 3.11 or later. No API key is needed for the default mode.
+Requirements: Python 3.11 or later. The default mode needs no API key and no network.
 
 ```bash
 make install        # .venv + package + dev tools
 make demo           # offline: recorded Steam/Roblox responses + scripted model
 make test           # pytest with coverage gate (80%)
-make eval           # writes eval/results/report.md and metrics.json
+make eval           # scripted harness, writes eval/results/
+make eval-recorded  # replays the real GPT and Claude answers, writes eval/results/recorded/
 make lint typecheck # ruff + mypy
 ```
 
 The demo scores three games that were trending on 2026-11-08 (Moon Sweepers, ZED ZONE, Planet
-Zoo 2) and writes one report per game plus the journal in `runs/<run_id>/`. Its scripted
-Analyst answers are hand-written stand-ins for a model (`fixtures/llm/demo.json`); the first
-answer for Moon Sweepers breaks rule C1 on purpose, so the demo shows a Critic revision.
+Zoo 2) and writes one report per game plus the journal in `runs/<run_id>/`. Its Analyst answers
+are hand-written stand-ins (`fixtures/llm/demo.json`); the first answer for Moon Sweepers
+breaks rule C1 on purpose so the demo shows a Critic revision.
 
 ### Real mode
 
@@ -203,18 +252,26 @@ export SRA_HTTP_MODE=live                           # or "record" to save fixtur
 sra run 3527290 3241660
 ```
 
-Other providers: `anthropic` (`ANTHROPIC_API_KEY`), `openai` (`OPENAI_API_KEY`), `ollama` (local,
-no key; `docker compose` file included). `SRA_LLM_MODEL` overrides the default model,
-`SRA_MAX_REVISIONS` the Critic budget, `SRA_CRITIC_LLM=false` disables the LLM review. With a
-real provider the Analyst uses native structured output (`with_structured_output`); the scripted
-model goes through JSON parsing with one retry on validation errors. See `.env.example`.
+Other providers are `anthropic` (`ANTHROPIC_API_KEY`), `openai` (`OPENAI_API_KEY`), `ollama`
+(local, no key, with a `docker compose` file) and `hermes` (`SRA_LLM_MODEL=<provider>/<model>`,
+through a local Hermes CLI). `SRA_MAX_REVISIONS` sets the Critic budget and
+`SRA_CRITIC_LLM=false` turns off the LLM review. API providers use native structured output
+(`with_structured_output`); text-only models go through JSON parsing with one retry. See
+`.env.example`.
+
+To record new answers (needs a logged-in Hermes CLI):
+
+```bash
+python scripts/record_llm.py --provider anthropic --model claude-sonnet-5-5
+python scripts/record_llm.py --provider anthropic --model claude-sonnet-5-5 --cases fall-guys --run 1
+```
 
 ### Docker
 
 ```bash
 docker build -t steam-roblox-agents .
 docker run --rm steam-roblox-agents demo
-docker run --rm steam-roblox-agents eval
+docker run --rm steam-roblox-agents eval --recorded
 ```
 
 ## Repository layout
@@ -228,34 +285,57 @@ src/sra/
   grid.py features.py deterministic scoring grid and rule factors
   skills.py           skill registry
   llm.py              provider factory, scripted model, structured invocation
+  hermes_cli.py       chat model that calls the Hermes CLI
+  recording.py        record and replay of real model answers
   trace.py            JSONL journal
-  evaluation.py       offline evaluation
+  evaluation.py       scripted harness and naive baseline
+  recorded_eval.py    evaluation on recorded real answers
   cli.py              sra demo | run | record | eval | graph | skills
+scripts/record_llm.py records real answers on the historical cases
 skills/               Markdown skills loaded by the agents
 fixtures/             recorded HTTP responses, scripted demo answers
-eval/                 historical cases and generated results
+eval/                 historical cases, recorded model answers, generated results
 docs/grid.md          grid specification and calibration history
-tests/                124 tests, 98% line coverage
+tests/                140 tests, 98% line coverage
 ```
 
-## Limits
+CI runs ruff, mypy, the tests on Python 3.11 to 3.13, both evaluations (diffed against the
+committed metrics), the demo, a Docker build and a gitleaks scan of the full history.
 
-- The evaluation set is small (21 cases) and was used for calibration. It says the pipeline is
-  consistent and reproducible, not that it predicts well.
-- The offline Analyst replays human scores. The numbers above do not measure how well a given
-  LLM scores the qualitative factors; running the evaluation with a real provider is the next
-  step, and its stability would then come from the model, not from simulated noise.
-- Steam metadata drifts (Vampire Survivors). Historical context in the case file is
-  reconstructed from public sources and partly uncertain (Roblox peaks before 2022 are unknown).
+## Known limitations
+
+- 21 cases, also used for calibration. A difference of one or two cases between approaches is
+  noise.
+- Each model was recorded once on the 21 cases, and the variance runs cover three cases only.
+- The Critic's LLM review was measured on 7 and 8 cases, which is anecdotal.
+- Steam metadata drifts (Vampire Survivors gained local co-op after its peak), and the case
+  context (peak players, Roblox leader at the time) is reconstructed from public sources. Roblox
+  peaks before 2022 are unknown.
 - Roblox player counts are live snapshots from a public mirror, not historical peaks.
-- The Collector and Scout follow a fixed plan; they do not choose tools dynamically.
-- Rule F5 relies on Steam descriptors and keywords; it can over-penalise (Chained Together gets
+- Rule F5 relies on Steam descriptors and keywords and can over-penalise (Chained Together gets
   F5 = 2 from its gore descriptor).
+- The Collector and the Scout follow a fixed plan and do not choose their tools.
+- Recorded runs go through Hermes, which adds its own system prompt and hides the sampling
+  temperature.
 
-## Origin
+## What I would do next
 
-This repository rebuilds, as a typed multi-agent pipeline, a scoring cron I wrote first as plain
-scripts. The grid, the rule factors and the historical study come from that project; the graph,
-Critic loop, skill library, traceability and evaluation harness are new.
+- Score games before their Roblox outcome is known and check back three months later. Only
+  that measures prediction.
+- Fix the shared misses in the grid rather than in prompts: date the Steam metadata to the
+  peak, and find a signal for the failures both models miss (Fall Guys, Helldivers 2).
+- Make the Critic's LLM review opt-in, then measure it on all 21 cases with both models.
+- Record five or more runs per case, so the accuracy figure carries the model's own variance
+  and not only the small sample.
+- Let the Scout pick its tools with a tool-calling model and compare it with the fixed plan.
+
+## How AI was used
+
+The scoring grid, the factor weights and the 21-case study come from my earlier project, a
+scoring cron written as plain scripts. For this repository I chose the architecture (graph
+roles, Critic loop, skills, journal) and the evaluation protocol. An AI coding agent wrote most
+of the code, the tests and the first drafts of this README from those specifications; I
+reviewed the results and the evaluation numbers. The answers in `eval/recordings/` are
+unedited outputs of GPT-6 Sol and Claude Sonnet 5.5.
 
 License: MIT.
