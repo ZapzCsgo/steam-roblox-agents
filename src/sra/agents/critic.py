@@ -16,6 +16,7 @@ from typing import Any
 
 from langchain_core.messages import HumanMessage, SystemMessage
 
+from sra.agents.analyst import evidence_lines
 from sra.deps import Deps
 from sra.grid import LLM_FACTORS
 from sra.llm import invoke_structured
@@ -114,13 +115,12 @@ def _llm_review(state: PipelineState, deps: Deps) -> CriticReview:
     )
     system = (
         "ROLE: critic\nYou are the Critic agent. Check that each justification supports its score "
-        f"under the rubric. Be strict but concrete.\n\n{render(skills)}"
+        "under the rubric, using the same evidence the Analyst saw. Be strict but concrete. Reject a "
+        "score only if it contradicts the evidence or the rubric; a detail the data does not state "
+        "(for example session length) may be inferred from the genre and is not by itself a reason to "
+        f"reject.\n\n{render(skills)}"
     )
-    steam = state["steam"]
-    human = (
-        f"APPID: {steam.appid}\nGame: {steam.name}\nTags: {', '.join(steam.tags[:15])}\n"
-        f"Description: {steam.description}\nAnalyst scores:\n{factors}"
-    )
+    human = "\n".join([*evidence_lines(state), "Analyst scores:", factors])
     review, _ = invoke_structured(deps.llm, CriticReview, [SystemMessage(system), HumanMessage(human)])
     return review
 

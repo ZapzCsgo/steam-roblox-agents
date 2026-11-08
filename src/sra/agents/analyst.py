@@ -19,9 +19,10 @@ adapting on Roblox. You score qualitative factors only; rule-based factors and t
 score are computed by code. Follow the skills below."""
 
 
-def build_prompt(state: PipelineState) -> str:
+def evidence_lines(state: PipelineState) -> list[str]:
+    """The evidence block shown to the Analyst (and to the Critic's LLM review)."""
     steam, rob = state["steam"], state["roblox"]
-    lines = [
+    return [
         f"APPID: {steam.appid}",
         f"Game: {steam.name}",
         f"Steam tags (by votes): {', '.join(steam.tags[:15]) or 'none'}",
@@ -35,6 +36,12 @@ def build_prompt(state: PipelineState) -> str:
         *[f"  {k} {NAMES[k]} = {v.score} ({v.justification})" for k, v in sorted(state["rule_factors"].items())],
         "Hints from tags:",
         *[f"  {k}: {v}" for k, v in sorted(state.get("hints", {}).items())],
+    ]
+
+
+def build_prompt(state: PipelineState) -> str:
+    lines = [
+        *evidence_lines(state),
         f"Score these factors: {', '.join(f'{f} ({NAMES[f]})' for f in LLM_FACTORS)}.",
     ]
     feedback = state.get("critic_feedback") or []
