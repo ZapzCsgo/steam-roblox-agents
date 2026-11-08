@@ -6,6 +6,7 @@ functions are pure and unit-tested, and each returns (score, reason).
 
 from __future__ import annotations
 
+import re
 from collections.abc import Iterable, Sequence
 
 from sra.grid import SATURATION_PLAYERS
@@ -16,6 +17,11 @@ COOP_TAGS = {"Co-op", "Online Co-Op", "Local Co-Op", "Co-op Campaign"}
 PARTY_TAGS = {"Party Game", "Party", "Social Deduction", "Funny", "Comedy", "Local Multiplayer"}
 MULTI_TAGS = {"Multiplayer", "PvP", "Online PvP", "Massively Multiplayer", "Team-Based", "Battle Royale"}
 SEXUAL_TAGS = {"Sexual Content", "Nudity", "NSFW", "Hentai"}
+# Drugs disqualify only when they are the theme, not when notes mention fictional medicine.
+ILLEGAL_DRUGS = re.compile(
+    r"illegal drugs?|narcotics?|drug (?:dealing|trafficking|production|distribution|sale)"
+    r"|(?:dealing|trafficking|production|distribution|sale|selling) of (?:illegal )?drugs"
+)
 GAMBLING_TAGS = {"Gambling", "Casino", "Poker"}
 HORROR_TAGS = {"Horror", "Psychological Horror", "Survival Horror"}
 TYCOON_TAGS = {
@@ -149,8 +155,8 @@ def f5_age_rules(tags: Sequence[str], descriptors: Iterable[int] | None, content
     d = set(descriptors or [])
     if d & {3, 4} or t & SEXUAL_TAGS or "sexual" in notes or "nudity" in notes:
         return 0, "sexual content (Steam descriptors/tags)"
-    if "drug" in notes or "Drugs" in t:
-        return 0, "drugs are central to the game (content notes/tags)"
+    if "Drugs" in t or ILLEGAL_DRUGS.search(notes):
+        return 0, "illegal drugs are central to the game (content notes/tags)"
     score, reasons = 5, []
     if t & GAMBLING_TAGS or "gambl" in notes:
         score = min(score, 1)

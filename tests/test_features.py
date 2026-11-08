@@ -38,10 +38,24 @@ def test_f1_ignores_tags_beyond_top_15() -> None:
         (["Nudity"], [], None, 0),
         ([], [3], None, 0),
         (["Drugs"], [], None, 0),
+        ([], [5], "This game depicts the production, distribution and sale of illegal drugs.", 0),
     ],
 )
 def test_f5_age_rules(tags: list[str], descriptors: list[int], notes: str | None, expected: int) -> None:
     assert fx.f5_age_rules(tags, descriptors, notes)[0] == expected
+
+
+def test_f5_fictional_medicine_is_not_a_drug_theme() -> None:
+    """Regression: Lethal Company's content notes mention 'fictional medical drugs'.
+
+    The original substring rule ('drug' in notes) capped the game at 30. Found by the evaluation.
+    """
+    notes = (
+        "Player characters can die through various means, some involving dismemberment or decapitation. "
+        "Player characters can use fictional medical drugs recklessly."
+    )
+    score, reason = fx.f5_age_rules(["Horror"], [2, 5], notes)
+    assert score == 2 and "drug" not in reason
 
 
 @pytest.mark.parametrize(

@@ -9,8 +9,8 @@
      "watch": 1
     },
     "prototype": {
-     "pass": 1,
-     "prototype": 7,
+     "pass": 0,
+     "prototype": 8,
      "watch": 1
     },
     "watch": {
@@ -19,11 +19,11 @@
      "watch": 3
     }
    },
-   "lenient_accuracy": 0.905,
+   "lenient_accuracy": 0.952,
    "n": 21,
-   "score_bias_vs_reference": -0.48,
-   "score_mae_vs_reference": 8.1,
-   "strict_accuracy": 0.762
+   "score_bias_vs_reference": 2.52,
+   "score_mae_vs_reference": 5.1,
+   "strict_accuracy": 0.81
   },
   "critic": {
    "clamp_rate": 0.143,
@@ -152,7 +152,7 @@
      "F2": 5,
      "F3": 4,
      "F4": 5,
-     "F5": 0,
+     "F5": 2,
      "F6": 4,
      "F7": 5,
      "F8": 4,
@@ -165,9 +165,9 @@
     "outcome": "success",
     "ref_score": 94,
     "revisions": 0,
-    "score": 30,
+    "score": 93,
     "validated": true,
-    "verdict": "pass"
+    "verdict": "prototype"
    },
    {
     "clamped": false,
@@ -623,7 +623,7 @@
   "stability": {
    "fully_stable_cases": 16,
    "max_score_std": 8.51,
-   "mean_score_std": 1.77,
+   "mean_score_std": 1.92,
    "mean_verdict_agreement": 0.933,
    "per_case": [
     {
@@ -670,11 +670,11 @@
     {
      "agreement": 1.0,
      "id": "lethal-company",
-     "modal_verdict": "pass",
-     "score_mean": 30,
-     "score_std": 0.0,
+     "modal_verdict": "prototype",
+     "score_mean": 91.4,
+     "score_std": 3.14,
      "verdicts": {
-      "pass": 5
+      "prototype": 5
      }
     },
     {
@@ -845,11 +845,11 @@
    "runs": 5
   },
   "strict_accuracy_per_run": [
-   0.667,
-   0.762,
    0.714,
+   0.81,
    0.762,
-   0.619
+   0.81,
+   0.667
   ]
  },
  "reference_baseline": {

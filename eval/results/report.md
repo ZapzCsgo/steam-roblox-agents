@@ -9,24 +9,24 @@ reproduces the study and behaves predictably; they are not a blind measure of pr
 
 | Metric | Pipeline | Reference scores through the grid |
 |---|---|---|
-| Strict accuracy (verdict == expected) | 76.2% | 85.7% |
-| Lenient accuracy (no success dropped, no failure kept) | 90.5% | 100.0% |
-| Score MAE vs reference score | 8.1 | 0 |
-| Score bias vs reference score | -0.48 | 0 |
+| Strict accuracy (verdict == expected) | 81.0% | 85.7% |
+| Lenient accuracy (no success dropped, no failure kept) | 95.2% | 100.0% |
+| Score MAE vs reference score | 5.1 | 0 |
+| Score bias vs reference score | +2.52 | 0 |
 
 Confusion matrix (rows = expected, columns = predicted):
 
 | expected \ predicted | prototype | watch | pass |
 |---|---|---|---|
-| prototype | 7 | 1 | 1 |
+| prototype | 8 | 1 | 0 |
 | watch | 0 | 3 | 2 |
 | pass | 0 | 1 | 6 |
 
 ## Reproducibility
 
 - Noise-free: 5 runs, outputs identical: **yes**.
-- With simulated sampling noise (each Analyst score +-1 with p=0.2, seeds 0..4): mean verdict agreement **93.3%**, 16/21 cases fully stable, mean score std 1.77 (max 8.51).
-- Strict accuracy under noise, per run: 66.7%, 76.2%, 71.4%, 76.2%, 61.9%.
+- With simulated sampling noise (each Analyst score +-1 with p=0.2, seeds 0..4): mean verdict agreement **93.3%**, 16/21 cases fully stable, mean score std 1.92 (max 8.51).
+- Strict accuracy under noise, per run: 71.4%, 81.0%, 76.2%, 81.0%, 66.7%.
 
 ## Critic
 
@@ -43,7 +43,7 @@ Confusion matrix (rows = expected, columns = predicted):
 | Chained Together | success | prototype | prototype | 86 | 92 | - | 100% |
 | R.E.P.O. | success | prototype | prototype | 99 | 96 | - | 100% |
 | Among Us | success | prototype | watch (miss) | 75 | 77 | - | 80% |
-| Lethal Company | success | prototype | pass (miss) | 30 | 94 | - | 100% |
+| Lethal Company | success | prototype | prototype | 93 | 94 | - | 100% |
 | Phasmophobia | success | prototype | prototype | 82 | 83 | - | 80% |
 | PEAK | success | prototype | prototype | 83 | 80 | - | 80% |
 | Content Warning | success | prototype | prototype | 85 | 81 | - | 100% |
