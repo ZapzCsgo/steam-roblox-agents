@@ -1,0 +1,40 @@
+{
+ "analyst:5335510": [
+  {"assessments": [
+   {"factor": "F2", "score": 4, "justification": "Collect-sell-upgrade cleaning job maps to the Roblox simulator/tycoon genre (Job Simulator tag).", "confidence": "high"},
+   {"factor": "F3", "score": 4, "justification": "Core loop is collect dust, sell, upgrade the tool, which is quick to rebuild.", "confidence": "medium"},
+   {"factor": "F4", "score": 4, "justification": "Toothbrush-to-vehicle absurdity with 16 friends produces clippable moments.", "confidence": "medium"},
+   {"factor": "F6", "score": 3, "justification": "Incremental progression suggests 20 to 40 minute sessions.", "confidence": "medium"},
+   {"factor": "F8", "score": 5, "justification": "Tool upgrades and vehicles are natural paid boosters in a simulator.", "confidence": "high"},
+   {"factor": "F10", "score": 5, "justification": "Generic cleaning mechanic with no recognisable characters.", "confidence": "high"}
+  ]},
+  {"assessments": [
+   {"factor": "F2", "score": 4, "justification": "Collect-sell-upgrade cleaning job maps to the Roblox simulator/tycoon genre (Job Simulator tag).", "confidence": "high"},
+   {"factor": "F3", "score": 2, "justification": "Core loop is simple but the Open World map and drivable cleaning vehicles push the MVP beyond a few weeks.", "confidence": "medium"},
+   {"factor": "F4", "score": 4, "justification": "Toothbrush-to-vehicle absurdity with 16 friends produces clippable moments.", "confidence": "medium"},
+   {"factor": "F6", "score": 3, "justification": "Incremental progression suggests 20 to 40 minute sessions.", "confidence": "medium"},
+   {"factor": "F8", "score": 5, "justification": "Tool upgrades and vehicles are natural paid boosters in a simulator.", "confidence": "high"},
+   {"factor": "F10", "score": 5, "justification": "Generic cleaning mechanic with no recognisable characters.", "confidence": "high"}
+  ]}
+ ],
+ "analyst:1211600": [
+  {"assessments": [
+   {"factor": "F2", "score": 4, "justification": "Co-op zombie survival is an established Roblox genre (Survival, Zombies tags).", "confidence": "high"},
+   {"factor": "F3", "score": 2, "justification": "Open World, crafting, RPG skills and mech enemies add several systems.", "confidence": "high"},
+   {"factor": "F4", "score": 2, "justification": "Top-down pixel survival streams poorly; few stand-out moments.", "confidence": "medium"},
+   {"factor": "F6", "score": 3, "justification": "Roguelike runs are short but base building pulls sessions longer.", "confidence": "medium"},
+   {"factor": "F8", "score": 4, "justification": "Weapons, skills and base upgrades fit Roblox passes and boosters.", "confidence": "medium"},
+   {"factor": "F10", "score": 5, "justification": "Generic zombie theme with no protected characters.", "confidence": "high"}
+  ]}
+ ],
+ "analyst:3219030": [
+  {"assessments": [
+   {"factor": "F2", "score": 4, "justification": "Zoo building is a tycoon, a durable Roblox genre (Management, Economy tags).", "confidence": "high"},
+   {"factor": "F3", "score": 3, "justification": "A zoo tycoon MVP is feasible but animal simulation depth cannot be matched.", "confidence": "medium"},
+   {"factor": "F4", "score": 1, "justification": "Slow management gameplay, little to clip for short videos.", "confidence": "low"},
+   {"factor": "F6", "score": 3, "justification": "Sandbox building sessions run 20 to 40 minutes or more.", "confidence": "low"},
+   {"factor": "F8", "score": 4, "justification": "Rare animals and expansions are natural purchases.", "confidence": "medium"},
+   {"factor": "F10", "score": 3, "justification": "Strong Planet Zoo brand from Frontier but the zoo mechanic is generic.", "confidence": "medium"}
+  ]}
+ ]
+}
