@@ -1,0 +1,87 @@
+# Historical evaluation set: 21 Steam games that trended between 2020 and 2026, with what
+# happened on Roblox afterwards. Source: recherche/02-historique-et-grille.md of the original
+# project (research done on 2026-11-08, sources cited there).
+#
+# IMPORTANT: these cases were used to CALIBRATE grid v1.1 (weights, bonus, malus). This is
+# not a blind test. It measures pipeline correctness, critic behaviour and reproducibility,
+# not predictive power. See README "Evaluation".
+#
+# Fields
+#   outcome      success | mixed | failure  (Roblox result after the Steam peak)
+#   expected     verdict we want: success -> prototype, mixed -> watch, failure -> pass
+#   reference    hand-assigned factor scores F1..F10 from the study (a posteriori)
+#   ref_score    grid v1.1 score of the reference scores (backtest)
+#   history      context at the Steam peak, reconstructed from the study:
+#                peak_ccu (SteamCharts monthly peak), paid at the time, and the player count of an
+#                established Roblox game already covering the genre (lower bound, 20000 = saturated)
+#   tags         only when the Steam store item is no longer available
+
+study_date: "2026-11-08T00:00:00Z"
+cases:
+  - {id: meccha-chameleon, name: Meccha Chameleon, appid: 4704690, outcome: success, expected: prototype,
+     reference: [5, 5, 5, 5, 5, 5, 5, 4, 4, 4], ref_score: 95,
+     history: {peak_ccu: 340000, paid: true, roblox_leader_players: 0}}
+  - {id: chained-together, name: Chained Together, appid: 2567870, outcome: success, expected: prototype,
+     reference: [5, 5, 5, 5, 5, 3, 4, 3, 5, 4], ref_score: 92,
+     history: {peak_ccu: 92186, paid: true, roblox_leader_players: 0}}
+  - {id: repo, name: R.E.P.O., appid: 3241660, outcome: success, expected: prototype,
+     reference: [5, 5, 4, 5, 4, 4, 4, 5, 4, 4], ref_score: 96,
+     history: {peak_ccu: 266908, paid: true, roblox_leader_players: 0}}
+  - {id: among-us, name: Among Us, appid: 945360, outcome: success, expected: prototype,
+     reference: [5, 4, 5, 5, 5, 5, 5, 3, 2, 4], ref_score: 77,
+     history: {peak_ccu: 438524, paid: true, roblox_leader_players: 20000,
+               roblox_leader_name: "Murder Mystery 2 (social deduction already installed)"}}
+  - {id: lethal-company, name: Lethal Company, appid: 1966720, outcome: success, expected: prototype,
+     reference: [5, 5, 4, 5, 4, 4, 4, 4, 4, 4], ref_score: 94,
+     history: {peak_ccu: 239369, paid: true, roblox_leader_players: 0}}
+  - {id: phasmophobia, name: Phasmophobia, appid: 739630, outcome: success, expected: prototype,
+     reference: [5, 5, 3, 5, 4, 3, 4, 3, 4, 4], ref_score: 83,
+     history: {peak_ccu: 112241, paid: true, roblox_leader_players: 0}}
+  - {id: peak, name: PEAK, appid: 3527290, outcome: success, expected: prototype,
+     reference: [5, 4, 3, 5, 5, 3, 4, 4, 3, 3], ref_score: 80,
+     history: {peak_ccu: 169910, paid: true, roblox_leader_players: 0}}
+  - {id: content-warning, name: Content Warning, appid: 2881650, outcome: success, expected: prototype,
+     reference: [5, 5, 3, 5, 4, 4, 3, 3, 3, 4], ref_score: 81,
+     history: {peak_ccu: 63320, paid: false, roblox_leader_players: 0}}
+  - {id: supermarket-simulator, name: Supermarket Simulator, appid: 2670630, outcome: success, expected: prototype,
+     reference: [3, 5, 4, 3, 5, 3, 3, 5, 3, 5], ref_score: 84,
+     history: {peak_ccu: 51353, paid: true, roblox_leader_players: 0}}
+  - {id: liars-bar, name: Liar's Bar, appid: 3097560, outcome: mixed, expected: watch,
+     reference: [4, 3, 5, 4, 3, 5, 3, 2, 4, 4], ref_score: 75,
+     history: {peak_ccu: 109419, paid: true, roblox_leader_players: 0}}
+  - {id: fall-guys, name: Fall Guys, appid: 1097150, outcome: failure, expected: pass,
+     reference: [3, 3, 2, 5, 5, 5, 4, 3, 1, 2], ref_score: 56,
+     history: {peak_ccu: 172026, paid: true, roblox_leader_players: 20000,
+               roblox_leader_name: "obby genre (already saturated on Roblox)"}}
+  - {id: only-up, name: Only Up!, appid: 2381590, outcome: mixed, expected: watch,
+     reference: [1, 5, 5, 4, 5, 2, 2, 3, 1, 5], ref_score: 57,
+     history: {peak_ccu: null, paid: true, roblox_leader_players: 20000,
+               roblox_leader_name: "obby genre (already saturated on Roblox)"},
+     tags: [Parkour, 3D Platformer, Difficult, Platformer, Singleplayer, Climbing, Physics, Funny]}
+  - {id: buckshot-roulette, name: Buckshot Roulette, appid: 2835570, outcome: mixed, expected: watch,
+     reference: [3, 3, 5, 4, 2, 5, 2, 2, 3, 4], ref_score: 67,
+     history: {peak_ccu: 20135, paid: true, roblox_leader_players: 0}}
+  - {id: mage-arena, name: Mage Arena, appid: 3716600, outcome: mixed, expected: watch,
+     reference: [4, 3, 3, 4, 2, 4, 1, 3, 4, 4], ref_score: 66,
+     history: {peak_ccu: 17126, paid: true, roblox_leader_players: 0}}
+  - {id: helldivers-2, name: Helldivers 2, appid: 553850, outcome: failure, expected: pass,
+     reference: [5, 2, 1, 4, 3, 2, 5, 3, 3, 3], ref_score: 61,
+     history: {peak_ccu: 458208, paid: true, roblox_leader_players: 0}}
+  - {id: escape-from-tarkov, name: Escape from Tarkov, appid: 3932890, outcome: mixed, expected: watch,
+     reference: [3, 2, 1, 2, 2, 1, 3, 3, 3, 4], ref_score: 46,
+     history: {peak_ccu: 45572, paid: true, roblox_leader_players: 0}}
+  - {id: vampire-survivors, name: Vampire Survivors, appid: 1794680, outcome: failure, expected: pass,
+     reference: [0, 2, 3, 3, 4, 4, 3, 3, 2, 4], ref_score: 40,
+     history: {peak_ccu: 77061, paid: true, roblox_leader_players: 0}}
+  - {id: balatro, name: Balatro, appid: 2379780, outcome: failure, expected: pass,
+     reference: [0, 1, 3, 2, 2, 3, 3, 2, 3, 3], ref_score: 39,
+     history: {peak_ccu: 43825, paid: true, roblox_leader_players: 0}}
+  - {id: palworld, name: Palworld, appid: 1623730, outcome: failure, expected: pass,
+     reference: [3, 3, 0, 5, 3, 1, 5, 4, 2, 1], ref_score: 35,
+     history: {peak_ccu: 2101535, paid: true, roblox_leader_players: 0}}
+  - {id: schedule-i, name: Schedule I, appid: 3164500, outcome: failure, expected: pass,
+     reference: [3, 3, 3, 4, 0, 2, 5, 4, 3, 4], ref_score: 30,
+     history: {peak_ccu: 455652, paid: true, roblox_leader_players: 0}}
+  - {id: dispatch, name: Dispatch, appid: 2592160, outcome: failure, expected: pass,
+     reference: [0, 0, 1, 3, 2, 1, 4, 1, 3, 2], ref_score: 29,
+     history: {peak_ccu: 124407, paid: true, roblox_leader_players: 0}}
