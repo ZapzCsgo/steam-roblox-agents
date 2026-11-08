@@ -19,12 +19,19 @@ from sra.sources.steam import SteamTools
 DEMO_APPIDS = (5335510, 1211600, 3219030)
 
 
+def _shown(path: Path) -> str:
+    try:
+        return str(path.relative_to(Path.cwd()))
+    except ValueError:
+        return str(path)
+
+
 def _run(settings: Settings, appids: list[int]) -> int:
     run_id = new_run_id()
     out_dir = settings.output_dir / run_id
     deps = make_deps(settings, run_id, journal_path=out_dir / "journal.jsonl", reports_dir=out_dir)
     graph = build_graph(deps)
-    print(f"run {run_id}: provider={settings.llm_provider} http={settings.http_mode} -> {out_dir}")
+    print(f"run {run_id}: provider={settings.llm_provider} http={settings.http_mode} -> {_shown(out_dir)}")
     failures = 0
     for appid in appids:
         try:
@@ -41,7 +48,7 @@ def _run(settings: Settings, appids: list[int]) -> int:
             f"  {appid} {st['steam'].name[:28]:28} {sc.verdict:9} {sc.score:3}/100  "
             f"critic rounds={rounds} validated={st.get('validated')}{flag}"
         )
-    print(f"journal: {out_dir / 'journal.jsonl'}")
+    print(f"journal: {_shown(out_dir / 'journal.jsonl')}")
     return 1 if failures == len(appids) else 0
 
 
